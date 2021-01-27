@@ -1,4 +1,5 @@
-List<Service_Item__c> serviceItems = [SELECT Id FROM Service_Item__c];
-delete serviceItems;
-List<PCQS_Service_Item__c> PQCSserviceItems = [SELECT Id FROM PCQS_Service_Item__c];
-delete PQCSserviceItems;
+List<Account> newList = [SELECT Id from Account where Type = ''];
+delete newList;
+
+List<Contact> contactList = [SELECT Id from Contact];
+delete contactList;

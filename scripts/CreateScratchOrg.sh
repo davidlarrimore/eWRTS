@@ -8,7 +8,7 @@ echo "*** Assigning permission set to your user ..."
 #sfdx force:user:permset:assign --permsetname eWRTS
 
 echo "*** Generating password for your user ..."
-#sfdx force:user:password:generate --targetusername eWRTSScratch#
+#sfdx force:user:password:generate --targetusername eWRTSScratch
 
 echo "*** Creating data"
 #sfdx shane:data:tree:import -p data/export-demo-service_item__c-plan.json -d data/

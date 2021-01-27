@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Handcrafted_for_eWRTS_Demo_Scenario__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Handcrafted for eWRTS Demo Scenario</description>
+    <externalId>false</externalId>
+    <label>Handcrafted for eWRTS Demo Scenario</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

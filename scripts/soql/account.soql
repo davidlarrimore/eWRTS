@@ -1,0 +1,1 @@
+select Name, Phone, Type, Website, Industry, Ownership, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry from Account
