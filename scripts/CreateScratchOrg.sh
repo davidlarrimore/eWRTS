@@ -5,14 +5,13 @@ echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
 
 echo "*** Assigning permission set to your user ..."
-#sfdx force:user:permset:assign --permsetname eWRTS
+sfdx force:user:permset:assign --permsetname eWRTS_Demo_Admin --targetusername eWRTSScratch
 
 echo "*** Generating password for your user ..."
-#sfdx force:user:password:generate --targetusername eWRTSScratch
+sfdx force:user:password:generate --targetusername eWRTSScratch
 
 echo "*** Creating data"
-#sfdx shane:data:tree:import -p data/export-demo-service_item__c-plan.json -d data/
-#sfdx shane:data:tree:import -p data/export-demo-PCQS_Service_Item__c-plan.json -d data/
+sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p data
 
 #echo "*** Creating User"
 #sfdx force:user:create --setalias outlook-user --definitionfile data/user-def.json
