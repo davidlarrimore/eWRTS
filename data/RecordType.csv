@@ -1,3 +1,5 @@
 Id,DeveloperName,SobjectType
-012J00000023DhwIAE,eWRTS_Customer_Account,Account
-012J00000023Di6IAE,eWRTS_Custom_Contact,Contact
+0124x000000MHV2AAO,eWRTS_Customer_Account,Account
+0124x000001SRV4AAO,PersonAccount,Account
+0124x000001SRV3AAO,Company,Account
+0124x000000MHV4AAO,eWRTS_Custom_Contact,Contact

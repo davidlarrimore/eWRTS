@@ -17,6 +17,7 @@ System (EWRTS)</description>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>A_File__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>eWRTS_UtilityBar</utilityBar>
 </CustomApplication>
