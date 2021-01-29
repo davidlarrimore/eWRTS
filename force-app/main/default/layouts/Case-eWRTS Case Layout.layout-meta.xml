@@ -37,6 +37,10 @@
                 <behavior>Edit</behavior>
                 <field>Handcrafted_for_eWRTS_Demo_Scenario__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>A_File__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
