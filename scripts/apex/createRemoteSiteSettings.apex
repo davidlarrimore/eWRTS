@@ -1,1 +1,1 @@
-LFORemoteSiteSettingHelper.createRemoteSiteSettings();
+EWRTSRemoteSiteSettingHelper.createRemoteSiteSettings();

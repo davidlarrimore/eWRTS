@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_A_Files</fullName>
+    <columns>NAME</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Birthdate__c</columns>
+    <columns>Country_Of_Origin__c</columns>
+    <columns>Digitized_Flag__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All A Files</label>
+</ListView>

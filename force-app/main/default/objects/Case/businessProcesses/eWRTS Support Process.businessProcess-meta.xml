@@ -4,15 +4,27 @@
     <description>eWRTS Support Process</description>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed</fullName>
+        <fullName>Closed - Cancelled</fullName>
         <default>false</default>
     </values>
     <values>
-        <fullName>Escalated</fullName>
+        <fullName>Closed - Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>File Processing</fullName>
         <default>false</default>
     </values>
     <values>
         <fullName>New</fullName>
         <default>true</default>
+    </values>
+    <values>
+        <fullName>Out for pull</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prioritization</fullName>
+        <default>false</default>
     </values>
 </BusinessProcess>

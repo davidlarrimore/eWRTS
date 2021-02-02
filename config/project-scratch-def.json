@@ -1,7 +1,7 @@
 {
   "orgName": "dlarrimore company",
   "edition": "Developer",
-  "features": [],
+  "features": ["Communities", "ServiceCloud", "CMSUnlimitedUse", "API", "DebugApex", "DefaultWorkflowUser", "Entitlements", "Knowledge", "Interaction"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
