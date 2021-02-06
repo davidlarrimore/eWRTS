@@ -1,7 +1,19 @@
 {
-  "orgName": "dlarrimore company",
+  "orgName": "eWRTS",
   "edition": "Developer",
-  "features": ["Communities", "ServiceCloud", "CMSUnlimitedUse", "API", "DebugApex", "DefaultWorkflowUser", "Entitlements", "Knowledge", "Interaction"],
+  "features": [
+    "PlatformConnect",
+    "Communities",
+    "Sites",
+    "ServiceCloud",
+    "CMSUnlimitedUse",
+    "API",
+    "DebugApex",
+    "DefaultWorkflowUser",
+    "Entitlements",
+    "Knowledge",
+    "Interaction"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
@@ -13,6 +25,12 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
     }
   }
 }

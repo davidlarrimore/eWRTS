@@ -2,7 +2,15 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "package": "eWRTS",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.1.NEXT",      
+      "default": true,
+      "dependencies": [
+        {
+            "package": "04t5w000005diA4AAI"
+        }
+      ]
     }
   ],
   "namespace": "",
