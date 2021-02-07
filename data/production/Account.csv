@@ -1,0 +1,5 @@
+Id,Name,Phone,Type,Website,Industry,Ownership,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,Handcrafted_for_eWRTS_Demo_Scenario__c,RecordTypeId,IsPersonAccount,RecordType.DeveloperName
+0014x00000ApKIFAA3,State/Local/Other,(808) 132-8825,,,,,,,,,,true,0124x000000MHV2AAO,false,eWRTS_Customer_Account;Account
+0014x00000ApKIGAA3,US Citizenship and Immigration Services,(800) 375-5283,Other,https://www.uscis.gov,Government,Public,20 Massachusetts Ave NW,Washington,DC,20001,United States,true,0124x000000MHV2AAO,false,eWRTS_Customer_Account;Account
+0014x00000ApKIHAA3,US Immigration and Customs Enforcement,1-802-872-6199,Other,https://www.ice.gov/,Government,Public,"500 12th St., SW",Washington,DC,20024,United States,true,0124x000000MHV2AAO,false,eWRTS_Customer_Account;Account
+0014x00000ApKIIAA3,US Customs and Border Protection,1 (877) CBP-5511,Other,https://www.cbp.gov/,Government,Public,1300 Pennsylvania Ave. NW,Washington,DC,20229,United States,true,0124x000000MHV2AAO,false,eWRTS_Customer_Account;Account

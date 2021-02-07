@@ -14,7 +14,7 @@ echo "*** Generating password for your user ..."
 sfdx force:user:password:generate --targetusername eWRTSScratch
 
 echo "*** Creating data"
-sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p dataScratch
+sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p data/scratch
 
 #echo "*** Creating User"
 #sfdx force:user:create --setalias outlook-user --definitionfile data/user-def.json

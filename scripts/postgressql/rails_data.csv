@@ -1,0 +1,1001 @@
+﻿File_Number,Digitized_Flag,Status,Age_With_Custodian,Date_Received_In_RPC,RPC,Location_Site,Location_Room,Location_Shelf,Location_Notes
+100000002,FALSE,Available,15,8/2/17,709327383,NRC,Stacking Room - Upstairs,1862,
+100000003,FALSE,Available,2,8/14/15,161009711,NRC,Stacking Room - Downstairs,595,
+100000004,FALSE,Available,20,8/16/79,127082659,ES4,Stacking Room - Ground Level,5965,
+100000005,FALSE,Available,7,3/20/17,421169666,ES3,Stacking Room - Ground Level,8359,
+100000006,FALSE,Available,1,8/26/78,912129126,NRC,Stacking Room - Downstairs,272,
+100000007,FALSE,Available,7,4/4/92,143504669,ES2,Stacking Room - Upstairs,9356,
+100000008,FALSE,Available,10,3/12/19,822417299,NRC,Stacking Room - Downstairs,9157,
+100000009,FALSE,Available,19,4/29/62,100387869,ES2,Stacking Room - Ground Level,511,Sed vel enim sit amet nunc viverra dapibus.
+100000010,FALSE,Available,3,7/7/85,772539465,NRC,Stacking Room - Ground Level,6718,
+100000011,FALSE,Available,15,1/8/99,979540379,ES4,Stacking Room - Ground Level,5776,
+100000012,FALSE,Available,1,11/30/98,372433612,ES1,Stacking Room - Ground Level,5477,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+100000013,FALSE,Available,13,3/19/90,285501625,NRC,Stacking Room - Downstairs,7888,
+100000014,FALSE,In Transit,2,11/30/95,331373277,ES3,Stacking Room - Downstairs,6501,
+100000015,FALSE,Available,20,6/30/09,657095890,NRC,Stacking Room - Ground Level,2187,
+100000016,FALSE,Received,11,11/30/93,942383219,ES4,Stacking Room - Downstairs,3668,Vivamus tortor.
+100000017,FALSE,In Transit,17,3/26/92,879911367,NRC,Stacking Room - Ground Level,6040,
+100000018,FALSE,Available,10,4/11/97,205647651,ES4,Stacking Room - Downstairs,5162,
+100000019,FALSE,Received,20,4/13/93,682349713,ES2,Stacking Room - Downstairs,1963,
+100000020,FALSE,Available,3,10/23/92,553004681,ES3,Stacking Room - Ground Level,4934,
+100000021,FALSE,Available,5,2/3/91,447466568,NRC,Stacking Room - Downstairs,3639,Sed accumsan felis.
+100000022,FALSE,Available,4,3/9/61,134485784,NRC,Stacking Room - Downstairs,8774,Duis aliquam convallis nunc.
+100000023,FALSE,In Transit,2,4/25/65,144040155,NRC,Stacking Room - Ground Level,1411,Etiam vel augue.
+100000024,FALSE,Requested,5,6/29/65,132098183,NRC,Stacking Room - Downstairs,4443,
+100000025,FALSE,In Transit,18,7/17/01,367016633,ES3,Stacking Room - Upstairs,505,
+100000026,FALSE,Consolidated,8,12/1/72,963353284,NRC,Stacking Room - Downstairs,4404,
+100000027,FALSE,Received,2,5/3/62,325539627,ES2,Stacking Room - Upstairs,237,
+100000028,FALSE,Received,3,8/7/57,317152855,NRC,Stacking Room - Upstairs,586,
+100000029,FALSE,Available,6,5/15/80,767436784,ES1,Stacking Room - Ground Level,6858,
+100000030,FALSE,In Transit,11,1/18/96,727542752,NRC,Stacking Room - Upstairs,6766,Maecenas tincidunt lacus at velit.
+100000031,FALSE,Available,6,5/20/83,902994430,ES2,Stacking Room - Downstairs,2974,Cras in purus eu magna vulputate luctus.
+100000032,FALSE,Requested,1,3/31/72,902636137,NRC,Stacking Room - Downstairs,7304,
+100000033,FALSE,Available,3,3/17/14,202876389,NRC,Stacking Room - Downstairs,2792,
+100000034,FALSE,Available,17,1/3/81,656197489,ES1,Stacking Room - Upstairs,3130,
+100000035,FALSE,Available,19,5/1/14,522224734,ES1,Stacking Room - Downstairs,3004,Quisque id justo sit amet sapien dignissim vestibulum.
+100000036,FALSE,Available,18,12/11/63,490442555,NRC,Stacking Room - Upstairs,6081,
+100000037,FALSE,In Transit,15,12/7/06,327988032,NRC,Stacking Room - Upstairs,1812,
+100000038,FALSE,Available,3,12/1/69,615668542,NRC,Stacking Room - Upstairs,3556,
+100000039,FALSE,Available,20,9/4/67,699765874,ES4,Stacking Room - Ground Level,1062,
+100000040,FALSE,Available,17,12/17/67,555132447,ES3,Stacking Room - Ground Level,532,
+100000041,FALSE,Available,6,10/1/62,387221778,ES1,Stacking Room - Downstairs,4024,
+100000042,FALSE,Available,5,8/13/18,585500094,NRC,Stacking Room - Downstairs,307,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+100000043,TRUE,Available,4,10/21/61,850907684,ES3,Stacking Room - Ground Level,8918,
+100000044,FALSE,Available,7,1/5/61,540640016,NRC,Stacking Room - Ground Level,8094,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+100000045,FALSE,Received,7,2/22/91,193412545,ES3,Stacking Room - Upstairs,3523,
+100000046,FALSE,Available,7,2/5/57,212617586,NRC,Stacking Room - Downstairs,4368,In quis justo.
+100000047,FALSE,Available,19,6/1/76,902364888,ES3,Stacking Room - Upstairs,9685,
+100000048,FALSE,Missing,15,10/19/71,880572935,ES2,Stacking Room - Ground Level,4314,
+100000049,FALSE,Available,4,12/3/70,658539887,ES4,Stacking Room - Downstairs,628,
+100000050,FALSE,In Transit,17,5/17/62,374007352,NRC,Stacking Room - Ground Level,5064,
+100000051,FALSE,Available,2,2/14/99,815682450,NRC,Stacking Room - Upstairs,8491,
+100000052,FALSE,Available,2,9/29/17,854295076,NRC,Stacking Room - Upstairs,6367,Nunc rhoncus dui vel sem.
+100000053,FALSE,Available,10,12/25/85,405730797,NRC,Stacking Room - Ground Level,4585,
+100000054,FALSE,Available,2,6/30/99,750252506,NRC,Stacking Room - Upstairs,1132,
+100000055,FALSE,Available,5,6/13/92,570090418,NRC,Stacking Room - Upstairs,592,
+100000056,FALSE,Available,2,1/2/93,809756153,ES4,Stacking Room - Downstairs,8739,
+100000057,TRUE,Available,19,12/9/78,871034842,NRC,Stacking Room - Ground Level,4825,
+100000058,FALSE,Received,15,5/30/94,799845305,ES3,Stacking Room - Downstairs,7362,
+100000059,FALSE,Requested,18,1/12/18,746113867,ES1,Stacking Room - Upstairs,8315,Aliquam sit amet diam in magna bibendum imperdiet.
+100000060,FALSE,Available,1,6/5/77,126924118,NRC,Stacking Room - Downstairs,6101,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+100000061,FALSE,Available,12,7/15/74,855126183,NRC,Stacking Room - Downstairs,7550,
+100000062,FALSE,Available,15,5/8/05,672142213,NRC,Stacking Room - Downstairs,3254,
+100000063,FALSE,Available,4,7/16/64,590103722,ES4,Stacking Room - Ground Level,2602,
+100000064,FALSE,Received,11,11/11/74,682712029,NRC,Stacking Room - Downstairs,7999,
+100000065,FALSE,Received,6,10/4/85,233423604,NRC,Stacking Room - Upstairs,1873,Nunc purus.
+100000066,FALSE,Digitized,10,12/10/74,819177823,ES2,Stacking Room - Upstairs,9687,Etiam vel augue.
+100000067,FALSE,Available,14,5/13/59,209661001,ES3,Stacking Room - Ground Level,1742,
+100000068,FALSE,Available,16,3/18/19,613607760,NRC,Stacking Room - Ground Level,104,
+100000069,FALSE,Available,7,3/5/81,237647231,NRC,Stacking Room - Downstairs,5171,
+100000070,FALSE,Digitized,11,6/16/60,449200137,NRC,Stacking Room - Upstairs,7028,
+100000071,FALSE,Available,2,4/15/91,161741237,ES1,Stacking Room - Ground Level,2399,
+100000072,FALSE,In Transit,7,10/25/58,704826816,NRC,Stacking Room - Upstairs,1175,
+100000073,FALSE,Received,8,10/5/68,952171622,NRC,Stacking Room - Downstairs,7627,Etiam pretium iaculis justo.
+100000074,FALSE,Available,20,2/18/68,348471101,ES1,Stacking Room - Downstairs,2279,
+100000075,FALSE,Available,18,12/21/20,956929875,ES1,Stacking Room - Upstairs,7707,
+100000076,FALSE,Available,7,12/18/72,993793865,NRC,Stacking Room - Upstairs,5015,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+100000077,FALSE,Received,18,6/22/61,131433819,NRC,Stacking Room - Downstairs,2534,
+100000078,FALSE,Available,19,2/12/83,969291524,NRC,Stacking Room - Downstairs,241,
+100000079,FALSE,Received,19,2/28/20,250741824,ES1,Stacking Room - Ground Level,6994,
+100000080,FALSE,Available,15,12/15/93,594353554,NRC,Stacking Room - Downstairs,4152,
+100000081,FALSE,Available,5,10/8/97,476375784,ES1,Stacking Room - Upstairs,2517,
+100000082,FALSE,Digitized,12,11/21/07,247550490,ES3,Stacking Room - Upstairs,1541,
+100000083,FALSE,Missing,1,4/18/96,313582094,NRC,Stacking Room - Downstairs,4946,
+100000084,FALSE,Available,9,9/12/89,120174607,NRC,Stacking Room - Downstairs,5007,
+100000085,FALSE,Available,3,12/9/05,420819421,ES4,Stacking Room - Ground Level,2132,
+100000086,FALSE,Consolidated,12,2/26/19,563021999,ES2,Stacking Room - Upstairs,9344,
+100000087,FALSE,Received,13,11/17/16,719587554,ES4,Stacking Room - Downstairs,8720,
+100000088,FALSE,In Transit,6,10/3/73,676123643,NRC,Stacking Room - Downstairs,6210,
+100000089,FALSE,Available,13,1/3/01,450662204,NRC,Stacking Room - Downstairs,6877,
+100000090,FALSE,Digitized,2,10/30/64,751179394,NRC,Stacking Room - Downstairs,2818,Vivamus tortor.
+100000091,TRUE,Received,16,12/15/02,252027185,NRC,Stacking Room - Upstairs,7340,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+100000092,FALSE,Available,14,4/10/07,273832660,NRC,Stacking Room - Downstairs,9979,
+100000093,FALSE,Available,4,9/18/91,732145230,NRC,Stacking Room - Downstairs,2081,
+100000094,FALSE,Available,4,10/24/19,877636571,NRC,Stacking Room - Downstairs,764,Aliquam non mauris.
+100000095,FALSE,Available,9,11/14/60,810635793,ES2,Stacking Room - Upstairs,5826,
+100000096,FALSE,Available,6,1/22/93,564618465,NRC,Stacking Room - Upstairs,6344,
+100000097,FALSE,In Transit,1,9/24/98,320746646,NRC,Stacking Room - Downstairs,8407,In congue.
+100000098,FALSE,Available,14,4/29/98,150591105,NRC,Stacking Room - Upstairs,2489,Nunc purus.
+100000099,FALSE,Available,19,7/25/95,710170910,ES1,Stacking Room - Downstairs,1447,
+100000100,FALSE,Available,9,2/17/55,725563031,NRC,Stacking Room - Ground Level,3776,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+100000101,FALSE,Available,16,9/19/96,852032730,NRC,Stacking Room - Ground Level,1600,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+100000102,TRUE,Available,17,6/21/99,208242451,NRC,Stacking Room - Upstairs,3322,
+100000103,FALSE,Available,13,8/21/76,924300097,NRC,Stacking Room - Upstairs,1631,
+100000104,FALSE,Available,2,10/28/03,473772828,ES1,Stacking Room - Upstairs,5003,
+100000105,FALSE,Requested,12,11/12/87,523203218,ES2,Stacking Room - Downstairs,8630,
+100000106,FALSE,Available,20,11/8/01,304008729,ES4,Stacking Room - Upstairs,3847,Praesent blandit.
+100000107,FALSE,Received,11,9/14/00,807907423,ES4,Stacking Room - Ground Level,4185,
+100000108,FALSE,Available,16,9/21/19,393643814,ES3,Stacking Room - Downstairs,321,
+100000109,FALSE,In Transit,2,4/18/78,330129736,ES1,Stacking Room - Upstairs,6386,
+100000110,FALSE,Available,10,1/23/95,212964986,ES2,Stacking Room - Ground Level,3184,Phasellus in felis.
+100000111,FALSE,Available,4,7/31/95,220698516,ES3,Stacking Room - Ground Level,5102,
+100000112,FALSE,Available,1,2/4/06,851947798,ES4,Stacking Room - Ground Level,9608,
+100000113,FALSE,Available,7,11/15/69,826436208,ES4,Stacking Room - Downstairs,3931,
+100000114,FALSE,Available,19,2/9/80,155403402,ES3,Stacking Room - Downstairs,4455,
+100000115,TRUE,Digitized,16,3/4/69,690612368,NRC,Stacking Room - Downstairs,967,
+100000116,FALSE,Consolidated,1,6/14/06,163463381,NRC,Stacking Room - Ground Level,1580,
+100000117,FALSE,Available,1,9/18/84,576131704,ES3,Stacking Room - Ground Level,1509,
+100000118,FALSE,Missing,9,1/1/91,223213848,NRC,Stacking Room - Ground Level,4102,
+100000119,FALSE,Available,13,5/4/85,818333094,NRC,Stacking Room - Downstairs,1644,
+100000120,FALSE,Available,20,12/19/61,627002406,NRC,Stacking Room - Upstairs,4210,
+100000121,FALSE,Consolidated,15,4/17/00,412405175,NRC,Stacking Room - Downstairs,2158,Nulla tellus.
+100000122,FALSE,Available,3,8/13/10,241067088,NRC,Stacking Room - Ground Level,2238,
+100000123,FALSE,Available,19,11/18/20,512723774,NRC,Stacking Room - Ground Level,8300,Pellentesque at nulla.
+100000124,FALSE,Available,10,4/14/16,665371222,NRC,Stacking Room - Upstairs,873,
+100000125,FALSE,Available,3,9/26/90,243986601,NRC,Stacking Room - Ground Level,7629,
+100000126,FALSE,Available,1,5/9/13,142281061,ES4,Stacking Room - Downstairs,2677,
+100000127,FALSE,Available,17,10/1/91,951280976,ES3,Stacking Room - Upstairs,7823,
+100000128,FALSE,Available,15,10/3/82,276291954,NRC,Stacking Room - Upstairs,1069,
+100000129,TRUE,Available,19,12/30/94,876585031,NRC,Stacking Room - Upstairs,806,
+100000130,FALSE,Available,5,10/21/05,876730365,NRC,Stacking Room - Upstairs,488,Nullam molestie nibh in lectus.
+100000131,FALSE,Available,8,3/22/70,818417328,NRC,Stacking Room - Upstairs,2008,
+100000132,FALSE,Requested,6,12/14/69,612811191,NRC,Stacking Room - Downstairs,5223,
+100000133,FALSE,In Transit,13,3/4/69,973970371,NRC,Stacking Room - Downstairs,7288,
+100000134,FALSE,Available,13,10/3/86,208628491,NRC,Stacking Room - Ground Level,434,
+100000135,FALSE,Available,19,12/5/89,760148923,ES3,Stacking Room - Ground Level,4350,
+100000136,FALSE,Available,1,3/6/79,625102364,NRC,Stacking Room - Ground Level,4054,Donec ut dolor.
+100000137,TRUE,Available,1,5/21/63,519948519,NRC,Stacking Room - Upstairs,3433,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+100000138,FALSE,Available,20,6/28/68,298609426,NRC,Stacking Room - Downstairs,2599,
+100000139,FALSE,Available,14,12/27/91,669957659,NRC,Stacking Room - Ground Level,3135,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+100000140,TRUE,Available,14,5/28/10,776833914,ES3,Stacking Room - Downstairs,7644,
+100000141,FALSE,In Transit,20,12/26/83,951274339,NRC,Stacking Room - Ground Level,3052,
+100000142,FALSE,Available,5,3/16/85,222480549,NRC,Stacking Room - Downstairs,9213,
+100000143,FALSE,Received,11,12/27/20,605654771,NRC,Stacking Room - Downstairs,8317,
+100000144,FALSE,Available,4,11/8/02,743501504,NRC,Stacking Room - Downstairs,8254,
+100000145,TRUE,Available,15,1/13/12,588586966,NRC,Stacking Room - Upstairs,4009,
+100000146,FALSE,Available,17,3/14/18,237233732,NRC,Stacking Room - Ground Level,7106,Curabitur gravida nisi at nibh.
+100000147,FALSE,Available,8,6/13/76,100899837,ES2,Stacking Room - Downstairs,7018,
+100000148,FALSE,Available,13,9/15/87,736809910,ES4,Stacking Room - Upstairs,1849,Praesent lectus.
+100000149,FALSE,In Transit,14,7/22/61,753910287,ES3,Stacking Room - Upstairs,984,
+100000150,FALSE,Available,1,9/25/91,418078589,NRC,Stacking Room - Ground Level,6830,Quisque id justo sit amet sapien dignissim vestibulum.
+100000151,FALSE,Available,20,4/5/91,487445607,NRC,Stacking Room - Upstairs,6823,
+100000152,FALSE,Available,1,3/19/64,482413027,ES4,Stacking Room - Upstairs,3127,
+100000153,FALSE,Requested,12,11/25/16,100965258,NRC,Stacking Room - Upstairs,1518,
+100000154,FALSE,Received,19,2/22/95,784542585,ES1,Stacking Room - Upstairs,4209,
+100000155,FALSE,Available,16,2/13/62,780546247,ES2,Stacking Room - Downstairs,2476,
+100000156,FALSE,Available,7,5/1/12,759588658,ES1,Stacking Room - Downstairs,2997,
+100000157,FALSE,Available,10,2/24/95,225365840,NRC,Stacking Room - Upstairs,8318,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+100000158,FALSE,Received,19,10/10/19,834456716,NRC,Stacking Room - Ground Level,4895,
+100000159,FALSE,Available,15,12/15/79,351708487,NRC,Stacking Room - Upstairs,6265,
+100000160,FALSE,Available,5,9/7/10,921133552,NRC,Stacking Room - Downstairs,2914,
+100000161,FALSE,Received,10,8/10/71,216887090,ES3,Stacking Room - Upstairs,6152,
+100000162,FALSE,Available,20,6/20/72,671994149,NRC,Stacking Room - Upstairs,884,
+100000163,FALSE,Available,9,10/8/71,732341087,ES2,Stacking Room - Downstairs,3158,
+100000164,FALSE,Requested,5,12/3/57,439023347,NRC,Stacking Room - Downstairs,8631,
+100000165,FALSE,Available,9,2/3/57,135409711,NRC,Stacking Room - Upstairs,377,
+100000166,FALSE,In Transit,18,5/20/17,332518529,ES3,Stacking Room - Ground Level,1196,
+100000167,FALSE,Available,17,6/27/90,203343958,NRC,Stacking Room - Upstairs,6059,
+100000168,TRUE,Available,13,7/23/77,931041048,NRC,Stacking Room - Upstairs,627,
+100000169,FALSE,Available,2,3/16/16,137796066,ES4,Stacking Room - Downstairs,9837,
+100000170,FALSE,Digitized,9,12/15/12,397811037,NRC,Stacking Room - Upstairs,345,Cras pellentesque volutpat dui.
+100000171,FALSE,Available,6,4/22/81,362661644,ES1,Stacking Room - Upstairs,8661,
+100000172,FALSE,Available,4,1/8/74,774158726,NRC,Stacking Room - Upstairs,2601,
+100000173,FALSE,Requested,15,5/18/75,212796693,ES1,Stacking Room - Downstairs,9411,Curabitur in libero ut massa volutpat convallis.
+100000174,FALSE,Available,3,10/24/91,766117210,NRC,Stacking Room - Downstairs,7463,
+100000175,FALSE,Available,3,4/15/62,831190286,NRC,Stacking Room - Downstairs,8883,
+100000176,FALSE,Available,6,8/7/94,227900547,ES4,Stacking Room - Downstairs,2410,
+100000177,FALSE,Received,6,3/21/96,412817753,ES4,Stacking Room - Downstairs,5199,
+100000178,FALSE,Available,6,10/9/55,647713039,ES3,Stacking Room - Ground Level,7435,Morbi non quam nec dui luctus rutrum.
+100000179,FALSE,Requested,18,10/24/80,686073957,ES1,Stacking Room - Upstairs,9279,
+100000180,FALSE,Available,10,3/28/69,467139921,NRC,Stacking Room - Ground Level,5016,
+100000181,FALSE,Available,1,1/25/67,779034087,NRC,Stacking Room - Downstairs,736,
+100000182,FALSE,Received,2,8/10/85,461045904,NRC,Stacking Room - Downstairs,6550,
+100000183,FALSE,Available,13,4/5/59,583909943,ES1,Stacking Room - Downstairs,8380,
+100000184,TRUE,Received,15,12/30/94,951777138,NRC,Stacking Room - Ground Level,8763,
+100000185,FALSE,Missing,11,1/30/97,115537834,NRC,Stacking Room - Ground Level,4148,
+100000186,FALSE,Available,6,9/19/81,513013830,ES2,Stacking Room - Upstairs,767,
+100000187,FALSE,Received,14,1/12/08,804262745,NRC,Stacking Room - Downstairs,3149,
+100000188,FALSE,Available,1,4/15/01,759548744,NRC,Stacking Room - Ground Level,8263,
+100000189,FALSE,Available,20,11/12/57,817162302,ES4,Stacking Room - Upstairs,62,Morbi vel lectus in quam fringilla rhoncus.
+100000190,FALSE,Available,14,12/22/56,242756510,ES3,Stacking Room - Ground Level,6613,
+100000191,FALSE,Available,4,4/22/75,621468394,ES3,Stacking Room - Upstairs,4975,
+100000192,FALSE,Available,6,11/3/88,249678953,NRC,Stacking Room - Downstairs,2294,
+100000193,FALSE,Available,20,11/15/04,245113516,NRC,Stacking Room - Ground Level,5149,
+100000194,FALSE,Available,8,11/17/07,241781023,NRC,Stacking Room - Ground Level,4462,Mauris ullamcorper purus sit amet nulla.
+100000195,FALSE,Available,15,2/27/60,567637876,NRC,Stacking Room - Upstairs,5083,
+100000196,FALSE,Available,19,7/3/76,458086784,ES4,Stacking Room - Downstairs,8163,
+100000197,FALSE,Available,5,3/11/62,375060058,NRC,Stacking Room - Ground Level,2093,Suspendisse ornare consequat lectus.
+100000198,FALSE,In Transit,14,10/10/70,986333423,ES3,Stacking Room - Downstairs,8128,
+100000199,FALSE,Requested,15,6/16/62,949756088,NRC,Stacking Room - Downstairs,9833,
+100000200,FALSE,Available,20,12/20/56,629260715,NRC,Stacking Room - Downstairs,846,
+100000201,FALSE,Available,10,12/8/95,380426783,ES2,Stacking Room - Upstairs,4545,
+100000202,FALSE,In Transit,15,4/25/94,928660857,ES1,Stacking Room - Downstairs,407,
+100000203,FALSE,Available,5,2/14/72,607643693,ES2,Stacking Room - Ground Level,3117,
+100000204,FALSE,Available,15,4/28/55,285645457,ES4,Stacking Room - Ground Level,2238,
+100000205,TRUE,Missing,6,11/20/11,897914790,NRC,Stacking Room - Ground Level,6756,
+100000206,FALSE,Consolidated,13,10/21/00,236622678,NRC,Stacking Room - Downstairs,144,
+100000207,FALSE,Available,5,4/2/10,505443014,NRC,Stacking Room - Ground Level,731,
+100000208,FALSE,Available,19,11/1/99,623767159,ES2,Stacking Room - Upstairs,3554,
+100000209,FALSE,In Transit,4,11/11/18,532627818,NRC,Stacking Room - Upstairs,1838,
+100000210,FALSE,Received,6,1/16/85,534723842,ES2,Stacking Room - Upstairs,9024,
+100000211,FALSE,Available,5,9/26/94,759392756,NRC,Stacking Room - Upstairs,611,
+100000212,FALSE,Available,2,5/18/60,875970639,ES4,Stacking Room - Upstairs,136,
+100000213,FALSE,Available,8,4/11/11,259215771,NRC,Stacking Room - Upstairs,9989,
+100000214,FALSE,Available,1,11/23/88,133637366,NRC,Stacking Room - Downstairs,9996,
+100000215,FALSE,Consolidated,18,3/9/04,974039155,NRC,Stacking Room - Upstairs,2516,
+100000216,FALSE,Available,20,5/26/78,184351455,NRC,Stacking Room - Ground Level,1515,
+100000217,FALSE,Available,14,5/29/11,409122020,ES2,Stacking Room - Downstairs,7109,
+100000218,FALSE,Requested,5,1/26/19,184723179,ES2,Stacking Room - Downstairs,612,
+100000219,FALSE,Available,13,7/15/19,418347144,ES1,Stacking Room - Upstairs,6465,
+100000220,FALSE,Consolidated,17,3/21/87,974859533,NRC,Stacking Room - Downstairs,6649,Phasellus sit amet erat.
+100000221,FALSE,Available,6,7/1/57,764158030,NRC,Stacking Room - Downstairs,458,
+100000222,FALSE,Available,7,7/27/16,927430532,NRC,Stacking Room - Downstairs,7332,
+100000223,FALSE,Available,6,3/19/56,946861274,ES2,Stacking Room - Downstairs,9399,In hac habitasse platea dictumst.
+100000224,FALSE,Available,16,1/12/06,309691258,ES2,Stacking Room - Ground Level,5276,
+100000225,TRUE,Available,9,7/7/70,380359154,ES3,Stacking Room - Downstairs,1586,Praesent blandit.
+100000226,FALSE,Available,12,2/3/06,179614285,ES2,Stacking Room - Downstairs,8518,
+100000227,FALSE,Available,12,1/4/77,140944490,NRC,Stacking Room - Upstairs,5814,In hac habitasse platea dictumst.
+100000228,FALSE,Available,9,2/29/88,491595571,ES4,Stacking Room - Downstairs,1009,
+100000229,FALSE,Received,16,3/7/58,695736205,NRC,Stacking Room - Ground Level,5873,
+100000230,FALSE,Available,10,7/1/90,621524394,NRC,Stacking Room - Downstairs,1638,Aliquam erat volutpat.
+100000231,FALSE,Available,12,7/31/73,989467671,NRC,Stacking Room - Downstairs,9597,
+100000232,FALSE,Available,7,12/8/06,857046159,ES1,Stacking Room - Downstairs,6102,
+100000233,TRUE,Requested,13,2/16/84,586416080,NRC,Stacking Room - Ground Level,9840,
+100000234,FALSE,Received,16,5/24/64,768646657,NRC,Stacking Room - Ground Level,2491,
+100000235,FALSE,Available,9,10/26/92,197078710,ES3,Stacking Room - Downstairs,7072,
+100000236,FALSE,Requested,18,1/2/90,159620186,NRC,Stacking Room - Ground Level,4771,
+100000237,TRUE,Available,13,11/4/07,241346478,ES1,Stacking Room - Ground Level,3556,
+100000238,FALSE,Requested,1,1/31/03,956661720,NRC,Stacking Room - Downstairs,129,
+100000239,FALSE,Available,7,3/23/85,489401279,NRC,Stacking Room - Upstairs,7689,Praesent blandit.
+100000240,FALSE,Available,20,8/16/98,961006623,NRC,Stacking Room - Ground Level,8305,
+100000241,FALSE,Available,14,6/2/09,279940747,ES1,Stacking Room - Ground Level,922,
+100000242,FALSE,Requested,3,4/10/96,508756826,NRC,Stacking Room - Upstairs,1224,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+100000243,FALSE,Available,19,8/24/55,484996156,ES4,Stacking Room - Ground Level,539,
+100000244,FALSE,Available,9,10/11/60,185515938,ES1,Stacking Room - Ground Level,6480,
+100000245,FALSE,Digitized,11,7/12/81,248730424,ES2,Stacking Room - Downstairs,3033,Pellentesque eget nunc.
+100000246,FALSE,Available,12,1/9/92,967674411,NRC,Stacking Room - Ground Level,9641,
+100000247,FALSE,Available,6,5/17/85,207380247,NRC,Stacking Room - Upstairs,1177,Sed vel enim sit amet nunc viverra dapibus.
+100000248,FALSE,Received,7,4/11/19,921247221,NRC,Stacking Room - Downstairs,4523,Aliquam quis turpis eget elit sodales scelerisque.
+100000249,FALSE,Available,19,12/22/69,987317209,NRC,Stacking Room - Downstairs,5801,
+100000250,FALSE,Available,9,8/6/69,344789967,ES1,Stacking Room - Ground Level,3691,Nulla tellus.
+100000251,FALSE,Requested,3,8/16/65,866131439,NRC,Stacking Room - Downstairs,9320,Praesent lectus.
+100000252,FALSE,Available,11,9/17/61,543114429,ES1,Stacking Room - Upstairs,8089,
+100000253,FALSE,Requested,11,12/17/80,210392758,NRC,Stacking Room - Ground Level,2977,
+100000254,FALSE,Received,12,12/15/86,860131992,NRC,Stacking Room - Downstairs,3632,Etiam pretium iaculis justo.
+100000255,FALSE,Available,12,5/24/62,424978666,NRC,Stacking Room - Ground Level,3348,
+100000256,FALSE,Consolidated,12,1/30/56,181675972,ES3,Stacking Room - Upstairs,8624,
+100000257,FALSE,Available,20,8/26/70,272260009,NRC,Stacking Room - Downstairs,3411,
+100000258,FALSE,Available,7,1/30/57,219602626,NRC,Stacking Room - Ground Level,2299,
+100000259,FALSE,Received,4,8/1/86,877736735,NRC,Stacking Room - Downstairs,7874,
+100000260,FALSE,In Transit,2,10/19/85,491972517,NRC,Stacking Room - Downstairs,9282,
+100000261,FALSE,Available,10,9/11/09,952390130,ES3,Stacking Room - Upstairs,5129,
+100000262,FALSE,Consolidated,8,6/13/14,106632205,ES4,Stacking Room - Upstairs,3899,
+100000263,FALSE,Available,12,8/3/90,298789622,NRC,Stacking Room - Upstairs,5161,
+100000264,TRUE,Available,4,4/3/01,332303006,ES2,Stacking Room - Ground Level,6305,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+100000265,FALSE,Available,18,4/6/15,163995109,ES1,Stacking Room - Upstairs,5534,
+100000266,FALSE,Requested,20,8/4/88,390623068,NRC,Stacking Room - Ground Level,5577,
+100000267,FALSE,Available,18,12/20/18,313489380,NRC,Stacking Room - Upstairs,8457,
+100000268,FALSE,Available,18,10/10/85,729126858,ES1,Stacking Room - Upstairs,502,
+100000269,FALSE,Available,14,4/23/06,976595133,NRC,Stacking Room - Ground Level,8330,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+100000270,FALSE,Available,10,4/20/97,474166084,ES3,Stacking Room - Upstairs,6655,Nulla tellus.
+100000271,FALSE,Available,3,5/20/65,196759433,NRC,Stacking Room - Downstairs,5953,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+100000272,FALSE,Available,20,8/21/77,929109061,NRC,Stacking Room - Downstairs,5196,In sagittis dui vel nisl.
+100000273,FALSE,Available,17,12/13/93,421866962,NRC,Stacking Room - Upstairs,6663,
+100000274,FALSE,Available,5,11/16/81,694486306,NRC,Stacking Room - Upstairs,1378,
+100000275,FALSE,Available,12,9/10/86,799560980,NRC,Stacking Room - Upstairs,9609,
+100000276,FALSE,Available,11,7/31/58,894947112,ES1,Stacking Room - Ground Level,2423,Aliquam sit amet diam in magna bibendum imperdiet.
+100000277,FALSE,Received,17,1/3/76,775142221,ES1,Stacking Room - Downstairs,4484,
+100000278,FALSE,Digitized,4,4/22/75,474645822,NRC,Stacking Room - Ground Level,2033,
+100000279,FALSE,Available,1,6/2/16,301575233,NRC,Stacking Room - Upstairs,5332,
+100000280,FALSE,Available,3,1/31/74,260484535,ES4,Stacking Room - Upstairs,9354,
+100000281,FALSE,In Transit,4,1/7/91,980509010,ES4,Stacking Room - Downstairs,4192,
+100000282,FALSE,Available,13,10/28/05,685439178,NRC,Stacking Room - Downstairs,5355,
+100000283,FALSE,Available,17,6/6/72,355899692,ES1,Stacking Room - Ground Level,6287,
+100000284,FALSE,Available,11,1/27/88,137931236,NRC,Stacking Room - Ground Level,7952,
+100000285,FALSE,Consolidated,19,5/19/08,356284526,NRC,Stacking Room - Upstairs,1896,
+100000286,FALSE,Available,17,2/20/13,699883165,ES1,Stacking Room - Upstairs,6909,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+100000287,FALSE,In Transit,6,1/16/20,899293327,ES1,Stacking Room - Upstairs,5147,Cras pellentesque volutpat dui.
+100000288,FALSE,Available,4,8/22/91,170348397,NRC,Stacking Room - Ground Level,8536,
+100000289,FALSE,Available,16,2/24/71,218662247,ES1,Stacking Room - Downstairs,326,
+100000290,FALSE,In Transit,20,10/14/73,674750093,NRC,Stacking Room - Ground Level,556,
+100000291,FALSE,Requested,12,7/21/01,368935112,ES1,Stacking Room - Ground Level,610,
+100000292,FALSE,Available,15,8/4/74,796623924,ES1,Stacking Room - Downstairs,6269,Donec dapibus.
+100000293,FALSE,Available,14,11/23/84,244927971,NRC,Stacking Room - Upstairs,5650,
+100000294,FALSE,Available,6,3/1/08,724048681,NRC,Stacking Room - Downstairs,2399,
+100000295,FALSE,Available,4,1/1/06,824234534,ES1,Stacking Room - Downstairs,5066,
+100000296,FALSE,Available,8,1/1/65,504924179,ES2,Stacking Room - Ground Level,3709,
+100000297,FALSE,Available,18,8/21/79,188937034,ES1,Stacking Room - Ground Level,5305,
+100000298,FALSE,Missing,5,6/6/20,544311458,ES3,Stacking Room - Downstairs,740,
+100000299,FALSE,Available,16,8/15/68,976923560,ES1,Stacking Room - Downstairs,7947,
+100000300,TRUE,Available,4,5/17/03,889066802,ES1,Stacking Room - Upstairs,31,
+100000301,FALSE,Digitized,15,6/16/68,483475084,NRC,Stacking Room - Downstairs,6773,
+100000302,FALSE,Digitized,2,8/1/72,124101358,NRC,Stacking Room - Ground Level,2146,
+100000303,FALSE,Received,14,5/25/84,632325536,ES1,Stacking Room - Upstairs,6057,
+100000304,FALSE,Available,19,6/14/62,638845074,NRC,Stacking Room - Upstairs,1831,
+100000305,TRUE,Available,20,10/11/99,399497548,ES1,Stacking Room - Downstairs,7992,
+100000306,FALSE,Available,8,11/27/02,355045414,NRC,Stacking Room - Upstairs,6681,
+100000307,FALSE,Requested,10,5/4/95,771941644,NRC,Stacking Room - Downstairs,1633,
+100000308,FALSE,Available,1,1/1/83,668167911,ES3,Stacking Room - Upstairs,3774,
+100000309,FALSE,Available,19,6/28/06,263700761,NRC,Stacking Room - Ground Level,9306,
+100000310,FALSE,Received,18,9/17/70,794309218,NRC,Stacking Room - Downstairs,2513,
+100000311,FALSE,Available,1,10/29/63,844451509,ES4,Stacking Room - Downstairs,3142,Duis ac nibh.
+100000312,FALSE,Available,20,9/10/86,379911327,NRC,Stacking Room - Ground Level,6269,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+100000313,FALSE,Available,14,2/9/62,446600277,ES1,Stacking Room - Downstairs,9555,
+100000314,FALSE,Digitized,10,10/12/96,486305030,ES4,Stacking Room - Ground Level,319,
+100000315,FALSE,Available,4,3/28/91,622311370,NRC,Stacking Room - Upstairs,2221,Nam nulla.
+100000316,FALSE,Available,7,11/21/84,937077576,NRC,Stacking Room - Upstairs,2600,Nam tristique tortor eu pede.
+100000317,FALSE,Available,16,12/6/19,285173626,ES4,Stacking Room - Upstairs,6716,
+100000318,FALSE,Received,6,6/20/60,547350833,ES1,Stacking Room - Downstairs,3443,
+100000319,FALSE,Available,13,5/29/65,452169111,NRC,Stacking Room - Ground Level,6828,
+100000320,FALSE,Consolidated,18,8/20/56,305894586,ES3,Stacking Room - Upstairs,5260,Morbi vel lectus in quam fringilla rhoncus.
+100000321,FALSE,Available,13,8/30/76,212693873,ES3,Stacking Room - Downstairs,5608,
+100000322,FALSE,Requested,6,7/22/09,606652312,NRC,Stacking Room - Downstairs,6586,
+100000323,FALSE,Available,19,10/10/84,406712009,ES3,Stacking Room - Ground Level,9354,
+100000324,FALSE,Available,9,2/29/60,520000502,NRC,Stacking Room - Ground Level,7640,
+100000325,FALSE,Requested,12,10/11/91,404402273,NRC,Stacking Room - Upstairs,3956,
+100000326,FALSE,Available,5,12/4/76,240928345,NRC,Stacking Room - Downstairs,4453,
+100000327,FALSE,In Transit,19,7/19/84,494812296,NRC,Stacking Room - Ground Level,8122,
+100000328,FALSE,Received,2,11/19/78,866620559,ES2,Stacking Room - Downstairs,933,
+100000329,FALSE,Requested,17,2/2/10,429761779,ES3,Stacking Room - Ground Level,2275,
+100000330,FALSE,Available,19,9/29/05,361447723,NRC,Stacking Room - Downstairs,9183,
+100000331,FALSE,Available,18,6/21/97,605945356,ES1,Stacking Room - Upstairs,2296,
+100000332,FALSE,Available,14,10/26/71,860766181,NRC,Stacking Room - Upstairs,5777,
+100000333,FALSE,Available,10,8/2/57,826672208,NRC,Stacking Room - Ground Level,2236,
+100000334,FALSE,Received,10,8/22/83,302114324,ES3,Stacking Room - Upstairs,2444,
+100000335,FALSE,Received,13,9/7/90,577960456,ES2,Stacking Room - Ground Level,137,
+100000336,FALSE,Received,3,8/3/13,653211359,NRC,Stacking Room - Downstairs,7393,
+100000337,FALSE,Available,3,1/13/62,146471220,ES1,Stacking Room - Upstairs,9638,
+100000338,FALSE,Received,6,5/20/75,994951458,NRC,Stacking Room - Downstairs,6148,Morbi ut odio.
+100000339,FALSE,Available,10,10/6/80,784047679,NRC,Stacking Room - Downstairs,3530,
+100000340,FALSE,Available,1,2/8/86,136851691,NRC,Stacking Room - Upstairs,3397,
+100000341,FALSE,Available,20,4/7/13,777314633,ES2,Stacking Room - Upstairs,9894,
+100000342,FALSE,Consolidated,13,3/8/86,977421565,NRC,Stacking Room - Downstairs,2357,Integer ac leo.
+100000343,FALSE,Available,16,7/23/75,451894726,NRC,Stacking Room - Ground Level,3590,
+100000344,FALSE,Available,3,4/18/78,565064714,ES3,Stacking Room - Upstairs,9101,Nulla mollis molestie lorem.
+100000345,FALSE,Available,20,9/3/80,808022503,NRC,Stacking Room - Upstairs,5989,Donec quis orci eget orci vehicula condimentum.
+100000346,FALSE,Requested,6,5/30/98,439596582,NRC,Stacking Room - Upstairs,9288,
+100000347,FALSE,Available,18,9/9/89,707339205,ES1,Stacking Room - Ground Level,9880,
+100000348,FALSE,Available,4,10/19/17,826000989,NRC,Stacking Room - Upstairs,3701,
+100000349,FALSE,Available,19,8/3/59,183510832,ES2,Stacking Room - Upstairs,8349,
+100000350,FALSE,Available,1,10/27/95,944680721,NRC,Stacking Room - Ground Level,5656,
+100000351,FALSE,Available,6,1/8/15,482288862,ES1,Stacking Room - Ground Level,509,In congue.
+100000352,FALSE,Available,9,10/30/66,170323155,NRC,Stacking Room - Downstairs,1885,
+100000353,FALSE,Available,4,10/4/03,180860627,ES3,Stacking Room - Upstairs,6258,
+100000354,FALSE,Available,18,5/29/84,474274439,ES4,Stacking Room - Upstairs,7865,
+100000355,FALSE,Requested,12,1/23/65,774372776,ES1,Stacking Room - Downstairs,9051,
+100000356,FALSE,In Transit,4,8/1/71,605457829,NRC,Stacking Room - Ground Level,1076,
+100000357,FALSE,Available,18,10/10/99,988537626,ES4,Stacking Room - Downstairs,7377,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+100000358,FALSE,Available,15,7/8/01,305404561,NRC,Stacking Room - Ground Level,5887,
+100000359,FALSE,Available,9,5/12/15,194081984,ES3,Stacking Room - Ground Level,7411,
+100000360,FALSE,Available,4,11/30/94,418296746,NRC,Stacking Room - Upstairs,8398,
+100000361,FALSE,Available,13,7/14/75,936580892,NRC,Stacking Room - Upstairs,7484,
+100000362,FALSE,Available,3,3/29/58,862783051,ES1,Stacking Room - Upstairs,2276,
+100000363,FALSE,Received,5,12/30/13,442517364,ES3,Stacking Room - Upstairs,7843,
+100000364,FALSE,Available,4,4/6/96,680494748,ES1,Stacking Room - Downstairs,9073,
+100000365,FALSE,Available,13,6/10/56,645500527,NRC,Stacking Room - Downstairs,8740,
+100000366,FALSE,Available,2,2/17/92,825450207,ES4,Stacking Room - Ground Level,2877,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+100000367,FALSE,Available,20,4/10/66,476142099,NRC,Stacking Room - Downstairs,6591,Vivamus tortor.
+100000368,FALSE,Digitized,8,6/14/73,432041456,ES1,Stacking Room - Ground Level,3391,
+100000369,FALSE,Available,12,9/17/74,203249275,NRC,Stacking Room - Ground Level,7738,
+100000370,FALSE,Available,18,2/2/15,630306561,ES4,Stacking Room - Ground Level,6497,
+100000371,FALSE,Available,6,5/4/61,441752742,NRC,Stacking Room - Upstairs,7502,Proin risus.
+100000372,FALSE,Received,1,5/10/16,533104295,NRC,Stacking Room - Upstairs,9208,Ut at dolor quis odio consequat varius.
+100000373,FALSE,Available,6,11/3/67,702073955,ES3,Stacking Room - Downstairs,67,
+100000374,FALSE,Available,12,7/8/12,839561119,NRC,Stacking Room - Ground Level,4163,
+100000375,FALSE,Requested,15,4/8/16,598951722,NRC,Stacking Room - Upstairs,1753,
+100000376,FALSE,Missing,11,3/7/20,255239660,ES3,Stacking Room - Upstairs,1478,Aliquam quis turpis eget elit sodales scelerisque.
+100000377,FALSE,Available,2,10/12/01,593488831,ES4,Stacking Room - Ground Level,9455,
+100000378,FALSE,Available,19,6/26/17,916928888,NRC,Stacking Room - Ground Level,9073,Phasellus sit amet erat.
+100000379,FALSE,Received,3,9/8/58,918646213,NRC,Stacking Room - Upstairs,1790,
+100000380,FALSE,Requested,15,11/19/76,594671165,ES2,Stacking Room - Downstairs,673,
+100000381,FALSE,Received,7,3/22/67,410384326,NRC,Stacking Room - Downstairs,896,
+100000382,TRUE,Missing,9,1/13/65,870556267,NRC,Stacking Room - Downstairs,4342,
+100000383,FALSE,Available,10,6/18/87,236302074,ES1,Stacking Room - Ground Level,6572,
+100000384,FALSE,Received,16,1/5/93,908908830,NRC,Stacking Room - Ground Level,3337,
+100000385,FALSE,Available,18,8/11/93,122638535,ES4,Stacking Room - Ground Level,9360,Ut at dolor quis odio consequat varius.
+100000386,FALSE,Digitized,12,2/26/89,171338802,NRC,Stacking Room - Downstairs,2590,
+100000387,FALSE,Available,20,1/27/99,925706536,ES4,Stacking Room - Downstairs,3299,
+100000388,FALSE,Available,13,4/29/87,729467368,ES1,Stacking Room - Ground Level,2109,
+100000389,FALSE,Available,8,2/14/10,891776789,NRC,Stacking Room - Upstairs,8211,
+100000390,FALSE,Available,11,9/11/98,314451346,NRC,Stacking Room - Upstairs,9587,
+100000391,FALSE,Available,10,7/7/07,269780662,ES2,Stacking Room - Downstairs,6968,
+100000392,FALSE,Received,12,7/31/68,745719706,NRC,Stacking Room - Upstairs,1665,
+100000393,FALSE,In Transit,15,4/26/11,342429490,ES2,Stacking Room - Downstairs,1742,
+100000394,FALSE,Received,12,7/17/04,300500393,NRC,Stacking Room - Upstairs,5328,
+100000395,FALSE,Available,16,7/8/04,443836523,NRC,Stacking Room - Downstairs,3743,Sed vel enim sit amet nunc viverra dapibus.
+100000396,TRUE,In Transit,13,8/29/75,657770167,ES4,Stacking Room - Downstairs,8892,
+100000397,FALSE,Requested,16,1/18/05,690667473,NRC,Stacking Room - Downstairs,6597,
+100000398,FALSE,Available,14,2/27/19,621316308,ES4,Stacking Room - Downstairs,3821,
+100000399,TRUE,Requested,16,11/17/73,524997577,ES1,Stacking Room - Downstairs,6182,
+100000400,FALSE,Available,1,7/22/81,605392145,NRC,Stacking Room - Downstairs,4909,
+100000401,FALSE,Requested,11,8/19/78,242803265,ES3,Stacking Room - Downstairs,4740,Duis consequat dui nec nisi volutpat eleifend.
+100000402,FALSE,Available,7,3/5/56,924563856,ES1,Stacking Room - Upstairs,9437,Vivamus vestibulum sagittis sapien.
+100000403,FALSE,Available,17,1/9/60,625677451,NRC,Stacking Room - Downstairs,2135,
+100000404,FALSE,Available,18,12/30/06,979023199,NRC,Stacking Room - Downstairs,4242,
+100000405,FALSE,Available,12,8/10/80,474450885,NRC,Stacking Room - Ground Level,8502,
+100000406,FALSE,Available,15,3/13/73,861101124,NRC,Stacking Room - Upstairs,8538,
+100000407,FALSE,Available,1,4/1/17,209966920,NRC,Stacking Room - Ground Level,6313,
+100000408,FALSE,Available,5,5/4/10,848293310,ES2,Stacking Room - Upstairs,9826,
+100000409,TRUE,Available,8,2/12/95,435419044,ES1,Stacking Room - Upstairs,3478,
+100000410,FALSE,Available,13,6/4/99,210294995,NRC,Stacking Room - Ground Level,2126,
+100000411,FALSE,Available,12,2/11/88,287276219,NRC,Stacking Room - Ground Level,7721,
+100000412,FALSE,Consolidated,16,10/7/03,991244567,NRC,Stacking Room - Downstairs,9656,
+100000413,FALSE,Requested,8,10/3/65,607347765,NRC,Stacking Room - Downstairs,4876,
+100000414,FALSE,Available,14,1/29/75,884103739,ES1,Stacking Room - Downstairs,6658,
+100000415,FALSE,Available,18,4/4/88,608614410,NRC,Stacking Room - Downstairs,7384,Suspendisse potenti.
+100000416,FALSE,Available,18,6/2/76,452653847,ES3,Stacking Room - Downstairs,5411,Curabitur at ipsum ac tellus semper interdum.
+100000417,FALSE,Received,10,8/14/79,509747569,ES3,Stacking Room - Downstairs,3863,Etiam justo.
+100000418,FALSE,Received,1,7/26/72,220781266,ES1,Stacking Room - Downstairs,6466,
+100000419,FALSE,Consolidated,19,10/10/71,392217510,NRC,Stacking Room - Ground Level,1368,
+100000420,FALSE,Received,14,4/17/63,146566343,NRC,Stacking Room - Upstairs,5105,
+100000421,FALSE,Received,5,2/16/59,563287221,ES4,Stacking Room - Upstairs,6600,Nulla ut erat id mauris vulputate elementum.
+100000422,FALSE,Available,17,8/6/89,809076880,NRC,Stacking Room - Ground Level,5867,
+100000423,FALSE,Received,18,7/8/02,632106206,NRC,Stacking Room - Upstairs,990,
+100000424,FALSE,Available,11,4/12/13,987435169,NRC,Stacking Room - Ground Level,3624,
+100000425,FALSE,Available,1,8/18/69,534682182,ES3,Stacking Room - Upstairs,1136,
+100000426,FALSE,Available,12,4/6/73,463043842,NRC,Stacking Room - Upstairs,5278,
+100000427,FALSE,Available,13,8/9/55,335940131,NRC,Stacking Room - Upstairs,5437,
+100000428,FALSE,Available,18,8/30/61,411479792,NRC,Stacking Room - Downstairs,4426,
+100000429,FALSE,In Transit,14,7/16/16,441762745,ES4,Stacking Room - Ground Level,7395,
+100000430,FALSE,Available,18,5/23/97,926554578,NRC,Stacking Room - Upstairs,707,Integer ac leo.
+100000431,FALSE,Available,3,6/4/57,447212755,ES3,Stacking Room - Downstairs,638,
+100000432,FALSE,Available,20,3/24/81,734650449,NRC,Stacking Room - Upstairs,5755,
+100000433,FALSE,In Transit,20,12/17/68,856740696,ES4,Stacking Room - Upstairs,2061,
+100000434,FALSE,Requested,7,4/14/04,210973839,ES4,Stacking Room - Ground Level,6084,Nulla nisl.
+100000435,FALSE,Consolidated,2,2/25/17,977496853,NRC,Stacking Room - Ground Level,3222,
+100000436,FALSE,Requested,11,1/29/13,514381549,ES3,Stacking Room - Ground Level,4598,
+100000437,FALSE,Available,12,11/23/03,587154752,NRC,Stacking Room - Downstairs,3385,
+100000438,FALSE,Received,11,1/15/99,847390285,NRC,Stacking Room - Upstairs,5660,
+100000439,FALSE,Received,17,6/2/89,619888482,NRC,Stacking Room - Upstairs,8996,Maecenas pulvinar lobortis est.
+100000440,FALSE,Available,19,9/26/01,178856772,ES4,Stacking Room - Downstairs,1016,
+100000441,FALSE,Available,7,6/11/73,816744568,ES1,Stacking Room - Downstairs,8040,
+100000442,FALSE,Available,4,10/15/16,670074472,NRC,Stacking Room - Upstairs,4221,
+100000443,FALSE,Requested,13,3/27/94,563352175,NRC,Stacking Room - Upstairs,7975,
+100000444,FALSE,Available,16,3/13/19,161692599,NRC,Stacking Room - Downstairs,8355,
+100000445,FALSE,Available,14,7/9/69,752164810,NRC,Stacking Room - Upstairs,5636,
+100000446,FALSE,Available,6,1/7/83,738417804,ES1,Stacking Room - Upstairs,780,
+100000447,FALSE,Available,18,1/5/55,229999360,NRC,Stacking Room - Downstairs,1465,
+100000448,FALSE,Received,16,4/4/59,744674757,ES1,Stacking Room - Ground Level,7131,Proin eu mi.
+100000449,FALSE,Received,18,2/12/66,960300661,NRC,Stacking Room - Downstairs,6456,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+100000450,FALSE,Requested,2,6/28/12,526651032,NRC,Stacking Room - Downstairs,2699,
+100000451,FALSE,Available,15,9/29/76,649130469,NRC,Stacking Room - Downstairs,1189,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+100000452,FALSE,Available,3,11/21/60,481740153,NRC,Stacking Room - Upstairs,7660,Praesent id massa id nisl venenatis lacinia.
+100000453,FALSE,Available,18,3/16/67,612828158,ES3,Stacking Room - Ground Level,4691,
+100000454,FALSE,Available,17,5/9/16,153692815,ES1,Stacking Room - Ground Level,8864,Aliquam non mauris.
+100000455,FALSE,Available,18,4/13/62,421913004,NRC,Stacking Room - Downstairs,366,
+100000456,FALSE,Available,20,4/10/02,652351930,NRC,Stacking Room - Upstairs,2930,
+100000457,FALSE,Available,5,7/29/90,577242530,ES2,Stacking Room - Downstairs,5151,
+100000458,FALSE,Available,5,8/23/90,869606963,ES3,Stacking Room - Downstairs,1125,
+100000459,FALSE,Available,13,5/23/96,333018774,ES3,Stacking Room - Ground Level,7913,
+100000460,FALSE,Available,6,3/27/06,364415936,NRC,Stacking Room - Upstairs,3434,
+100000461,FALSE,Missing,18,5/4/82,261667555,NRC,Stacking Room - Downstairs,7566,
+100000462,TRUE,Available,8,3/24/64,118860417,ES1,Stacking Room - Upstairs,787,
+100000463,FALSE,Available,8,1/31/63,825700301,NRC,Stacking Room - Ground Level,8856,Suspendisse potenti.
+100000464,FALSE,Received,1,11/8/98,426145669,ES3,Stacking Room - Upstairs,1674,
+100000465,FALSE,Available,6,9/18/55,187086177,ES3,Stacking Room - Upstairs,1588,
+100000466,FALSE,Available,6,11/28/14,116247328,ES4,Stacking Room - Downstairs,84,
+100000467,FALSE,Received,18,1/25/85,237576649,ES1,Stacking Room - Ground Level,8789,
+100000468,FALSE,Received,19,4/1/79,172472730,NRC,Stacking Room - Upstairs,3062,
+100000469,FALSE,In Transit,2,4/4/20,299749031,NRC,Stacking Room - Upstairs,2428,Curabitur convallis.
+100000470,FALSE,Requested,14,6/4/94,218178898,ES1,Stacking Room - Downstairs,3489,
+100000471,FALSE,Requested,4,3/14/94,964777896,NRC,Stacking Room - Downstairs,4614,
+100000472,FALSE,Available,7,4/11/86,394760287,NRC,Stacking Room - Upstairs,9372,Etiam pretium iaculis justo.
+100000473,FALSE,Available,18,10/14/17,444261418,NRC,Stacking Room - Ground Level,2302,
+100000474,TRUE,Available,1,7/1/99,179360527,ES4,Stacking Room - Upstairs,1810,
+100000475,FALSE,Available,8,10/3/82,685604852,ES1,Stacking Room - Downstairs,2955,
+100000476,FALSE,In Transit,11,4/18/17,641965729,NRC,Stacking Room - Ground Level,9098,
+100000477,FALSE,Consolidated,10,9/18/58,784708263,NRC,Stacking Room - Downstairs,3931,
+100000478,FALSE,Available,3,3/26/66,652173419,NRC,Stacking Room - Ground Level,3070,
+100000479,FALSE,Received,3,7/6/66,101135525,NRC,Stacking Room - Upstairs,4671,
+100000480,FALSE,Available,11,3/19/64,567155311,ES4,Stacking Room - Upstairs,7337,
+100000481,FALSE,Available,3,12/25/92,327301706,ES4,Stacking Room - Downstairs,6376,
+100000482,FALSE,Available,3,12/27/99,172258586,ES4,Stacking Room - Ground Level,1060,
+100000483,FALSE,Available,9,3/1/62,216350942,NRC,Stacking Room - Ground Level,3598,
+100000484,FALSE,Available,14,2/18/04,818838898,NRC,Stacking Room - Upstairs,3571,
+100000485,FALSE,Available,1,11/2/86,747400128,ES2,Stacking Room - Upstairs,2886,
+100000486,FALSE,Received,12,3/2/96,667361631,NRC,Stacking Room - Ground Level,9622,
+100000487,FALSE,Available,8,9/15/98,918356157,ES4,Stacking Room - Upstairs,780,Cras pellentesque volutpat dui.
+100000488,FALSE,Available,18,7/2/87,985424189,ES3,Stacking Room - Downstairs,9625,
+100000489,FALSE,Received,18,8/19/75,350226600,NRC,Stacking Room - Ground Level,4631,
+100000490,FALSE,Available,11,1/12/65,589367863,NRC,Stacking Room - Downstairs,2723,
+100000491,FALSE,Digitized,11,12/29/16,574071967,NRC,Stacking Room - Downstairs,1405,
+100000492,FALSE,Received,17,1/10/19,319593546,ES1,Stacking Room - Upstairs,201,
+100000493,FALSE,Available,1,5/17/12,749544097,NRC,Stacking Room - Upstairs,9702,
+100000494,FALSE,Available,5,3/26/82,843057989,NRC,Stacking Room - Upstairs,146,
+100000495,TRUE,Available,17,5/4/68,759053876,NRC,Stacking Room - Downstairs,3168,
+100000496,FALSE,Available,4,2/21/69,288559611,NRC,Stacking Room - Ground Level,900,
+100000497,FALSE,Available,10,4/11/15,924623618,ES3,Stacking Room - Ground Level,4732,
+100000498,FALSE,Available,7,7/24/62,898873384,ES1,Stacking Room - Upstairs,1175,
+100000499,FALSE,Missing,2,4/24/14,980913244,ES4,Stacking Room - Upstairs,9245,
+100000500,FALSE,Available,4,12/29/55,735688283,NRC,Stacking Room - Downstairs,6312,
+100000501,FALSE,Available,2,7/25/90,994390021,ES4,Stacking Room - Ground Level,6784,Vivamus vestibulum sagittis sapien.
+100000502,FALSE,Available,6,1/23/02,979650625,ES1,Stacking Room - Upstairs,7976,
+100000503,TRUE,Received,10,2/19/66,995886381,NRC,Stacking Room - Ground Level,5801,Vivamus vestibulum sagittis sapien.
+100000504,FALSE,Available,15,7/2/11,353958747,NRC,Stacking Room - Upstairs,8708,
+100000505,FALSE,Received,18,9/2/11,545352419,ES1,Stacking Room - Upstairs,7232,Donec posuere metus vitae ipsum.
+100000506,FALSE,Requested,7,1/5/98,851423231,ES4,Stacking Room - Upstairs,3435,
+100000507,FALSE,Available,16,12/8/03,949423539,ES1,Stacking Room - Upstairs,6206,
+100000508,FALSE,Missing,15,1/16/16,692377926,ES1,Stacking Room - Upstairs,9351,Nullam molestie nibh in lectus.
+100000509,FALSE,Available,7,10/15/72,864211636,NRC,Stacking Room - Downstairs,9787,
+100000510,FALSE,Available,19,9/16/13,665942017,NRC,Stacking Room - Ground Level,4723,
+100000511,FALSE,Available,14,7/29/83,804076487,NRC,Stacking Room - Ground Level,2565,
+100000512,FALSE,Available,9,2/24/11,463613157,NRC,Stacking Room - Upstairs,1694,
+100000513,FALSE,Available,9,6/29/99,615444696,NRC,Stacking Room - Ground Level,5697,Maecenas pulvinar lobortis est.
+100000514,FALSE,Available,1,7/5/70,235684309,ES2,Stacking Room - Upstairs,3373,
+100000515,FALSE,Available,12,3/14/20,226033872,ES2,Stacking Room - Upstairs,7828,
+100000516,FALSE,Available,6,10/15/00,454517580,NRC,Stacking Room - Downstairs,2347,
+100000517,TRUE,Available,1,6/14/15,769867591,NRC,Stacking Room - Ground Level,7102,
+100000518,FALSE,Available,7,2/15/08,874254173,NRC,Stacking Room - Downstairs,3420,
+100000519,FALSE,Available,10,5/25/57,323660101,ES3,Stacking Room - Ground Level,6055,
+100000520,FALSE,Available,3,3/1/75,528716151,NRC,Stacking Room - Ground Level,2619,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+100000521,FALSE,Consolidated,16,12/31/86,227434168,NRC,Stacking Room - Downstairs,8319,
+100000522,FALSE,Received,4,1/9/80,772517093,ES2,Stacking Room - Upstairs,3602,
+100000523,FALSE,Available,8,5/2/01,531940228,ES1,Stacking Room - Downstairs,8409,
+100000524,FALSE,Available,13,4/27/89,142990162,ES2,Stacking Room - Downstairs,8971,
+100000525,FALSE,Digitized,11,8/24/79,774099376,NRC,Stacking Room - Ground Level,1801,
+100000526,FALSE,Available,6,11/1/67,921536672,NRC,Stacking Room - Ground Level,2148,
+100000527,TRUE,Available,16,12/6/11,985103267,NRC,Stacking Room - Upstairs,9766,
+100000528,FALSE,Received,17,2/27/60,561101511,ES3,Stacking Room - Upstairs,8297,
+100000529,FALSE,Available,12,8/19/65,799210404,NRC,Stacking Room - Ground Level,193,
+100000530,FALSE,Available,5,12/17/85,709599892,NRC,Stacking Room - Ground Level,5739,
+100000531,FALSE,Available,12,9/23/69,421623244,ES2,Stacking Room - Upstairs,8936,
+100000532,FALSE,Available,1,11/4/95,815528509,NRC,Stacking Room - Ground Level,8128,
+100000533,FALSE,Received,3,2/24/77,722137982,NRC,Stacking Room - Ground Level,9520,
+100000534,FALSE,In Transit,7,9/9/93,517385752,ES4,Stacking Room - Upstairs,2770,Vivamus in felis eu sapien cursus vestibulum.
+100000535,FALSE,Digitized,3,8/16/58,685267349,NRC,Stacking Room - Upstairs,4267,
+100000536,FALSE,Available,17,5/29/82,675205519,NRC,Stacking Room - Upstairs,7562,
+100000537,FALSE,Available,14,2/20/94,533032405,ES2,Stacking Room - Upstairs,6691,
+100000538,FALSE,Available,10,8/9/99,254251333,NRC,Stacking Room - Downstairs,728,
+100000539,FALSE,Available,9,5/16/20,626016544,NRC,Stacking Room - Ground Level,9160,
+100000540,FALSE,Available,16,12/19/58,844105947,ES4,Stacking Room - Upstairs,4861,
+100000541,FALSE,Available,12,7/16/58,827319719,NRC,Stacking Room - Ground Level,7683,
+100000542,FALSE,Available,9,8/21/65,519243531,NRC,Stacking Room - Downstairs,2309,
+100000543,FALSE,Consolidated,7,5/6/00,443911658,ES1,Stacking Room - Upstairs,7206,
+100000544,FALSE,Available,12,10/28/62,431926178,ES1,Stacking Room - Ground Level,3206,
+100000545,FALSE,Available,13,4/16/67,869922540,NRC,Stacking Room - Ground Level,8409,
+100000546,FALSE,In Transit,7,7/9/64,669879186,NRC,Stacking Room - Upstairs,8667,
+100000547,FALSE,Available,5,3/10/57,828385763,NRC,Stacking Room - Ground Level,1185,
+100000548,FALSE,Available,1,8/19/74,672074448,NRC,Stacking Room - Downstairs,9728,
+100000549,FALSE,Available,13,11/19/02,725531241,NRC,Stacking Room - Upstairs,586,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+100000550,FALSE,Requested,3,1/25/09,480751725,NRC,Stacking Room - Downstairs,588,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+100000551,FALSE,Available,8,7/20/62,416132066,NRC,Stacking Room - Downstairs,4986,
+100000552,FALSE,Available,11,10/14/20,291300349,ES3,Stacking Room - Downstairs,7764,
+100000553,FALSE,Received,8,4/9/73,250801109,NRC,Stacking Room - Upstairs,6811,
+100000554,FALSE,Available,11,5/6/86,818753383,ES3,Stacking Room - Downstairs,8370,
+100000555,FALSE,Digitized,10,8/30/94,349689529,NRC,Stacking Room - Upstairs,3922,Proin risus.
+100000556,FALSE,Missing,18,12/9/92,196822907,ES3,Stacking Room - Ground Level,3757,Integer ac leo.
+100000557,FALSE,Available,2,7/16/12,847526463,ES3,Stacking Room - Upstairs,4531,
+100000558,FALSE,Available,1,9/27/16,714600929,ES4,Stacking Room - Downstairs,4308,
+100000559,FALSE,Requested,5,5/13/07,748597264,NRC,Stacking Room - Downstairs,8751,
+100000560,FALSE,Available,9,9/1/63,789445249,ES1,Stacking Room - Ground Level,159,
+100000561,FALSE,Requested,11,9/9/00,533583901,ES1,Stacking Room - Upstairs,3620,
+100000562,FALSE,Requested,17,11/21/85,492485830,NRC,Stacking Room - Downstairs,281,
+100000563,FALSE,Available,2,12/29/84,596953559,ES4,Stacking Room - Ground Level,2453,
+100000564,FALSE,Available,8,4/19/08,497622621,NRC,Stacking Room - Upstairs,3280,
+100000565,FALSE,Available,10,4/25/07,439077340,NRC,Stacking Room - Upstairs,5755,
+100000566,FALSE,Consolidated,13,1/8/01,225296955,NRC,Stacking Room - Downstairs,3372,
+100000567,FALSE,Available,9,10/5/87,872363769,ES4,Stacking Room - Upstairs,334,Pellentesque eget nunc.
+100000568,FALSE,Available,20,1/13/17,873425538,NRC,Stacking Room - Upstairs,1884,
+100000569,FALSE,Digitized,1,11/21/01,371957654,ES3,Stacking Room - Downstairs,5673,
+100000570,FALSE,Missing,16,3/31/05,905995917,NRC,Stacking Room - Upstairs,3996,Donec ut dolor.
+100000571,FALSE,Available,15,5/13/85,761036039,NRC,Stacking Room - Upstairs,3776,
+100000572,FALSE,Available,3,8/15/61,118093776,ES1,Stacking Room - Ground Level,2600,
+100000573,FALSE,Available,16,7/11/85,451068708,ES2,Stacking Room - Upstairs,4691,
+100000574,TRUE,Available,16,6/26/09,241968820,ES4,Stacking Room - Downstairs,6948,
+100000575,FALSE,Consolidated,19,2/2/78,503128138,ES2,Stacking Room - Ground Level,929,
+100000576,FALSE,Available,5,3/31/89,429305054,NRC,Stacking Room - Upstairs,5448,
+100000577,FALSE,Available,11,8/11/97,827113227,ES4,Stacking Room - Downstairs,2409,
+100000578,FALSE,Available,1,2/25/59,401565152,ES2,Stacking Room - Upstairs,6314,
+100000579,FALSE,Available,9,1/4/99,591459503,ES4,Stacking Room - Upstairs,644,
+100000580,FALSE,In Transit,15,2/29/20,337076252,ES1,Stacking Room - Downstairs,6506,Donec posuere metus vitae ipsum.
+100000581,TRUE,Received,7,8/7/04,950933659,ES2,Stacking Room - Upstairs,110,
+100000582,FALSE,Received,20,9/30/83,559885800,ES1,Stacking Room - Downstairs,4856,
+100000583,FALSE,Missing,5,9/26/06,269102560,ES1,Stacking Room - Downstairs,7743,Maecenas ut massa quis augue luctus tincidunt.
+100000584,FALSE,Requested,11,7/11/15,561708429,NRC,Stacking Room - Upstairs,8377,
+100000585,FALSE,Requested,16,8/24/95,826901507,ES1,Stacking Room - Ground Level,1014,
+100000586,FALSE,Available,15,3/10/07,851830810,ES1,Stacking Room - Ground Level,8268,
+100000587,FALSE,Available,19,9/2/56,164633831,ES1,Stacking Room - Downstairs,3762,
+100000588,FALSE,Available,11,3/26/74,441632572,NRC,Stacking Room - Upstairs,2075,
+100000589,FALSE,Digitized,6,1/11/56,563931448,NRC,Stacking Room - Ground Level,851,
+100000590,FALSE,Requested,19,3/8/77,291324464,NRC,Stacking Room - Ground Level,3116,
+100000591,FALSE,Available,20,3/20/55,826557093,ES1,Stacking Room - Upstairs,7753,Duis consequat dui nec nisi volutpat eleifend.
+100000592,TRUE,Received,13,1/15/11,145523427,NRC,Stacking Room - Ground Level,1323,
+100000593,FALSE,Received,15,2/18/04,570383340,NRC,Stacking Room - Upstairs,1396,
+100000594,FALSE,Available,7,8/10/69,561744210,NRC,Stacking Room - Ground Level,6701,
+100000595,FALSE,Missing,17,4/20/03,658388804,ES2,Stacking Room - Downstairs,1527,
+100000596,FALSE,Available,4,11/8/82,496536359,NRC,Stacking Room - Ground Level,2337,
+100000597,FALSE,Available,20,2/8/55,645462741,ES2,Stacking Room - Upstairs,2625,
+100000598,FALSE,Consolidated,20,8/16/93,127022132,ES1,Stacking Room - Upstairs,4132,
+100000599,FALSE,Available,5,5/1/17,836206518,ES4,Stacking Room - Ground Level,6573,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+100000600,FALSE,Available,16,2/7/63,118219112,NRC,Stacking Room - Upstairs,9640,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+100000601,FALSE,Available,9,7/7/91,387249008,ES1,Stacking Room - Upstairs,8225,
+100000602,FALSE,Available,9,7/4/11,445401060,ES1,Stacking Room - Downstairs,5189,
+100000603,FALSE,Available,13,11/1/87,432898546,NRC,Stacking Room - Ground Level,2746,
+100000604,FALSE,Available,13,5/5/81,598897199,NRC,Stacking Room - Upstairs,5700,
+100000605,FALSE,Available,5,3/5/61,578101274,NRC,Stacking Room - Ground Level,7138,
+100000606,FALSE,Digitized,7,12/20/84,778706560,NRC,Stacking Room - Ground Level,7983,Aenean sit amet justo.
+100000607,FALSE,Available,14,10/15/77,371401485,NRC,Stacking Room - Downstairs,5582,
+100000608,FALSE,Requested,11,12/28/60,213772726,NRC,Stacking Room - Downstairs,6174,
+100000609,FALSE,Consolidated,5,10/23/18,164209587,NRC,Stacking Room - Downstairs,8945,Quisque id justo sit amet sapien dignissim vestibulum.
+100000610,FALSE,Consolidated,11,11/24/70,424114700,NRC,Stacking Room - Downstairs,6457,
+100000611,FALSE,Received,15,8/25/95,168616505,NRC,Stacking Room - Downstairs,9028,
+100000612,FALSE,Received,16,8/2/71,370416377,NRC,Stacking Room - Ground Level,5157,Proin interdum mauris non ligula pellentesque ultrices.
+100000613,FALSE,Received,10,2/14/09,940697357,NRC,Stacking Room - Ground Level,1392,
+100000614,FALSE,Available,13,6/4/98,779615712,ES1,Stacking Room - Downstairs,2775,
+100000615,FALSE,Available,12,6/25/68,661914315,ES1,Stacking Room - Downstairs,5936,
+100000616,FALSE,Available,2,3/30/15,207090589,ES3,Stacking Room - Ground Level,9250,
+100000617,FALSE,Received,6,8/2/17,297559461,ES2,Stacking Room - Downstairs,3019,
+100000618,FALSE,Available,10,5/29/09,154541719,NRC,Stacking Room - Ground Level,4269,
+100000619,FALSE,Available,2,2/18/78,713885107,NRC,Stacking Room - Downstairs,3993,
+100000620,FALSE,Available,17,10/30/75,662645011,ES2,Stacking Room - Upstairs,9768,
+100000621,FALSE,Available,3,3/24/98,592148200,ES4,Stacking Room - Ground Level,1058,
+100000622,FALSE,In Transit,2,4/19/56,623548465,NRC,Stacking Room - Ground Level,4836,
+100000623,FALSE,Consolidated,9,2/6/79,136780244,NRC,Stacking Room - Downstairs,2684,
+100000624,FALSE,Available,4,4/28/56,827836910,NRC,Stacking Room - Ground Level,4195,
+100000625,FALSE,Available,20,1/10/06,964297083,NRC,Stacking Room - Ground Level,3624,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+100000626,FALSE,Received,5,4/4/84,272618934,ES3,Stacking Room - Downstairs,7066,Nulla ac enim.
+100000627,FALSE,Available,12,1/3/78,514731845,NRC,Stacking Room - Upstairs,7230,Curabitur convallis.
+100000628,FALSE,Available,7,2/20/91,889038308,NRC,Stacking Room - Downstairs,3580,
+100000629,FALSE,In Transit,18,12/4/90,162130299,NRC,Stacking Room - Ground Level,8247,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+100000630,FALSE,Available,2,5/28/91,254170375,NRC,Stacking Room - Downstairs,4184,
+100000631,FALSE,Available,4,5/1/03,860531973,NRC,Stacking Room - Upstairs,1881,Vivamus tortor.
+100000632,FALSE,Received,3,7/24/66,828151506,NRC,Stacking Room - Upstairs,4010,
+100000633,FALSE,Available,16,3/22/06,561077548,ES4,Stacking Room - Downstairs,7924,
+100000634,FALSE,Available,13,5/7/58,685260965,ES3,Stacking Room - Downstairs,5498,Integer tincidunt ante vel ipsum.
+100000635,FALSE,Requested,5,3/21/89,506989185,ES3,Stacking Room - Ground Level,4906,
+100000636,FALSE,In Transit,20,4/17/85,780549579,NRC,Stacking Room - Upstairs,8056,
+100000637,FALSE,Available,12,1/2/13,511363602,ES2,Stacking Room - Upstairs,2424,
+100000638,FALSE,Requested,19,12/22/90,452966948,NRC,Stacking Room - Ground Level,1448,Donec vitae nisi.
+100000639,FALSE,In Transit,18,1/9/98,155014839,ES1,Stacking Room - Ground Level,1311,
+100000640,FALSE,Available,17,7/20/90,797039080,ES1,Stacking Room - Downstairs,4789,
+100000641,FALSE,Available,7,9/3/93,100853642,NRC,Stacking Room - Upstairs,2013,
+100000642,FALSE,Available,11,12/19/69,454892438,ES1,Stacking Room - Ground Level,8116,Nam dui.
+100000643,TRUE,Available,17,7/6/61,423528843,ES1,Stacking Room - Ground Level,8399,
+100000644,FALSE,Requested,7,11/3/86,693070896,NRC,Stacking Room - Ground Level,9546,Morbi non lectus.
+100000645,FALSE,Available,11,3/13/62,413455916,NRC,Stacking Room - Downstairs,724,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+100000646,FALSE,Available,6,10/17/84,764882337,ES1,Stacking Room - Upstairs,1679,Praesent blandit lacinia erat.
+100000647,TRUE,Available,8,6/3/63,172647155,NRC,Stacking Room - Downstairs,4712,
+100000648,TRUE,Available,18,6/23/14,836471925,NRC,Stacking Room - Ground Level,7862,
+100000649,FALSE,Available,20,6/9/00,298386308,NRC,Stacking Room - Upstairs,6766,
+100000650,FALSE,Consolidated,18,11/29/77,764544247,ES1,Stacking Room - Ground Level,9605,
+100000651,FALSE,Available,10,10/1/15,912671519,NRC,Stacking Room - Upstairs,6867,
+100000652,FALSE,Available,9,6/4/72,213776117,NRC,Stacking Room - Ground Level,7701,
+100000653,FALSE,Available,3,11/1/94,336646077,ES4,Stacking Room - Downstairs,7718,
+100000654,FALSE,Received,12,1/9/75,705601720,ES3,Stacking Room - Upstairs,6927,Morbi non quam nec dui luctus rutrum.
+100000655,FALSE,In Transit,12,4/11/83,941305322,NRC,Stacking Room - Upstairs,4768,
+100000656,FALSE,Available,9,5/26/98,484640413,NRC,Stacking Room - Downstairs,8964,
+100000657,FALSE,Received,18,2/26/01,838283346,ES2,Stacking Room - Downstairs,2674,
+100000658,FALSE,Available,20,5/25/87,880102091,NRC,Stacking Room - Downstairs,5311,
+100000659,FALSE,Available,9,10/22/92,554948409,NRC,Stacking Room - Ground Level,8501,
+100000660,TRUE,Available,6,10/10/05,538790910,NRC,Stacking Room - Downstairs,8913,
+100000661,FALSE,Available,17,5/15/60,203546508,NRC,Stacking Room - Upstairs,6223,Nulla ut erat id mauris vulputate elementum.
+100000662,FALSE,Available,8,2/3/77,464243244,NRC,Stacking Room - Downstairs,9833,
+100000663,FALSE,Requested,3,1/15/16,787535938,NRC,Stacking Room - Downstairs,9284,
+100000664,FALSE,Available,9,5/23/19,410447925,ES1,Stacking Room - Downstairs,9006,
+100000665,FALSE,Available,7,3/16/00,445904156,ES4,Stacking Room - Ground Level,3519,
+100000666,FALSE,Received,6,3/21/20,841944704,ES1,Stacking Room - Ground Level,7061,
+100000667,FALSE,Available,11,2/1/62,913297862,ES3,Stacking Room - Downstairs,8122,
+100000668,FALSE,Available,11,1/9/96,620660101,NRC,Stacking Room - Upstairs,9391,
+100000669,FALSE,Available,15,6/19/07,988635661,ES2,Stacking Room - Downstairs,7175,
+100000670,FALSE,Available,11,12/23/61,839013058,ES2,Stacking Room - Ground Level,7645,
+100000671,FALSE,Available,4,6/17/04,201824143,ES3,Stacking Room - Downstairs,6975,
+100000672,FALSE,Available,15,4/10/98,372485926,NRC,Stacking Room - Ground Level,3923,
+100000673,FALSE,Requested,2,11/11/89,609667798,ES4,Stacking Room - Ground Level,7006,
+100000674,FALSE,Available,10,2/4/72,722759158,NRC,Stacking Room - Ground Level,562,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+100000675,FALSE,Available,2,12/10/67,796957964,NRC,Stacking Room - Downstairs,6294,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+100000676,FALSE,Available,8,3/29/18,633428343,NRC,Stacking Room - Downstairs,4999,
+100000677,FALSE,Available,18,8/24/69,264465476,ES2,Stacking Room - Ground Level,2698,
+100000678,FALSE,Available,6,6/2/19,171795140,NRC,Stacking Room - Downstairs,5679,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+100000679,FALSE,Available,20,9/16/94,395864294,ES2,Stacking Room - Downstairs,9334,
+100000680,FALSE,Digitized,15,6/4/80,589982252,NRC,Stacking Room - Downstairs,8390,
+100000681,FALSE,Available,12,3/27/14,301275546,ES4,Stacking Room - Ground Level,8303,
+100000682,FALSE,Available,3,5/6/55,564535775,NRC,Stacking Room - Upstairs,3853,
+100000683,FALSE,Available,6,3/5/64,112628277,ES3,Stacking Room - Upstairs,736,
+100000684,FALSE,Available,12,11/11/86,863687290,NRC,Stacking Room - Downstairs,6571,Nam tristique tortor eu pede.
+100000685,FALSE,Available,1,1/28/92,761512425,ES1,Stacking Room - Downstairs,4938,
+100000686,FALSE,Available,2,9/27/70,143892925,NRC,Stacking Room - Ground Level,2117,
+100000687,FALSE,Available,5,8/22/06,379413572,ES4,Stacking Room - Upstairs,926,
+100000688,TRUE,Available,4,6/7/18,716729352,ES1,Stacking Room - Downstairs,7945,
+100000689,FALSE,In Transit,12,9/8/61,262489009,NRC,Stacking Room - Ground Level,3194,
+100000690,FALSE,In Transit,18,9/4/74,593282729,NRC,Stacking Room - Downstairs,9749,
+100000691,FALSE,Available,5,9/8/83,139959981,ES4,Stacking Room - Upstairs,5619,
+100000692,FALSE,Available,16,10/22/62,271055735,ES2,Stacking Room - Upstairs,8621,
+100000693,FALSE,Received,12,7/8/06,565710740,ES2,Stacking Room - Downstairs,8856,
+100000694,FALSE,In Transit,2,12/4/11,507797524,ES1,Stacking Room - Downstairs,9430,Suspendisse potenti.
+100000695,FALSE,Available,9,5/3/11,682266847,NRC,Stacking Room - Ground Level,741,
+100000696,FALSE,Consolidated,3,5/17/09,338051850,ES3,Stacking Room - Ground Level,7100,
+100000697,FALSE,Received,20,1/13/64,971069072,NRC,Stacking Room - Upstairs,5629,
+100000698,FALSE,Available,11,10/9/62,409660033,NRC,Stacking Room - Downstairs,1701,
+100000699,FALSE,Requested,7,9/15/93,601574750,NRC,Stacking Room - Upstairs,359,
+100000700,FALSE,Available,8,8/4/56,680656304,ES3,Stacking Room - Upstairs,9717,
+100000701,FALSE,Available,19,7/30/79,956930979,NRC,Stacking Room - Ground Level,5011,Sed ante.
+100000702,FALSE,Available,7,3/18/88,495621028,NRC,Stacking Room - Downstairs,6933,Sed accumsan felis.
+100000703,FALSE,Available,20,9/4/92,742087088,NRC,Stacking Room - Ground Level,2818,Nunc rhoncus dui vel sem.
+100000704,FALSE,Available,9,5/18/10,828847461,NRC,Stacking Room - Downstairs,6669,
+100000705,FALSE,Available,15,4/24/02,334420531,ES3,Stacking Room - Upstairs,5404,
+100000706,FALSE,Available,12,1/12/12,806164991,ES2,Stacking Room - Downstairs,342,
+100000707,FALSE,Available,20,7/6/20,277941371,NRC,Stacking Room - Downstairs,4158,Cras non velit nec nisi vulputate nonummy.
+100000708,FALSE,Received,4,1/21/91,770999556,ES1,Stacking Room - Upstairs,5492,
+100000709,FALSE,In Transit,7,3/26/00,419100650,NRC,Stacking Room - Ground Level,9177,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+100000710,FALSE,In Transit,8,9/16/61,512313196,ES3,Stacking Room - Upstairs,9419,
+100000711,FALSE,Available,18,7/27/14,535473067,NRC,Stacking Room - Ground Level,6558,
+100000712,FALSE,Available,3,12/31/99,332212673,NRC,Stacking Room - Upstairs,4796,
+100000713,FALSE,Available,1,5/8/85,685465551,ES3,Stacking Room - Upstairs,2158,
+100000714,FALSE,Available,4,6/21/05,427578752,ES2,Stacking Room - Ground Level,1008,
+100000715,FALSE,Received,1,7/19/63,422043941,NRC,Stacking Room - Upstairs,9059,Morbi non quam nec dui luctus rutrum.
+100000716,FALSE,Available,1,11/14/94,980587288,ES3,Stacking Room - Downstairs,7747,
+100000717,FALSE,Consolidated,14,4/1/63,876621163,NRC,Stacking Room - Ground Level,1507,
+100000718,FALSE,Requested,9,11/23/55,846158061,ES1,Stacking Room - Ground Level,4123,
+100000719,FALSE,Available,4,2/17/71,571797251,NRC,Stacking Room - Upstairs,8426,
+100000720,FALSE,Available,6,4/29/66,325858025,NRC,Stacking Room - Ground Level,2033,
+100000721,FALSE,Available,16,1/17/90,839615143,NRC,Stacking Room - Upstairs,6696,Nullam sit amet turpis elementum ligula vehicula consequat.
+100000722,FALSE,Missing,10,1/29/68,836416091,NRC,Stacking Room - Ground Level,3863,
+100000723,FALSE,Available,13,8/25/91,168332305,NRC,Stacking Room - Upstairs,9510,
+100000724,FALSE,Available,17,12/8/68,819451540,ES2,Stacking Room - Downstairs,5352,
+100000725,FALSE,Available,17,4/20/17,366387570,ES3,Stacking Room - Upstairs,7216,
+100000726,FALSE,Available,8,10/28/70,949126580,ES4,Stacking Room - Upstairs,5535,
+100000727,FALSE,Available,12,1/5/66,728469894,ES2,Stacking Room - Ground Level,7857,
+100000728,FALSE,Available,10,12/18/72,136214560,NRC,Stacking Room - Downstairs,2963,
+100000729,FALSE,Received,12,7/19/79,155798682,ES1,Stacking Room - Ground Level,2405,
+100000730,FALSE,Available,1,4/26/63,670987632,ES1,Stacking Room - Downstairs,8869,
+100000731,FALSE,Requested,10,7/14/95,927910245,NRC,Stacking Room - Upstairs,2534,
+100000732,FALSE,Available,16,4/26/69,701479576,NRC,Stacking Room - Ground Level,9855,
+100000733,FALSE,Requested,4,4/3/07,418192218,NRC,Stacking Room - Downstairs,4046,
+100000734,FALSE,Received,10,12/30/00,590843055,NRC,Stacking Room - Downstairs,4382,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+100000735,FALSE,Consolidated,10,1/19/61,862819994,NRC,Stacking Room - Ground Level,4820,
+100000736,FALSE,Requested,4,4/18/15,167602332,NRC,Stacking Room - Downstairs,7679,
+100000737,FALSE,Available,5,7/16/55,623479798,NRC,Stacking Room - Upstairs,1809,
+100000738,FALSE,Available,4,7/21/79,615257525,NRC,Stacking Room - Downstairs,2803,
+100000739,FALSE,Available,19,10/19/03,932968239,ES4,Stacking Room - Upstairs,6653,
+100000740,FALSE,In Transit,18,8/24/13,445581260,ES4,Stacking Room - Downstairs,1486,
+100000741,FALSE,Available,10,1/18/88,359273693,ES4,Stacking Room - Ground Level,4423,Aenean sit amet justo.
+100000742,FALSE,Digitized,8,2/6/83,362682546,NRC,Stacking Room - Ground Level,9761,
+100000743,FALSE,Available,4,12/29/08,642130024,NRC,Stacking Room - Downstairs,9161,
+100000744,FALSE,Available,2,3/20/55,710202376,NRC,Stacking Room - Ground Level,3745,
+100000745,FALSE,Available,4,11/1/12,923826450,NRC,Stacking Room - Ground Level,5364,
+100000746,FALSE,Available,19,7/26/98,418536144,ES2,Stacking Room - Ground Level,8220,
+100000747,FALSE,Received,7,10/6/13,747781077,NRC,Stacking Room - Ground Level,6876,
+100000748,FALSE,Available,3,2/4/09,755638774,NRC,Stacking Room - Ground Level,7083,
+100000749,FALSE,Available,8,5/2/60,213397981,NRC,Stacking Room - Ground Level,6806,
+100000750,FALSE,Available,17,11/20/75,231022472,NRC,Stacking Room - Upstairs,7815,
+100000751,FALSE,Consolidated,12,7/13/63,949956262,NRC,Stacking Room - Downstairs,3892,
+100000752,FALSE,Available,6,6/28/19,919640682,NRC,Stacking Room - Downstairs,533,
+100000753,FALSE,Available,2,9/16/90,187339978,ES4,Stacking Room - Upstairs,1805,
+100000754,TRUE,Available,9,8/2/13,964216879,NRC,Stacking Room - Ground Level,9035,Vivamus in felis eu sapien cursus vestibulum.
+100000755,FALSE,Available,14,10/11/08,119988939,NRC,Stacking Room - Ground Level,2232,Proin at turpis a pede posuere nonummy.
+100000756,FALSE,Missing,9,7/18/08,711815524,NRC,Stacking Room - Upstairs,4180,Nulla suscipit ligula in lacus.
+100000757,FALSE,Digitized,3,3/4/16,936570260,ES2,Stacking Room - Downstairs,8543,
+100000758,FALSE,Received,11,6/18/57,294244425,ES2,Stacking Room - Ground Level,7138,
+100000759,FALSE,Available,14,1/26/91,552105198,NRC,Stacking Room - Ground Level,1009,Nam tristique tortor eu pede.
+100000760,FALSE,Available,20,5/19/78,876341737,ES3,Stacking Room - Upstairs,2820,
+100000761,FALSE,Received,16,5/20/68,960316351,NRC,Stacking Room - Upstairs,5044,
+100000762,FALSE,Available,2,8/28/99,351571152,NRC,Stacking Room - Upstairs,7954,
+100000763,FALSE,Available,4,12/30/55,959583571,ES1,Stacking Room - Upstairs,1451,
+100000764,FALSE,Available,17,9/1/06,411946658,ES1,Stacking Room - Downstairs,9585,
+100000765,FALSE,Available,15,4/9/76,617249320,ES3,Stacking Room - Upstairs,5838,
+100000766,FALSE,In Transit,6,7/6/18,917780859,ES1,Stacking Room - Downstairs,1377,Vivamus in felis eu sapien cursus vestibulum.
+100000767,FALSE,Received,13,4/14/97,976722961,NRC,Stacking Room - Upstairs,4192,
+100000768,FALSE,Available,17,4/10/57,782608037,NRC,Stacking Room - Downstairs,8641,
+100000769,FALSE,Available,12,2/10/82,349430098,NRC,Stacking Room - Downstairs,5504,
+100000770,FALSE,Available,1,12/30/91,571289842,NRC,Stacking Room - Upstairs,9810,
+100000771,FALSE,Available,18,3/22/86,997854097,NRC,Stacking Room - Ground Level,6942,Donec dapibus.
+100000772,FALSE,Received,11,3/27/78,358560649,ES3,Stacking Room - Downstairs,8403,
+100000773,FALSE,Available,12,1/18/05,975345783,NRC,Stacking Room - Upstairs,2502,
+100000774,FALSE,Requested,10,7/22/65,667855507,NRC,Stacking Room - Upstairs,8667,
+100000775,FALSE,Digitized,6,9/7/05,609291088,NRC,Stacking Room - Ground Level,9433,
+100000776,FALSE,In Transit,8,1/27/58,251521960,ES4,Stacking Room - Upstairs,9995,
+100000777,FALSE,In Transit,14,4/23/72,818040076,NRC,Stacking Room - Upstairs,6936,
+100000778,FALSE,Received,16,12/28/94,572344271,NRC,Stacking Room - Ground Level,2448,
+100000779,FALSE,Available,10,11/2/55,209093465,ES4,Stacking Room - Ground Level,8377,
+100000780,FALSE,Available,19,1/15/14,512247853,NRC,Stacking Room - Ground Level,2209,Curabitur gravida nisi at nibh.
+100000781,FALSE,Available,9,1/20/07,199857525,ES4,Stacking Room - Ground Level,6434,
+100000782,FALSE,Available,12,12/10/01,633707795,ES4,Stacking Room - Upstairs,8966,
+100000783,FALSE,Available,4,6/20/15,155389010,ES4,Stacking Room - Downstairs,8630,
+100000784,FALSE,Available,12,1/4/76,544671698,ES1,Stacking Room - Upstairs,6641,Nam nulla.
+100000785,FALSE,Consolidated,20,1/4/76,840830760,NRC,Stacking Room - Ground Level,5957,
+100000786,FALSE,In Transit,20,3/23/61,880654054,ES2,Stacking Room - Ground Level,8292,
+100000787,FALSE,Received,19,11/14/11,484374212,NRC,Stacking Room - Ground Level,8127,
+100000788,TRUE,Available,16,4/27/79,985624232,NRC,Stacking Room - Upstairs,9700,
+100000789,FALSE,Available,3,2/18/13,490665946,ES3,Stacking Room - Ground Level,3096,
+100000790,FALSE,Available,18,9/7/61,706359915,NRC,Stacking Room - Upstairs,6607,
+100000791,FALSE,Available,10,8/26/09,391219374,ES3,Stacking Room - Ground Level,9472,Morbi ut odio.
+100000792,FALSE,Available,12,2/17/96,725475185,NRC,Stacking Room - Ground Level,8269,Vestibulum ac est lacinia nisi venenatis tristique.
+100000793,TRUE,Available,11,1/8/70,781186401,NRC,Stacking Room - Downstairs,2339,
+100000794,FALSE,Received,6,8/17/73,932171483,NRC,Stacking Room - Upstairs,8111,
+100000795,FALSE,Available,12,3/14/83,986443917,NRC,Stacking Room - Downstairs,1735,
+100000796,FALSE,Requested,19,2/23/64,675446164,ES2,Stacking Room - Upstairs,3042,
+100000797,FALSE,Available,13,9/27/04,691774898,NRC,Stacking Room - Upstairs,4244,
+100000798,FALSE,Available,9,4/26/87,445383705,NRC,Stacking Room - Upstairs,8901,
+100000799,FALSE,Available,2,5/15/70,203899882,NRC,Stacking Room - Upstairs,8254,
+100000800,FALSE,Available,20,3/16/75,867812568,ES3,Stacking Room - Downstairs,698,
+100000801,FALSE,In Transit,5,4/4/73,566298128,NRC,Stacking Room - Downstairs,4626,
+100000802,FALSE,Available,19,8/20/83,812877974,ES2,Stacking Room - Ground Level,4900,
+100000803,FALSE,In Transit,2,11/16/87,519102319,NRC,Stacking Room - Upstairs,2595,Integer non velit.
+100000804,FALSE,Available,8,5/27/80,455622127,ES3,Stacking Room - Ground Level,7648,
+100000805,FALSE,Available,3,2/8/07,678947792,NRC,Stacking Room - Upstairs,6628,
+100000806,FALSE,Available,10,3/30/58,133106230,ES1,Stacking Room - Upstairs,5041,Duis aliquam convallis nunc.
+100000807,TRUE,Available,3,8/2/92,286494350,ES1,Stacking Room - Upstairs,4424,
+100000808,FALSE,Requested,3,10/6/93,336861815,ES1,Stacking Room - Downstairs,2341,Donec vitae nisi.
+100000809,FALSE,Requested,1,2/27/01,966502044,ES4,Stacking Room - Ground Level,5626,
+100000810,FALSE,Available,13,10/8/06,562442838,NRC,Stacking Room - Ground Level,3745,
+100000811,FALSE,In Transit,9,12/25/67,943397163,NRC,Stacking Room - Downstairs,1573,
+100000812,FALSE,Available,8,6/8/01,821032135,NRC,Stacking Room - Downstairs,6783,
+100000813,FALSE,Available,16,11/17/09,314342905,NRC,Stacking Room - Downstairs,312,
+100000814,FALSE,Digitized,16,4/20/85,898533076,ES1,Stacking Room - Ground Level,4872,
+100000815,FALSE,Available,19,3/26/57,500511098,NRC,Stacking Room - Upstairs,3212,In blandit ultrices enim.
+100000816,FALSE,Available,17,2/10/08,425273907,NRC,Stacking Room - Ground Level,1683,
+100000817,FALSE,Missing,2,11/11/97,800921631,NRC,Stacking Room - Upstairs,2336,Pellentesque viverra pede ac diam.
+100000818,FALSE,Available,5,2/12/62,822745360,NRC,Stacking Room - Ground Level,8596,
+100000819,FALSE,Available,14,7/1/17,720528951,ES4,Stacking Room - Ground Level,8792,
+100000820,FALSE,Received,20,3/21/74,498958420,ES3,Stacking Room - Downstairs,3297,
+100000821,FALSE,Available,10,4/16/83,429212970,ES1,Stacking Room - Upstairs,6577,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+100000822,FALSE,Available,8,6/24/14,563323538,ES3,Stacking Room - Ground Level,2297,
+100000823,FALSE,Available,18,7/9/91,629524722,ES2,Stacking Room - Ground Level,8951,
+100000824,FALSE,Available,16,11/30/11,211750018,ES2,Stacking Room - Ground Level,3748,
+100000825,FALSE,Available,8,7/10/78,167901253,NRC,Stacking Room - Downstairs,4497,
+100000826,FALSE,Available,13,10/11/74,947155268,NRC,Stacking Room - Upstairs,4432,Suspendisse potenti.
+100000827,FALSE,Received,10,3/23/91,473058198,ES1,Stacking Room - Ground Level,9264,
+100000828,FALSE,Available,7,3/13/13,297479170,ES2,Stacking Room - Ground Level,9661,
+100000829,FALSE,Available,19,5/7/59,845989470,NRC,Stacking Room - Ground Level,5594,
+100000830,FALSE,Available,16,7/6/00,579082464,NRC,Stacking Room - Upstairs,2619,
+100000831,FALSE,Available,11,1/2/16,223019993,ES4,Stacking Room - Upstairs,3765,
+100000832,TRUE,Available,16,8/17/00,206462269,NRC,Stacking Room - Upstairs,1329,
+100000833,FALSE,In Transit,19,4/15/55,864266712,NRC,Stacking Room - Downstairs,9429,
+100000834,FALSE,In Transit,8,1/30/20,693979661,NRC,Stacking Room - Upstairs,6572,
+100000835,FALSE,Available,6,5/12/70,675235495,NRC,Stacking Room - Upstairs,8083,
+100000836,FALSE,Available,4,6/5/94,583646787,ES2,Stacking Room - Ground Level,8230,
+100000837,FALSE,Available,10,3/13/82,649379016,ES1,Stacking Room - Downstairs,5875,Vivamus in felis eu sapien cursus vestibulum.
+100000838,TRUE,Available,10,2/28/59,290837155,ES3,Stacking Room - Ground Level,2783,Integer ac leo.
+100000839,FALSE,Digitized,14,8/8/14,690400305,NRC,Stacking Room - Downstairs,7727,
+100000840,FALSE,Received,3,3/10/70,552744921,NRC,Stacking Room - Ground Level,1778,Integer non velit.
+100000841,FALSE,Available,2,6/26/55,601481351,ES4,Stacking Room - Downstairs,3153,
+100000842,FALSE,Digitized,4,5/31/15,474332934,NRC,Stacking Room - Downstairs,3501,
+100000843,TRUE,Available,20,7/20/64,350605198,ES2,Stacking Room - Ground Level,5424,
+100000844,FALSE,Available,11,2/18/01,977775286,NRC,Stacking Room - Downstairs,247,Nunc rhoncus dui vel sem.
+100000845,FALSE,Available,11,6/27/84,712254172,NRC,Stacking Room - Ground Level,4916,
+100000846,FALSE,Available,3,11/6/75,824051957,ES1,Stacking Room - Upstairs,9103,
+100000847,FALSE,Requested,3,9/17/20,435630492,NRC,Stacking Room - Ground Level,8287,
+100000848,FALSE,Available,10,5/26/04,365309966,NRC,Stacking Room - Upstairs,1669,
+100000849,FALSE,Received,17,10/19/10,397178562,NRC,Stacking Room - Downstairs,1665,
+100000850,TRUE,Available,7,10/23/16,860732521,NRC,Stacking Room - Upstairs,278,
+100000851,FALSE,Available,1,1/14/14,485805411,ES2,Stacking Room - Ground Level,9098,
+100000852,FALSE,Available,1,6/2/09,136408478,ES4,Stacking Room - Upstairs,7955,
+100000853,FALSE,Requested,9,6/10/12,615594572,NRC,Stacking Room - Upstairs,8649,
+100000854,FALSE,Missing,14,12/8/60,543303935,NRC,Stacking Room - Ground Level,1439,Phasellus id sapien in sapien iaculis congue.
+100000855,FALSE,Available,2,6/6/90,676728360,NRC,Stacking Room - Ground Level,9683,
+100000856,FALSE,Available,7,2/17/08,615020631,NRC,Stacking Room - Downstairs,4465,
+100000857,FALSE,In Transit,2,1/31/95,995786787,NRC,Stacking Room - Upstairs,6770,Nulla suscipit ligula in lacus.
+100000858,FALSE,Available,17,9/12/16,924899871,ES1,Stacking Room - Upstairs,8096,
+100000859,FALSE,Available,18,1/15/74,703089869,ES3,Stacking Room - Downstairs,8091,
+100000860,FALSE,Requested,7,9/29/75,193021053,NRC,Stacking Room - Downstairs,5201,
+100000861,FALSE,Available,9,11/9/92,698596131,ES2,Stacking Room - Ground Level,1427,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+100000862,FALSE,Requested,6,12/19/82,463202257,ES4,Stacking Room - Ground Level,5446,
+100000863,FALSE,Available,5,4/10/75,269185873,ES3,Stacking Room - Upstairs,1865,
+100000864,FALSE,Available,9,4/29/14,788348940,NRC,Stacking Room - Upstairs,3887,
+100000865,FALSE,Consolidated,18,12/11/87,453876512,NRC,Stacking Room - Downstairs,7055,
+100000866,FALSE,Available,1,7/9/68,875071744,ES1,Stacking Room - Downstairs,5130,
+100000867,FALSE,Available,4,11/6/87,470022466,NRC,Stacking Room - Upstairs,1013,
+100000868,TRUE,Available,12,3/20/85,959744117,NRC,Stacking Room - Downstairs,8781,
+100000869,FALSE,Requested,9,12/14/68,960282611,NRC,Stacking Room - Upstairs,2856,Donec ut dolor.
+100000870,FALSE,Received,19,11/19/92,575344855,ES2,Stacking Room - Ground Level,6119,
+100000871,FALSE,Available,19,2/18/83,967153491,NRC,Stacking Room - Downstairs,1665,
+100000872,FALSE,Available,3,8/1/79,258689001,ES4,Stacking Room - Upstairs,5524,
+100000873,FALSE,Available,11,5/12/01,853076495,ES1,Stacking Room - Upstairs,1615,
+100000874,TRUE,Requested,3,12/13/00,597664245,ES1,Stacking Room - Ground Level,4317,
+100000875,TRUE,Digitized,14,5/8/88,538774506,ES1,Stacking Room - Upstairs,2429,
+100000876,FALSE,Available,8,10/13/20,372313865,ES1,Stacking Room - Ground Level,2841,
+100000877,FALSE,Requested,12,11/8/17,505144755,NRC,Stacking Room - Upstairs,4153,In hac habitasse platea dictumst.
+100000878,FALSE,Available,11,1/22/16,367061329,NRC,Stacking Room - Downstairs,4329,
+100000879,FALSE,Available,10,1/31/64,287511089,NRC,Stacking Room - Downstairs,1561,
+100000880,FALSE,Consolidated,6,7/15/98,137213781,NRC,Stacking Room - Downstairs,6889,
+100000881,FALSE,Available,16,9/4/92,871740832,NRC,Stacking Room - Upstairs,8170,
+100000882,FALSE,In Transit,9,6/14/12,749099387,ES3,Stacking Room - Downstairs,3320,
+100000883,FALSE,Available,3,1/13/66,822879827,ES2,Stacking Room - Downstairs,7302,
+100000884,FALSE,Received,9,4/27/56,733201777,ES4,Stacking Room - Downstairs,9770,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+100000885,FALSE,Available,2,9/3/55,363939336,NRC,Stacking Room - Downstairs,1560,Nulla nisl.
+100000886,FALSE,Available,10,3/15/13,275404206,NRC,Stacking Room - Downstairs,4619,
+100000887,FALSE,Available,11,3/11/80,395829585,ES4,Stacking Room - Ground Level,9850,
+100000888,FALSE,In Transit,17,6/3/58,559063831,NRC,Stacking Room - Downstairs,4384,
+100000889,FALSE,Received,3,1/29/77,175878603,ES1,Stacking Room - Downstairs,751,
+100000890,TRUE,Available,1,12/29/99,106757567,NRC,Stacking Room - Ground Level,4801,
+100000891,FALSE,Available,11,6/9/89,907486544,ES1,Stacking Room - Upstairs,4205,Nam dui.
+100000892,FALSE,Available,18,3/2/16,358915894,ES1,Stacking Room - Ground Level,8847,
+100000893,FALSE,Available,3,1/6/85,799596792,NRC,Stacking Room - Downstairs,175,
+100000894,FALSE,Missing,3,8/27/57,832157972,NRC,Stacking Room - Ground Level,8828,
+100000895,FALSE,Consolidated,10,3/29/56,661201299,NRC,Stacking Room - Ground Level,9335,
+100000896,FALSE,Available,16,7/7/97,404115793,NRC,Stacking Room - Ground Level,6875,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+100000897,FALSE,Requested,8,3/18/73,832366899,NRC,Stacking Room - Ground Level,4842,
+100000898,FALSE,Available,10,3/3/03,740401337,ES3,Stacking Room - Upstairs,4682,
+100000899,FALSE,Received,16,9/10/75,545807404,NRC,Stacking Room - Upstairs,1258,Cras non velit nec nisi vulputate nonummy.
+100000900,FALSE,Available,14,9/27/85,572866573,NRC,Stacking Room - Ground Level,3008,
+100000901,FALSE,Requested,1,12/14/83,261956872,ES4,Stacking Room - Ground Level,4348,
+100000902,FALSE,Available,8,3/9/88,127199465,ES4,Stacking Room - Downstairs,2670,
+100000903,FALSE,Available,13,5/13/91,310827421,NRC,Stacking Room - Downstairs,2046,
+100000904,FALSE,Available,2,12/29/14,276959582,NRC,Stacking Room - Upstairs,7076,
+100000905,FALSE,Available,17,7/22/04,620316455,NRC,Stacking Room - Upstairs,7077,
+100000906,FALSE,Available,9,2/8/79,346272628,NRC,Stacking Room - Downstairs,920,Proin eu mi.
+100000907,FALSE,Available,8,7/11/64,643873352,NRC,Stacking Room - Downstairs,2150,
+100000908,FALSE,Available,13,8/24/59,681557398,ES4,Stacking Room - Downstairs,8577,
+100000909,FALSE,Consolidated,9,8/18/67,100813855,ES1,Stacking Room - Downstairs,2886,Vivamus in felis eu sapien cursus vestibulum.
+100000910,FALSE,Requested,9,2/16/84,208817992,NRC,Stacking Room - Upstairs,5253,Pellentesque ultrices mattis odio.
+100000911,FALSE,Available,7,5/18/03,633420035,ES3,Stacking Room - Upstairs,351,
+100000912,FALSE,Available,12,1/4/58,956748747,ES4,Stacking Room - Upstairs,2988,
+100000913,FALSE,Available,14,8/18/09,904631199,ES4,Stacking Room - Ground Level,5016,In eleifend quam a odio.
+100000914,FALSE,Received,8,11/17/99,487733871,ES1,Stacking Room - Ground Level,5181,
+100000915,FALSE,Available,9,1/12/80,155301608,NRC,Stacking Room - Upstairs,2398,
+100000916,FALSE,Requested,17,12/5/12,534035879,NRC,Stacking Room - Upstairs,6654,
+100000917,FALSE,Available,4,8/28/85,376672835,NRC,Stacking Room - Ground Level,8801,
+100000918,FALSE,Available,8,1/18/74,298718065,ES1,Stacking Room - Upstairs,1653,
+100000919,FALSE,Received,10,9/2/92,445482206,ES3,Stacking Room - Upstairs,2735,
+100000920,FALSE,Available,18,1/3/74,611361104,NRC,Stacking Room - Upstairs,9372,
+100000921,FALSE,Requested,5,1/4/58,691666528,NRC,Stacking Room - Ground Level,6576,
+100000922,FALSE,Available,12,1/28/09,737941610,ES1,Stacking Room - Downstairs,2601,
+100000923,FALSE,Available,10,9/27/57,232752270,ES4,Stacking Room - Ground Level,3089,
+100000924,FALSE,Available,7,8/2/77,559287250,NRC,Stacking Room - Ground Level,5710,
+100000925,FALSE,Available,20,6/2/83,178944220,NRC,Stacking Room - Ground Level,212,Sed vel enim sit amet nunc viverra dapibus.
+100000926,FALSE,In Transit,11,8/31/83,573217738,NRC,Stacking Room - Ground Level,6542,
+100000927,FALSE,In Transit,5,1/23/95,683047333,NRC,Stacking Room - Ground Level,6864,Sed vel enim sit amet nunc viverra dapibus.
+100000928,FALSE,Available,5,10/23/71,852495154,NRC,Stacking Room - Upstairs,8234,Phasellus in felis.
+100000929,FALSE,Digitized,20,4/30/97,343072941,NRC,Stacking Room - Ground Level,470,
+100000930,FALSE,Consolidated,17,9/6/18,912949508,NRC,Stacking Room - Upstairs,6518,
+100000931,FALSE,Available,7,4/5/11,772341235,ES2,Stacking Room - Downstairs,9668,
+100000932,FALSE,Received,10,6/12/69,812914853,ES4,Stacking Room - Upstairs,2253,
+100000933,FALSE,Available,5,2/23/58,905113686,NRC,Stacking Room - Ground Level,9861,
+100000934,FALSE,Available,15,9/21/65,740198888,NRC,Stacking Room - Downstairs,6965,
+100000935,FALSE,Digitized,9,7/5/16,360123356,ES2,Stacking Room - Ground Level,4001,Sed ante.
+100000936,FALSE,Missing,8,4/11/65,509418696,ES4,Stacking Room - Downstairs,1400,Donec semper sapien a libero.
+100000937,FALSE,Available,14,2/14/67,300717439,NRC,Stacking Room - Downstairs,5525,Nulla suscipit ligula in lacus.
+100000938,FALSE,In Transit,3,4/30/79,450234752,NRC,Stacking Room - Downstairs,7077,
+100000939,FALSE,Requested,3,3/28/72,614583307,NRC,Stacking Room - Ground Level,6863,
+100000940,FALSE,Available,12,5/21/17,642403601,NRC,Stacking Room - Upstairs,4960,
+100000941,FALSE,Available,19,3/26/75,688414285,NRC,Stacking Room - Downstairs,2449,
+100000942,FALSE,Available,13,12/20/74,378493412,ES3,Stacking Room - Downstairs,4860,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+100000943,FALSE,Available,2,9/20/65,913018881,NRC,Stacking Room - Upstairs,1162,
+100000944,FALSE,Digitized,11,12/26/84,559887994,ES3,Stacking Room - Ground Level,4291,
+100000945,TRUE,Available,15,9/28/70,701573207,ES4,Stacking Room - Upstairs,2977,
+100000946,FALSE,Received,13,1/22/08,589563396,ES3,Stacking Room - Ground Level,1176,
+100000947,FALSE,Available,9,1/18/12,329153225,ES4,Stacking Room - Upstairs,7968,Nunc purus.
+100000948,TRUE,Available,16,9/16/20,865523486,NRC,Stacking Room - Upstairs,8569,
+100000949,FALSE,Available,6,2/23/85,458127766,ES1,Stacking Room - Upstairs,5991,
+100000950,FALSE,Missing,11,1/24/63,703779569,ES2,Stacking Room - Ground Level,5991,
+100000951,FALSE,Consolidated,19,2/28/71,472733169,ES2,Stacking Room - Downstairs,3551,Ut at dolor quis odio consequat varius.
+100000952,FALSE,Available,2,7/9/80,724401677,ES2,Stacking Room - Ground Level,8392,
+100000953,FALSE,Consolidated,1,7/31/68,694459090,NRC,Stacking Room - Ground Level,1321,
+100000954,FALSE,Available,15,11/25/84,267766958,ES4,Stacking Room - Ground Level,7473,Proin at turpis a pede posuere nonummy.
+100000955,FALSE,Available,15,3/24/92,442601231,NRC,Stacking Room - Downstairs,2391,
+100000956,FALSE,Digitized,2,9/16/63,737649714,ES1,Stacking Room - Upstairs,724,
+100000957,FALSE,Available,4,4/15/77,189330971,ES2,Stacking Room - Upstairs,8442,Nullam molestie nibh in lectus.
+100000958,FALSE,Available,15,10/9/17,472256031,NRC,Stacking Room - Downstairs,4112,
+100000959,FALSE,Available,10,2/3/90,722899097,ES1,Stacking Room - Ground Level,8474,
+100000960,FALSE,Available,16,6/17/86,113388614,NRC,Stacking Room - Ground Level,9484,
+100000961,FALSE,Available,4,9/30/13,336737103,ES1,Stacking Room - Downstairs,9073,
+100000962,FALSE,Available,17,4/10/78,977760624,NRC,Stacking Room - Downstairs,4078,
+100000963,FALSE,Requested,13,6/2/09,534230911,ES3,Stacking Room - Downstairs,6371,
+100000964,FALSE,Available,15,8/14/86,273029258,NRC,Stacking Room - Ground Level,8224,
+100000965,FALSE,Available,8,7/30/14,514288302,NRC,Stacking Room - Ground Level,9098,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+100000966,FALSE,Available,16,4/1/56,802412210,NRC,Stacking Room - Ground Level,8776,
+100000967,FALSE,Available,17,3/31/20,631676204,ES1,Stacking Room - Downstairs,295,Donec vitae nisi.
+100000968,FALSE,Available,3,5/29/91,802419895,ES3,Stacking Room - Upstairs,4475,
+100000969,FALSE,In Transit,5,12/10/63,782754431,NRC,Stacking Room - Upstairs,6240,
+100000970,FALSE,Available,11,8/28/06,777508159,ES3,Stacking Room - Ground Level,8426,
+100000971,FALSE,Requested,7,4/16/80,456102651,ES1,Stacking Room - Downstairs,903,
+100000972,FALSE,Requested,5,8/26/11,787381904,NRC,Stacking Room - Upstairs,8448,
+100000973,FALSE,Available,3,12/25/57,931600921,NRC,Stacking Room - Upstairs,623,
+100000974,FALSE,Available,19,8/3/17,180806601,ES4,Stacking Room - Ground Level,7563,
+100000975,FALSE,Available,5,5/21/87,670802592,ES4,Stacking Room - Upstairs,9627,
+100000976,FALSE,Available,17,8/16/08,773823135,ES1,Stacking Room - Downstairs,8355,Nam nulla.
+100000977,FALSE,Received,6,4/23/05,592776990,ES3,Stacking Room - Downstairs,9100,
+100000978,FALSE,Consolidated,2,5/14/12,154990974,ES1,Stacking Room - Downstairs,316,
+100000979,FALSE,Missing,16,2/18/76,824355415,NRC,Stacking Room - Upstairs,5128,
+100000980,FALSE,Available,10,6/29/02,447559619,NRC,Stacking Room - Ground Level,6589,
+100000981,FALSE,Available,19,6/18/91,484988632,ES4,Stacking Room - Upstairs,1706,
+100000982,FALSE,Available,10,11/13/17,367587891,ES1,Stacking Room - Upstairs,1855,
+100000983,FALSE,Available,4,1/3/04,665976699,NRC,Stacking Room - Downstairs,4967,
+100000984,FALSE,Available,20,12/9/01,358534851,ES1,Stacking Room - Upstairs,7922,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+100000985,FALSE,Requested,15,11/23/89,268540254,ES4,Stacking Room - Ground Level,6300,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+100000986,FALSE,Available,19,6/30/95,550536445,NRC,Stacking Room - Upstairs,5222,
+100000987,FALSE,Available,13,4/25/59,237266315,NRC,Stacking Room - Upstairs,147,Duis aliquam convallis nunc.
+100000988,FALSE,Available,9,3/1/82,507504238,NRC,Stacking Room - Upstairs,7489,
+100000989,FALSE,Consolidated,1,6/11/86,217398750,ES1,Stacking Room - Ground Level,9381,
+100000990,FALSE,In Transit,19,12/26/99,692630148,ES2,Stacking Room - Ground Level,9783,
+100000991,TRUE,Available,14,9/24/70,503564311,NRC,Stacking Room - Downstairs,9290,
+100000992,FALSE,Available,10,3/24/72,154496528,ES3,Stacking Room - Downstairs,5523,
+100000993,FALSE,Available,3,4/22/84,692971912,ES1,Stacking Room - Downstairs,8094,
+100000994,FALSE,Consolidated,4,8/1/03,114226432,ES3,Stacking Room - Downstairs,8880,
+100000995,TRUE,Available,7,8/4/79,959407781,NRC,Stacking Room - Upstairs,6924,
+100000996,FALSE,Available,2,1/12/18,906393958,NRC,Stacking Room - Ground Level,9892,
+100000997,FALSE,Consolidated,3,6/17/17,633376029,ES1,Stacking Room - Ground Level,251,In blandit ultrices enim.
+100000998,FALSE,Available,7,8/10/82,194769137,ES3,Stacking Room - Downstairs,2448,
+100000999,FALSE,Available,15,4/2/59,881223746,ES4,Stacking Room - Downstairs,8837,
+100001000,FALSE,Received,12,7/12/60,188676925,NRC,Stacking Room - Ground Level,7192,
+100001001,FALSE,Available,11,10/22/55,745588695,NRC,Stacking Room - Downstairs,1357,

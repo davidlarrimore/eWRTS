@@ -8,7 +8,7 @@ echo "*** Deleting Data ..."
 sfdx force:apex:execute -f scripts/apex/deleteData.apex -u eWRTS
 
 echo "*** Re-Importing Data ..."
-sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTS -p data
+sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTS -p data/production
 
 echo "*** Setting up Remote Site Settings ..."
 sfdx force:apex:execute -f scripts/apex/createRemoteSiteSettings.apex -u eWRTS

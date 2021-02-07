@@ -39,10 +39,10 @@ $RECYCLE.BIN/
 
 force-app/main/default/appMenus
 
-data/source
-data/target
-data/MissingParentRecordsReport.csv
+data/production/source
+data/prodution/target
+data/production/MissingParentRecordsReport.csv
 
-dataScratch/source
-dataScratch/target
-dataScratch/MissingParentRecordsReport.csv
+data/scratch/source
+data/scratch/target
+data/scratch/MissingParentRecordsReport.csv
