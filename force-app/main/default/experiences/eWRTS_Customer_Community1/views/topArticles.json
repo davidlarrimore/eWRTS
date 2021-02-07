@@ -1,28 +1,31 @@
 {
   "appPageId" : "11f35b5c-bc4e-451f-afe8-98164e2b71d3",
   "componentName" : "siteforce:sldsOneColLayout",
-  "id" : "898d1b24-1c7e-4348-9570-6acee5c2a027",
-  "label" : "Error",
+  "id" : "84db3301-8f50-492f-91b0-230c0b16f3d1",
+  "label" : "Top Articles",
   "regions" : [ {
-    "id" : "c1300d72-611d-4c3a-bf9a-7479f655a622",
+    "id" : "a00b2dea-4505-4072-847e-a6f88c2df0d1",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<div style='text-align: center;'>Invalid Page</div>"
+        "numberOfArticles" : 5,
+        "showTitle" : true,
+        "title" : "Top Articles",
+        "topicList" : [ ]
       },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "cd59f597-5171-4810-9b2e-61a1118f4a99",
+      "componentName" : "forceCommunity:topArticleList",
+      "id" : "f90e5cec-2060-4eec-9637-90dea772f6af",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "1712a88e-e62e-4212-ba02-ed07daf1fcc3",
+    "id" : "ab4feea0-5ba8-4937-aea0-2e18af47db04",
     "regionName" : "content",
     "type" : "region"
   }, {
-    "id" : "3c731df1-2170-4499-a3b7-8b7a316d52b6",
+    "id" : "8348a4ab-bdd1-4237-8705-ca259897dd6e",
     "regionName" : "footer",
     "type" : "region"
   }, {
@@ -30,18 +33,18 @@
       "componentAttributes" : {
         "description" : "",
         "metaTags" : "",
-        "title" : "Error"
+        "title" : "Top Articles"
       },
       "componentName" : "forceCommunity:seoAssistant",
-      "id" : "44b6c1b2-28d2-4281-be3b-50763ca30636",
+      "id" : "16c1aad2-1b0d-4544-9048-3eac1fda3cd6",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "86d870c0-080b-47d2-ba81-7b46dc46bc56",
+    "id" : "b04fbbd1-79c9-41af-ad7b-93a198d65986",
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",
   "type" : "view",
-  "viewType" : "error"
+  "viewType" : "top-articles"
 }

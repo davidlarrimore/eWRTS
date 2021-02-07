@@ -320,11 +320,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>SvcApptBookingWindows</field>
-            <table>ServiceContract.Entitlements</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Location</field>
             <table>ServiceContract.Entitlements</table>
         </columns>

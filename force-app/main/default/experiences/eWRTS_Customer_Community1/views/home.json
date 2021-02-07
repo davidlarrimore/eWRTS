@@ -1,7 +1,7 @@
 {
-  "appPageId" : "daf6072e-062f-4d1d-8087-61f4087b74f0",
+  "appPageId" : "11f35b5c-bc4e-451f-afe8-98164e2b71d3",
   "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
-  "id" : "0336ddfd-2384-4f2b-9976-d7c38fc34801",
+  "id" : "c4a18c8e-da03-4e93-8da0-6bd672140aed",
   "label" : "Home",
   "regions" : [ {
     "components" : [ {
@@ -15,12 +15,12 @@
         "uniqueNameOrId" : ""
       },
       "componentName" : "forceCommunity:headline",
-      "id" : "1904a7cf-7677-4d3c-9dbc-5701fb41eec3",
+      "id" : "17f1f423-c3e2-4f81-9418-0f4bef66977e",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "d714054b-fc63-4cb4-951e-c6c12df34341",
+    "id" : "ecc5ebee-b1ab-4502-91ef-1eed2c3b4ef1",
     "regionName" : "header",
     "type" : "region"
   }, {
@@ -49,12 +49,12 @@
         "uneditableTopics" : false
       },
       "componentName" : "forceCommunity:askCommunity",
-      "id" : "a0e6edd8-4596-4998-aef3-56783523bc21",
+      "id" : "69c77514-2515-4956-9758-205663e3efa3",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "e1ab4619-ef3f-4321-9e4b-a88ea6ad12b1",
+    "id" : "74265540-235b-4bfb-b592-8b9f3171bd42",
     "regionName" : "featured",
     "type" : "region"
   }, {
@@ -78,12 +78,12 @@
         "textPosition" : "center center"
       },
       "componentName" : "forceCommunity:homeTabs",
-      "id" : "f96e226c-4c8e-4843-9b04-2a9441075733",
+      "id" : "040fba3c-526c-49fe-a666-46abee324f48",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "a605f56c-28b0-4e20-bf9b-8c2a7f4bf1fb",
+    "id" : "247df9cc-e2c0-4a7f-8edd-df340d542b1c",
     "regionName" : "content",
     "type" : "region"
   }, {
@@ -93,7 +93,7 @@
         "title" : ""
       },
       "componentName" : "forceCommunity:recommendations",
-      "id" : "9b1acd87-a565-4395-957e-7d27113976fd",
+      "id" : "11f5ec15-8027-4670-8abb-eaf91b78552a",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -110,7 +110,18 @@
         "tooltipText" : "Earn points and climb to new levels when you contribute in the community!"
       },
       "componentName" : "forceCommunity:reputationLeaderboard42",
-      "id" : "74009a5c-57ea-431c-98bb-126faf45354f",
+      "id" : "e64c3910-a0c1-48bb-a4ad-26369e6a5ce6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "title" : "Trending Articles",
+        "topicId" : "{!topicId}"
+      },
+      "componentName" : "selfService:topicTrendingArticles42",
+      "id" : "baed7c04-2971-4d46-96cb-d5840e55603c",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -121,12 +132,12 @@
         "title" : "Trending Topics"
       },
       "componentName" : "forceCommunity:trendingTopics",
-      "id" : "4d34d177-2379-443b-8499-4595013e187f",
+      "id" : "8a70780e-967c-4b53-8e01-450abb7d043b",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "bac2e19c-fc44-40d7-8bfe-088566a4745a",
+    "id" : "4d6e4552-e3f8-4c48-b5e5-68bed5324e21",
     "regionName" : "sidebar",
     "type" : "region"
   }, {
@@ -160,12 +171,12 @@
         "showTopics" : true
       },
       "componentName" : "siteforce:napiliFooter",
-      "id" : "e21150c6-2c2a-42f0-841a-b56d0000877c",
+      "id" : "250ad4ba-b8af-4a59-a39b-490bba048df9",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "770a2f49-f5d7-4233-8b9a-36fbb14c320b",
+    "id" : "c0ac682a-664a-4dbf-89c4-a9e0378a4558",
     "regionName" : "footer",
     "type" : "region"
   }, {
@@ -176,11 +187,11 @@
         "title" : "Home"
       },
       "componentName" : "forceCommunity:seoAssistant",
-      "id" : "69ef9deb-4162-45e0-a8ec-c4e99db7d15d",
+      "id" : "4e013e47-e3e5-4ff5-8617-2e48f8b80a27",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "13c18f8a-4f8d-4ba6-a2d8-f8e18002733e",
+    "id" : "1837cf23-0668-4ad0-87a2-b211311cb943",
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
