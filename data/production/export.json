@@ -9,11 +9,6 @@
             "operation": "Upsert",
             "externalId": "Email",
             "query": "SELECT FirstName, LastName, Email, Phone, MobilePhone, Title, Salutation, MailingStreet, MailingCity, MailingPostalCode, MailingState, MailingCountry, Fax, AccountId, Handcrafted_for_eWRTS_Demo_Scenario__c, RecordTypeId FROM Contact where Handcrafted_for_eWRTS_Demo_Scenario__c = true AND RecordType.DeveloperName = 'eWRTS_Custom_Contact'"
-        },
-        {
-            "operation": "Upsert",
-            "externalId": "Name",
-            "query": "SELECT Name, Birthdate__c, Country_Of_Origin__c, Digitized_flag__c, First_Name__c, Gender__c, Last_Name__c, Port_of_Entry__c, Handcrafted_for_eWRTS_Demo_Scenario__c FROM A_File__c"
         }
     ],
     "promptOnMissingParentObjects": false,

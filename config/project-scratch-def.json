@@ -12,7 +12,8 @@
     "DefaultWorkflowUser",
     "Entitlements",
     "Knowledge",
-    "Interaction"
+    "Interaction",
+    "EinsteinArticleRecommendations"
   ],
   "settings": {
     "lightningExperienceSettings": {

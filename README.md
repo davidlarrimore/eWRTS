@@ -19,6 +19,11 @@ This Repository is a "partially" self-contained demo repository that demonstrate
 
 Due to the fact that this includes a community, there are some setup steps prior to installing the package.
 
+### Enable Entitlements
+
+Setup -> Entitlement Settings -> Enable Entitlements
+Setup -> Entitlement Settings -> Enable Milestone Feed Items
+
 ### Ensure Sites are Enabled
 
 Setup -> Sites -> Ensure you have a domain name.

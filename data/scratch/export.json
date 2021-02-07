@@ -13,7 +13,7 @@
         {
             "operation": "Upsert",
             "externalId": "Name",
-            "query": "SELECT Name, Birthdate__c, Country_Of_Origin__c, Digitized_flag__c, First_Name__c, Gender__c, Last_Name__c, Port_of_Entry__c, Handcrafted_for_eWRTS_Demo_Scenario__c FROM A_File__c"
+            "query":"SELECT Id, AccountId, BusinessHoursId, Name,SlaProcessId, SvcApptBookingWindowsId,StartDate,Type,Status FROM Entitlement"
         }
     ],
     "promptOnMissingParentObjects": false,
