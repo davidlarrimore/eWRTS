@@ -4,10 +4,10 @@
     <assetLookupLimitedToActiveEntitlementsOnContact>false</assetLookupLimitedToActiveEntitlementsOnContact>
     <assetLookupLimitedToSameAccount>false</assetLookupLimitedToSameAccount>
     <assetLookupLimitedToSameContact>false</assetLookupLimitedToSameContact>
-    <enableEntitlementVersioning>false</enableEntitlementVersioning>
+    <enableEntitlementVersioning>true</enableEntitlementVersioning>
     <enableEntitlements>true</enableEntitlements>
     <enableMilestoneFeedItem>true</enableMilestoneFeedItem>
-    <enableMilestoneStoppedTime>false</enableMilestoneStoppedTime>
+    <enableMilestoneStoppedTime>true</enableMilestoneStoppedTime>
     <entitlementLookupLimitedToActiveStatus>false</entitlementLookupLimitedToActiveStatus>
     <entitlementLookupLimitedToSameAccount>false</entitlementLookupLimitedToSameAccount>
     <entitlementLookupLimitedToSameAsset>false</entitlementLookupLimitedToSameAsset>

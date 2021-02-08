@@ -9,4 +9,30 @@
         <operation>equals</operation>
         <value>true</value>
     </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Initial Case Acceptance</milestoneName>
+        <minutesToComplete>5</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>File_Retrieval</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>File Pull Request Assigned to Contractor</milestoneName>
+        <minutesToComplete>30</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <name>ewrts_il300</name>
+    <versionMaster>5521F00000007HY</versionMaster>
+    <versionNumber>1</versionNumber>
 </EntitlementProcess>

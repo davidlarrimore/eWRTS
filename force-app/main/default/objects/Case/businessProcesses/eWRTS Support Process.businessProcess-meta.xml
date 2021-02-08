@@ -16,15 +16,19 @@
         <default>false</default>
     </values>
     <values>
+        <fullName>File Retrieval</fullName>
+        <default>false</default>
+    </values>
+    <values>
         <fullName>New</fullName>
         <default>true</default>
     </values>
     <values>
-        <fullName>Out for pull</fullName>
+        <fullName>On Hold</fullName>
         <default>false</default>
     </values>
     <values>
-        <fullName>Prioritization</fullName>
+        <fullName>Triaged</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>

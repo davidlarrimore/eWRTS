@@ -27,5 +27,5 @@ echo "*** Setting up Remote Site Settings..."
 sfdx force:apex:execute -f scripts/apex/createRemoteSiteSettings.apex
 
 echo "*** Opening Org"
-sfdx force:org:open
-#sfdx force:org:open -p /lightning/n/EWRTS
+#sfdx force:org:open
+sfdx force:org:open -p /lightning/page/home

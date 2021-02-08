@@ -28,6 +28,10 @@ Setup -> Entitlement Settings -> Enable Milestone Feed Items
 
 Setup -> Sites -> Ensure you have a domain name.
 
+### If you want to demo Email2Case
+
+Queue -> eWRTS NRC Triage Queue
+
 ### Enable ExperienceBundle Metadata API
 
 Setup -> Communities Settings -> Enable ExperienceBundle Metadata API (Must be checked!)

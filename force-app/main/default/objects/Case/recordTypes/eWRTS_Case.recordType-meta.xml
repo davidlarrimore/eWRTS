@@ -35,4 +35,22 @@
             <default>true</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Normal File Request</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Subject in Custody</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>A File Record Request</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
 </RecordType>

@@ -8,40 +8,28 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Out for pull</fullName>
+        <fullName>Triage</fullName>
         <default>false</default>
-        <label>Out for pull</label>
+        <label>Triage</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Working</fullName>
+        <fullName>File_Retrieval</fullName>
         <default>false</default>
-        <label>Working</label>
+        <label>File Retrieval</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Prioritization</fullName>
-        <default>false</default>
-        <label>Prioritization</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>File Processing</fullName>
+        <fullName>File_Processing</fullName>
         <default>false</default>
         <label>File Processing</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Escalated</fullName>
+        <fullName>On_Hold</fullName>
         <default>false</default>
-        <label>Escalated</label>
+        <label>On Hold</label>
         <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>Closed</fullName>
-        <default>false</default>
-        <label>Closed</label>
-        <closed>true</closed>
     </standardValue>
     <standardValue>
         <fullName>Closed - Completed</fullName>
