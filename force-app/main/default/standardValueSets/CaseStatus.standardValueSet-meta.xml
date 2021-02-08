@@ -26,12 +26,6 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>On_Hold</fullName>
-        <default>false</default>
-        <label>On Hold</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
         <fullName>Closed - Completed</fullName>
         <default>false</default>
         <label>Closed - Completed</label>

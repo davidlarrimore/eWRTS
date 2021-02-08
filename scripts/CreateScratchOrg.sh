@@ -1,7 +1,8 @@
 echo "*** Creating scratch org ..."
 sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername --setalias eWRTSScratch -d 30
 
-echo "*** Installing required package ..."
+echo "*** Installing required packages ..."
+echo "*** Installing Tableau LWC ..."
 sfdx force:package:install --package 04t5w000005diA4AAI -w 1000 -u eWRTSScratch
 
 echo "*** Pushing metadata to scratch org ..."

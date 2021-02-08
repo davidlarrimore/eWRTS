@@ -3,11 +3,6 @@
     <doesSendEmailToMembers>true</doesSendEmailToMembers>
     <email>dlarrimore@salesforce.com</email>
     <name>eWRTS File Processing Queue</name>
-    <queueMembers>
-        <users>
-            <user>test-iwa3junnoleb@example.com</user>
-        </users>
-    </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

@@ -15,6 +15,10 @@ This Repository is a "partially" self-contained demo repository that demonstrate
 - Remote Site Settings (Assuming you are installing via GPBU-Deployer)
 - Data (Assuming you are installing via GPBU-Deployer)
 
+https://github.com/johnsfdemo/Milestone-Utilities
+
+- Tableau LWC
+
 ## Prior to Installation
 
 Due to the fact that this includes a community, there are some setup steps prior to installing the package.

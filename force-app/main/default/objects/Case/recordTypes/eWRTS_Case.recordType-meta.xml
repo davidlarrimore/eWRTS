@@ -6,6 +6,29 @@
     <description>eWRTS Case</description>
     <label>eWRTS Case</label>
     <picklistValues>
+        <picklist>Location_SIte__c</picklist>
+        <values>
+            <fullName>ES1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NRC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Origin</picklist>
         <values>
             <fullName>Email</fullName>

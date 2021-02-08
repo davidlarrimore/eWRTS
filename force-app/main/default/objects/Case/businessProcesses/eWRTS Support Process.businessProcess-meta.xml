@@ -24,11 +24,7 @@
         <default>true</default>
     </values>
     <values>
-        <fullName>On Hold</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Triaged</fullName>
+        <fullName>Triage</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>
