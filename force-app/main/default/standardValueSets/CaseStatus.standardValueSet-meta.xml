@@ -26,15 +26,9 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closed - Completed</fullName>
+        <fullName>Closed</fullName>
         <default>false</default>
-        <label>Closed - Completed</label>
-        <closed>true</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>Closed - Cancelled</fullName>
-        <default>false</default>
-        <label>Closed - Cancelled</label>
+        <label>Closed</label>
         <closed>true</closed>
     </standardValue>
 </StandardValueSet>

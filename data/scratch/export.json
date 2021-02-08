@@ -9,11 +9,6 @@
             "operation": "Upsert",
             "externalId": "Email",
             "query": "SELECT FirstName, LastName, Email, Phone, MobilePhone, Title, Salutation, MailingStreet, MailingCity, MailingPostalCode, MailingState, MailingCountry, Fax, AccountId, Handcrafted_for_eWRTS_Demo_Scenario__c, RecordTypeId FROM Contact where Handcrafted_for_eWRTS_Demo_Scenario__c = true AND RecordType.DeveloperName = 'eWRTS_Custom_Contact'"
-        },
-        {
-            "operation": "Upsert",
-            "externalId": "Name",
-            "query":"SELECT Id, AccountId, BusinessHoursId, Name,SlaProcessId, SvcApptBookingWindowsId,StartDate,Type,Status FROM Entitlement"
         }
     ],
     "promptOnMissingParentObjects": false,

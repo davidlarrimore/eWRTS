@@ -4,11 +4,7 @@
     <description>eWRTS Support Process</description>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed - Cancelled</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Closed - Completed</fullName>
+        <fullName>Closed</fullName>
         <default>false</default>
     </values>
     <values>
