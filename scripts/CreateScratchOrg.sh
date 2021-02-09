@@ -4,6 +4,8 @@ sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername --
 echo "*** Installing required packages ..."
 echo "*** Installing Tableau LWC ..."
 sfdx force:package:install --package 04t5w000005diA4AAI -w 1000 -u eWRTSScratch
+echo "*** Installing Unofficial SF Flow Horizontal Rule  ..."
+sfdx force:package:install --package 04tB00000006grz -w 1000 -u eWRTSScratch
 
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
