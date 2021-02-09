@@ -35,7 +35,8 @@ grant select on public.cis2 to authenticator;
 
 grant usage on schema public to anon;
 grant select on public.cis2 to anon;
+grant select on public.rails to anon;
 
 grant usage on schema public to api_user;
 grant all on public.cis2 to api_user;
-
+grant all on public.rails to api_user;
