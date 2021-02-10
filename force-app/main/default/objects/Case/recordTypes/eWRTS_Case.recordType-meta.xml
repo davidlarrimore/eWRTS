@@ -3,6 +3,7 @@
     <fullName>eWRTS_Case</fullName>
     <active>true</active>
     <businessProcess>eWRTS Support Process</businessProcess>
+    <compactLayoutAssignment>eWRTS_Compact_Layout</compactLayoutAssignment>
     <description>eWRTS Case</description>
     <label>eWRTS Case</label>
     <picklistValues>

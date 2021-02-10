@@ -158,6 +158,16 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentName>rAILSRecordPageWidget</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>cIS2RecordPageWidget</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>parentFieldApiName</name>
                     <value>Case.Id</value>

@@ -5,7 +5,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>enableInlineEdit</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>entityName</name>
@@ -13,7 +13,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>filterName</name>
-                    <value>All_eWRTS_Cases</value>
+                    <value>eWRTS_NRC_Triage_Queue_Case</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideActionBar</name>
@@ -25,7 +25,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>pageSize</name>
-                    <value>3</value>
+                    <value>5</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
             </componentInstance>
@@ -34,7 +34,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>enableInlineEdit</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>entityName</name>
@@ -63,7 +63,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>enableInlineEdit</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>entityName</name>
@@ -71,7 +71,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>filterName</name>
-                    <value>My_eWRTS_Cases</value>
+                    <value>My_Open_eWRTS_Cases</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideActionBar</name>
@@ -83,7 +83,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>pageSize</name>
-                    <value>3</value>
+                    <value>5</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
             </componentInstance>

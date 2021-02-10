@@ -10,11 +10,16 @@ sfdx force:package:install --package 04tB00000006grz -w 1000 -u eWRTSScratch
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
 
-echo "*** Assigning permission set to your user ..."
-sfdx force:user:permset:assign --permsetname eWRTS_Demo_Admin --targetusername eWRTSScratch
+echo "*** Create Contactor User ..."
+sfdx force:user:create --setalias eWRTSScratch_Contractor email=davidlarrimoresalesforce@gmail.com firstName=Chris lastName=Contractor
 
-echo "*** Generating password for your user ..."
+echo "*** Assigning permission set to your users ..."
+sfdx force:user:permset:assign -n eWRTS_Demo_Admin -u eWRTSScratch
+sfdx force:user:permset:assign -n eWRTSScratch_Contractor -u eWRTSScratch_Contractor
+
+echo "*** Generating password for your users ..."
 sfdx force:user:password:generate --targetusername eWRTSScratch
+sfdx force:user:password:generate --targetusername eWRTSScratch_Contractor
 
 echo "*** Creating data"
 sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p data/scratch

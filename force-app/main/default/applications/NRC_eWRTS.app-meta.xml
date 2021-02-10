@@ -38,8 +38,8 @@ System (EWRTS)</description>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>eWRTS</label>
-    <navType>Standard</navType>
+    <label>NRC eWRTS</label>
+    <navType>Console</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>

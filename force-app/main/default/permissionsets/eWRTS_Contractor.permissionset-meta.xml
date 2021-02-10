@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>NRC_Move</application>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>NRC_eWRTS</application>
-        <visible>true</visible>
-    </applicationVisibilities>
     <classAccesses>
         <apexClass>AssignCaseEntitlement</apexClass>
         <enabled>true</enabled>
@@ -266,11 +258,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.IsStopped</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.IsVisibleInSelfService</field>
         <readable>true</readable>
@@ -333,11 +320,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.SourceId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.StopStartDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -501,7 +483,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>eWRTS Demo Admin</label>
+    <label>eWRTS Contractor</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

@@ -1,0 +1,24 @@
+<template>
+    <lightning-layout horizontal-align="space">
+        <lightning-layout-item size="12" small-device-size="12" medium-device-size="12" large-device-size="12">    
+            <lightning-card>
+                <h3 slot="title" class="slds-card__header-link slds-truncate">
+                    <lightning-icon icon-name="standard:entity" size="small"></lightning-icon>
+                    &nbsp;&nbsp;&nbsp;RAILS&nbsp;&nbsp;&nbsp;
+                    <lightning-badge label="api" icon-name="utility:connected_apps" icon-position="end"></lightning-badge>
+                </h3>
+                <template if:true={apiResultsFlag}>
+                    <lightning-button-group slot="actions">
+                        <template if:true={isAvailable}>
+                            <lightning-button label="Request"></lightning-button>
+                        </template>
+                        <lightning-button-icon icon-name="action:share"  alternative-text="Go to RAILS" title="Go to RAILS"></lightning-button-icon>
+                    </lightning-button-group>         
+                    <p class="slds-p-horizontal_small">File Number: {apiRecord.file_number}</p>
+                    <p class="slds-p-horizontal_small">Site: {apiRecord.location_site}</p> 
+                    <p class="slds-p-horizontal_small">Status: {apiRecord.status}</p>                       
+                </template>
+            </lightning-card>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

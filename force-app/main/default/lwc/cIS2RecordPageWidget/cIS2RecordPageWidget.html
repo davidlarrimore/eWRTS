@@ -1,0 +1,25 @@
+<template>
+    <lightning-layout horizontal-align="space">
+        <lightning-layout-item size="12" small-device-size="12" medium-device-size="12" large-device-size="12">    
+            <lightning-card>
+                <h3 slot="title" class="slds-card__header-link slds-truncate">
+                    <lightning-icon icon-name="standard:channel_program_members" size="small"></lightning-icon>
+                    &nbsp;&nbsp;&nbsp;CIS2&nbsp;&nbsp;&nbsp;
+                    <lightning-badge label="api" icon-name="utility:connected_apps"  icon-position="end"></lightning-badge>
+                </h3>
+                <template if:true={apiResultsFlag}>
+                    <lightning-button-group slot="actions">
+                        <lightning-button label="Edit"></lightning-button>
+                        <lightning-button-icon icon-name="action:share"  alternative-text="Go to CIS2" title="Go to CIS2"></lightning-button-icon>
+                    </lightning-button-group> 
+                    
+                    <p class="slds-p-horizontal_small">File Number: {apiRecord.a_number}</p>
+                    <p class="slds-p-horizontal_small">First Name: {apiRecord.first_name}</p> 
+                    <p class="slds-p-horizontal_small">Last Name: {apiRecord.last_name}</p> 
+                    <p class="slds-p-horizontal_small">Birthdate: {apiRecord.birthdate}</p>                     
+                    <p class="slds-p-horizontal_small">Country of Origin: {apiRecord.country_of_origin}</p>   
+                </template>   
+            </lightning-card>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

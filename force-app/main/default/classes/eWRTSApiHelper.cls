@@ -1,5 +1,16 @@
 public with sharing class eWRTSApiHelper {
 
+    @AuraEnabled
+    public static String CIS2SearchByCase(String recordId){ 
+        List<Case> caseList = [Select A_Number__c from Case where Id = :recordId];
+        System.debug('Running eWRTSApiHelper.CIS2SearchByCase');
+        
+        if(caseList.size() > 0){
+            return eWRTSApiHelper.CIS2Search(caseList[0].A_Number__c);
+        }
+
+        return eWRTSApiHelper.CIS2Search(null);
+    }
 
     @AuraEnabled
     public static String CIS2Search(String anumber){ 
@@ -14,6 +25,19 @@ public with sharing class eWRTSApiHelper {
         system.debug('Search URL is ' + url);
 
         return eWRTSApiHelper.getRequest(url);
+    }
+
+
+    @AuraEnabled
+    public static String RAILSSearchByCase(String recordId){ 
+        List<Case> caseList = [Select A_Number__c from Case where Id = :recordId];
+        System.debug('Running eWRTSApiHelper.RAILSSearchByCase');
+            
+        if(caseList.size() > 0){
+            return eWRTSApiHelper.RAILSSearch(caseList[0].A_Number__c);
+        }
+
+        return eWRTSApiHelper.RAILSSearch(null);
     }
 
     @AuraEnabled

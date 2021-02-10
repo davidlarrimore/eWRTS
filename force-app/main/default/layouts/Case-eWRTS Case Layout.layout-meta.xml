@@ -123,6 +123,9 @@
         <label>Entitlement Tracking</label>
         <layoutColumns>
             <layoutItems>
+                <emptySpace>true</emptySpace>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>User_Contact_Info_Validated__c</field>
             </layoutItems>
@@ -152,6 +155,10 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Date_Opened__c</field>
+            </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
             </layoutItems>
@@ -207,6 +214,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Time_to_File_Processed__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Time_to_Case_Closed__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -291,11 +302,6 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>FeedItem.TextPost</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>0</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>Case.Send_Email_Action</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>1</sortOrder>
@@ -375,6 +381,11 @@
             <actionType>StandardButton</actionType>
             <sortOrder>16</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.TextPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
@@ -452,7 +463,47 @@
     <summaryLayout>
         <masterLabel>00h1D000003DXf8</masterLabel>
         <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
+        <sizeY>2</sizeY>
+        <summaryLayoutItems>
+            <field>AccountId</field>
+            <posX>0</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>ContactId</field>
+            <posX>0</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>ContactEmail</field>
+            <posX>1</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>ContactPhone</field>
+            <posX>1</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>A_Number__c</field>
+            <posX>2</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Reason</field>
+            <posX>2</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Status</field>
+            <posX>3</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Priority</field>
+            <posX>3</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
     </summaryLayout>
 </Layout>
