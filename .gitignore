@@ -46,3 +46,6 @@ data/production/MissingParentRecordsReport.csv
 data/scratch/source
 data/scratch/target
 data/scratch/MissingParentRecordsReport.csv
+
+
+force-app/main/default/profiles/Trial Customer Portal User.profile-meta.xml

@@ -129,7 +129,10 @@ public with sharing class ewrtsCaseGenerator {
             }else{
                 thisContact = StatelocalContacts[ewrtsCaseGenerator.randomNumber(CBPContacts.size())];
             } 
-            
+            //TODO: If case is more than 10 days old, make it closed.....
+
+
+            newCase.Handcrafted_for_eWRTS_Demo_Scenario__c = true;
             newCase.AccountId = thisAccount.Id;
             newCase.ContactId = thisContact.Id;
             newCase.RecordTypeId = recordTypeId;
@@ -142,6 +145,48 @@ public with sharing class ewrtsCaseGenerator {
             newCase.Subject = randomAccountName + ' - ' + newCase.Reason + ' - ' + newCase.A_Number__c;
     
             newCase.Status = ewrtsCaseGenerator.randomCaseStatus();
+
+            //WHAT IS BEING REQUESTED
+            newCase.REQ_Entire_File__c = ewrtsCaseGenerator.randomDocumentRequest();
+            if(newCase.REQ_Entire_File__c){
+
+                newCase.REQ_Alien_Status__c = true;
+                newCase.REQ_All_Applications_and_Petitions__c = true;
+                newCase.REQ_All_J_C_Forms__c = true;
+                newCase.REQ_All_Removal_Documents__c = true;
+                newCase.REQ_Application_Status__c = true;
+                newCase.REQ_Biometric_Data__c = true;
+                newCase.REQ_Charging_Documents__c = true;
+                newCase.REQ_Fingerprints__c = true;
+                newCase.REQ_IJO_Form__c = true;
+                newCase.REQ_I_130_Form__c = true;
+                newCase.REQ_I_213_Form__c = true;
+                newCase.REQ_I_485_Form__c = true;     
+                newCase.REQ_N_400_600_Forms__c = true;
+                newCase.REQ_Photos__c = true;
+                newCase.Other_Documents_Requested__c = 'ALL DOCUMENTS!';
+            }else{
+
+                newCase.REQ_Alien_Status__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_All_Applications_and_Petitions__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_All_J_C_Forms__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_All_Removal_Documents__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_Application_Status__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_Biometric_Data__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_Charging_Documents__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_Fingerprints__c = ewrtsCaseGenerator.randomDocumentRequest();  
+                newCase.REQ_IJO_Form__c = ewrtsCaseGenerator.randomDocumentRequest();         
+                newCase.REQ_I_130_Form__c = ewrtsCaseGenerator.randomDocumentRequest();   
+                newCase.REQ_I_213_Form__c = ewrtsCaseGenerator.randomDocumentRequest();       
+                newCase.REQ_I_485_Form__c = ewrtsCaseGenerator.randomDocumentRequest();          
+                newCase.REQ_N_400_600_Forms__c = ewrtsCaseGenerator.randomDocumentRequest();   
+                newCase.REQ_Photos__c = ewrtsCaseGenerator.randomDocumentRequest();
+                newCase.REQ_Other_Documents__c = ewrtsCaseGenerator.randomDocumentRequest();
+    
+                if(newCase.REQ_Other_Documents__c){
+                    newCase.Other_Documents_Requested__c = 'KQ7060 // CH1148 // DC0676';
+                }
+            }
 
 
             if(newCase.Status == 'New'){
@@ -308,6 +353,15 @@ public with sharing class ewrtsCaseGenerator {
             return 'Email';
         }else{
             return 'Web';
+        }
+    }
+
+    public static Boolean randomDocumentRequest(){
+        Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
+        if(randomNumber > 0 && randomNumber < 29){
+            return true;
+        }else{
+            return false;
         }
     }
 
