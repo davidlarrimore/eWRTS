@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>eWRTS_Lenexa_Contractor_Queue_Case</fullName>
+    <columns>Date_Opened__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>A_Number__c</columns>
+    <columns>CASES.PRIORITY</columns>
     <filterScope>Queue</filterScope>
     <label>eWRTS Lenexa Contractor Queue</label>
     <queue>eWRTS_Lenexa_Contractor_Queue</queue>

@@ -23,6 +23,9 @@ sfdx force:user:password:generate --targetusername eWRTSScratch_Contractor
 
 echo "*** Creating data"
 sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p data/scratch
+sfdx force:apex:execute -f scripts/apex/generateCases.apex
+sfdx force:apex:execute -f scripts/apex/generateCases.apex
+sfdx force:apex:execute -f scripts/apex/generateCases.apex
 
 #echo "*** Creating User"
 #sfdx force:user:create --setalias outlook-user --definitionfile data/user-def.json

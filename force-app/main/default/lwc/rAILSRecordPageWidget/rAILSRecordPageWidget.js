@@ -14,10 +14,11 @@ const fields = [
 export default class RAILSRecordPageWidget extends LightningElement {
     @api recordId;
     @track apiRecord;
-    @track apiResultsFlag = false;
+    @track apiCallCompletedFlag = false;
+    @track apiResultsFlag = false; 
+
 
     connectedCallback() {
-        console.log("Running doRefreshComponent");
         this.getRecord();
       }
 
@@ -32,23 +33,36 @@ export default class RAILSRecordPageWidget extends LightningElement {
         getRailsRecordByCase({recordId: this.recordId})
         .then((data) => {
             console.log(`RAILSRecordPageWidget.getRailsRecordByCase Completed Successfully: ${data}`);
-            this.apiResultsFlag = true;
             let apiRecords = JSON.parse(data);
-            this.apiRecord = apiRecords[0];
-            console.log(`A Folder: ${this.apiRecord.file_number}`);
+            console.log(`apiRecords Size: ${apiRecords.length}`);
+
+            this.apiCallCompletedFlag = true;
+
+            if(apiRecords.length > 0){
+                this.apiResultsFlag = true; 
+
+                this.apiRecord = apiRecords[0];
+                console.log(`A Folder: ${this.apiRecord.file_number}`);
+            }  
+
             this.error = undefined;
+
         })
         .catch((error) => {
             this.error = error;
+            console.log(`RAILSRecordPageWidget.getRailsRecordByCase Failed: ${error}`);
         });
     }
 
     get isAvailable(){
+      
+      if(this.apiResultsFlag){
         if(this.apiRecord.status == 'Available'){
           return true;
         }
-        return false;
       }
+      return false;
+    }
 
 // Sample Data
 //

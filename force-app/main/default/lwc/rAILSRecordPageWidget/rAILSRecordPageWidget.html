@@ -7,16 +7,26 @@
                     &nbsp;&nbsp;&nbsp;RAILS&nbsp;&nbsp;&nbsp;
                     <lightning-badge label="api" icon-name="utility:connected_apps" icon-position="end"></lightning-badge>
                 </h3>
-                <template if:true={apiResultsFlag}>
-                    <lightning-button-group slot="actions">
-                        <template if:true={isAvailable}>
-                            <lightning-button label="Request"></lightning-button>
-                        </template>
-                        <lightning-button-icon icon-name="action:share"  alternative-text="Go to RAILS" title="Go to RAILS"></lightning-button-icon>
-                    </lightning-button-group>         
-                    <p class="slds-p-horizontal_small">File Number: {apiRecord.file_number}</p>
-                    <p class="slds-p-horizontal_small">Site: {apiRecord.location_site}</p> 
-                    <p class="slds-p-horizontal_small">Status: {apiRecord.status}</p>                       
+                <lightning-button-group slot="actions">
+                    <template if:true={isAvailable}>
+                        <lightning-button label="Request"></lightning-button>
+                    </template>
+                    <lightning-button-icon icon-name="action:share"  alternative-text="Go to RAILS" title="Go to RAILS"></lightning-button-icon>
+                </lightning-button-group>    
+                <template if:true={apiCallCompletedFlag}>
+                    <template if:true={apiResultsFlag}>     
+                        <p class="slds-p-horizontal_small">File Number: {apiRecord.file_number}</p>
+                        <p class="slds-p-horizontal_small">Site: {apiRecord.location_site}</p> 
+                        <p class="slds-p-horizontal_small">Status: {apiRecord.status}</p>                       
+                    </template>
+                    <template if:false={apiResultsFlag}>
+                        <div class="slds-illustration slds-illustration_small" aria-hidden="true">
+                            <img src="/img/chatter/Desert.svg" class="slds-illustration__svg" alt="" />
+                        </div>
+                    </template>
+                </template>
+                <template if:false={apiCallCompletedFlag}>
+                    <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
                 </template>
             </lightning-card>
         </lightning-layout-item>

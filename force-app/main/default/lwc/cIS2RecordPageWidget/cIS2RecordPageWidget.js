@@ -14,10 +14,10 @@ const fields = [
 export default class CIS2RecordPageWidget extends LightningElement {
     @api recordId;
     @track apiRecord;
-    @track apiResultsFlag = false;
-    
+    @track apiCallCompletedFlag = false;
+    @track apiResultsFlag = false; 
+
     connectedCallback() {
-        console.log("Running doRefreshComponent");
         this.getRecord();
       }
 
@@ -32,13 +32,21 @@ export default class CIS2RecordPageWidget extends LightningElement {
         getCIS2RecordByCase({recordId: this.recordId})
         .then((data) => {
             console.log(`CIS2RecordPageWidget.getCIS2RecordByCase Completed Successfully: ${data}`);
-            this.apiResultsFlag = true;
-            let apiRecords = JSON.parse(data);
-            this.apiRecord = apiRecords[0];
+            let apiRecords = JSON.parse(data);  
+            console.log(`apiRecords Size: ${apiRecords.length}`);
+
+            this.apiCallCompletedFlag = true;
+            if(apiRecords.length > 0){
+                this.apiResultsFlag = true; 
+                apiRecords[0].formatted_birthdate = Date.parse(apiRecords[0].birthdate);
+                this.apiRecord = apiRecords[0];
+                
+            }    
             this.error = undefined;
         })
         .catch((error) => {
             this.error = error;
+            console.log(`CIS2RecordPageWidget.getCIS2RecordByCase Failed: ${error}`);
         });
     }
 

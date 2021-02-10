@@ -12,6 +12,12 @@ public with sharing class ewrtsCaseGenerator {
     public static String fileRetrievalStatus2 = 'Case assigned to Contractor';
     public static String fileRetrievalStatus3 = 'File Pulled from Shelf';
 
+
+    public static String casePriority1 = 'Low';
+    public static String casePriority2 = 'Medium';
+    public static String casePriority3 = 'High';
+
+
     public static String fileProcessingStatus1 = 'File Processing Queue';
     public static String fileProcessingStatus2 = 'File Pulled for Processing';
 
@@ -84,7 +90,7 @@ public with sharing class ewrtsCaseGenerator {
         List<Case> newCaseList = new List<Case>();
     
         for (Integer i = 0; i < numbertoCreate; i ++) {
-            System.debug('Creating Case #' + i);
+            //System.debug('Creating Case #' + i);
 
             Case newCase = new Case();
             Account thisAccount;
@@ -128,6 +134,7 @@ public with sharing class ewrtsCaseGenerator {
             newCase.ContactId = thisContact.Id;
             newCase.RecordTypeId = recordTypeId;
             newCase.Date_Opened__c = caseDateOpened;
+            newCase.Priority = ewrtsCaseGenerator.randomCasePriority();
             newCase.A_Number__C = aNumber;
             newCase.Location_Site__c = ewrtsCaseGenerator.randomSite();
             newCase.Origin = ewrtsCaseGenerator.randomCaseOrigin();
@@ -254,11 +261,11 @@ public with sharing class ewrtsCaseGenerator {
     
     public static String randomCaseStatus(){
         Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
-        if(randomNumber > 0 && randomNumber < 19){
+        if(randomNumber > 0 && randomNumber < 5){
             return 'New';
-        }else if(randomNumber > 20 && randomNumber < 50){
+        }else if(randomNumber > 5 && randomNumber < 13){
             return 'File_Retrieval';
-        }else if(randomNumber > 49 && randomNumber < 70){
+        }else if(randomNumber > 12 && randomNumber < 19){
             return 'File_Processing';
         }else{
             return 'Closed';
@@ -279,6 +286,19 @@ public with sharing class ewrtsCaseGenerator {
             return 'ES4';
         }
     }
+
+
+    public static String randomCasePriority(){
+        Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
+        if(randomNumber > 0 && randomNumber < 59){
+            return ewrtsCaseGenerator.casePriority1;
+        }else if(randomNumber > 60 && randomNumber < 89){
+            return ewrtsCaseGenerator.casePriority1;
+        }else{
+            return ewrtsCaseGenerator.casePriority3;
+        }
+    }   
+    
 
     public static String randomCaseOrigin(){
         Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
@@ -372,7 +392,7 @@ public with sharing class ewrtsCaseGenerator {
             else
                 returnValue =endNum;
         }
-        System.debug('found random number ' + returnValue + ' between ' + startNum + ' and ' + endNum);
+        //System.debug('found random number ' + returnValue + ' between ' + startNum + ' and ' + endNum);
         return returnValue;
     }
 
