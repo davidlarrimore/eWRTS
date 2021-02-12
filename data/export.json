@@ -18,12 +18,12 @@
         {
             "query":"SELECT A_Number__c, AccountId, REQ_Alien_Status__c, REQ_All_Applications_and_Petitions__c, REQ_All_J_C_Forms__c, REQ_All_Removal_Documents__c, REQ_Application_Status__c, REQ_Biometric_Data__c, BusinessHoursId, Case_assigned_to_Contractor__c, Case_in_File_Retrieval__c, CaseNumber, Origin, OwnerId, Reason, RecordTypeId, SourceId, REQ_Charging_Documents__c, ContactEmail, ContactFax, ContactMobile , ContactId, ContactPhone, CreatedById, Date_Case_Assigned_to_Contractor__c, Date_Case_in_File_Retrieval__c, Date_File_Delivered__c, Date_File_Processed__c, Date_File_Pulled_for_Processing__c, Date_File_Pulled_from_Shelf__c, Date_Opened__c, ClosedDate, CreatedDate, Description, REQ_Entire_File__c, File_Delivered__c, File_Processed__c, File_Pulled_for_Processing__c, File_Pulled_from_Shelf__c, REQ_Fingerprints__c, Handcrafted_for_eWRTS_Demo_Scenario__c, REQ_I_130_Form__c, REQ_I_213_Form__c, REQ_I_485_Form__c, REQ_IJO_Form__c, Comments, LastModifiedById, Location_Site__c, REQ_N_400_600_Forms__c, REQ_Other_Documents__c, Other_Documents_Requested__c, REQ_Photos__c, Priority, Status, Subject, Type, User_Contact_Info_Validated__c from Case WHERE RecordType.Name = 'eWRTS Case'",
             "operation": "Upsert",
-            "externalId": "A_Number__c,ContacdtId,Date_Opened__c"      
+            "externalId": "A_Number__c,ContactEmail,Date_Opened__c"      
         },
         {
             "operation": "Upsert",
             "externalId": "Name",
-            "query":"SELECT Id, Type, Name from Group WHERE Type = 'Queue'"
+            "query":"SELECT Id, Type, Name from Group where Type = 'Queue'"
         }
     ],
     "promptOnMissingParentObjects": false,
