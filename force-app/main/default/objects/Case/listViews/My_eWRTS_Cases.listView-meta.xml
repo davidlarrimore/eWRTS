@@ -6,8 +6,7 @@
     <columns>CASES.SUBJECT</columns>
     <columns>CASES.STATUS</columns>
     <columns>CASES.PRIORITY</columns>
-    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
-    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Date_Opened__c</columns>
     <filterScope>Mine</filterScope>
     <filters>
         <field>CASES.RECORDTYPE</field>

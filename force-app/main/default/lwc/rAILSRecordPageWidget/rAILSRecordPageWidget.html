@@ -17,7 +17,12 @@
                     <template if:true={apiResultsFlag}>     
                         <p class="slds-p-horizontal_small">File Number: {apiRecord.file_number}</p>
                         <p class="slds-p-horizontal_small">Site: {apiRecord.location_site}</p> 
-                        <p class="slds-p-horizontal_small">Status: {apiRecord.status}</p>                       
+                        <p class="slds-p-horizontal_small">Room: {apiRecord.location_room}</p> 
+                        <p class="slds-p-horizontal_small">Shelf: {apiRecord.location_shelf}</p> 
+                        <p class="slds-p-horizontal_small">Status: {apiRecord.status}</p> 
+                        <hr>        
+                        <p class="slds-p-horizontal_small">RPC: {apiRecord.rpc}</p>  
+                        <p class="slds-p-horizontal_small">Age with Custodian: {apiRecord.age_with_custodian}</p>                     
                     </template>
                     <template if:false={apiResultsFlag}>
                         <div class="slds-illustration slds-illustration_small" aria-hidden="true">

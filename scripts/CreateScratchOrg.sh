@@ -6,6 +6,8 @@ echo "*** Installing Tableau LWC ..."
 sfdx force:package:install --package 04t5w000005diA4AAI -w 1000 -u eWRTSScratch
 echo "*** Installing Unofficial SF Flow Horizontal Rule  ..."
 sfdx force:package:install --package 04tB00000006grz -w 1000 -u eWRTSScratch
+echo "*** Barcode and QR Reader: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FvIsgUAF..."
+sfdx force:package:install --package 04t1U000007Y4i4QAC -w 1000 -u eWRTSScratch
 
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push
@@ -15,14 +17,14 @@ sfdx force:user:create --setalias eWRTSScratch_Contractor email=davidlarrimoresa
 
 echo "*** Assigning permission set to your users ..."
 sfdx force:user:permset:assign -n eWRTS_Demo_Admin -u eWRTSScratch
-sfdx force:user:permset:assign -n eWRTSScratch_Contractor -u eWRTSScratch_Contractor
+sfdx force:user:permset:assign -n eWRTS_Contractor -u eWRTSScratch_Contractor
 
 echo "*** Generating password for your users ..."
 sfdx force:user:password:generate --targetusername eWRTSScratch
 sfdx force:user:password:generate --targetusername eWRTSScratch_Contractor
 
 echo "*** Creating data"
-sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p data/scratch
+sfdx sfdmu:run --sourceusername csvfile --targetusername eWRTSScratch -p data
 sfdx force:apex:execute -f scripts/apex/generateCases.apex
 sfdx force:apex:execute -f scripts/apex/generateCases.apex
 sfdx force:apex:execute -f scripts/apex/generateCases.apex

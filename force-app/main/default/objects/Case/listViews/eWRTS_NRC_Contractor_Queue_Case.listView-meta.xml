@@ -8,7 +8,4 @@
     <filterScope>Queue</filterScope>
     <label>eWRTS NRC Contractor Queue</label>
     <queue>eWRTS_NRC_Contractor_Queue</queue>
-    <sharedTo>
-        <allInternalUsers/>
-    </sharedTo>
 </ListView>

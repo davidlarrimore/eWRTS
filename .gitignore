@@ -39,13 +39,9 @@ $RECYCLE.BIN/
 
 force-app/main/default/appMenus
 
-data/production/source
-data/prodution/target
-data/production/MissingParentRecordsReport.csv
-
-data/scratch/source
-data/scratch/target
-data/scratch/MissingParentRecordsReport.csv
+data/source
+data/target
+data/MissingParentRecordsReport.csv
 
 
 force-app/main/default/profiles/Trial Customer Portal User.profile-meta.xml

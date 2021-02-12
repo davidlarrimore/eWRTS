@@ -6,7 +6,6 @@ public with sharing class ewrtsCaseGenerator {
     public static String StatelocalAccountName = 'State/Local/Other';
     public static Integer minANumber = 100000004;
     public static Integer maxANumber = 100300000;
-    public static Date beginningOfCases = date.parse('1/1/2018');
 
     public static String fileRetrievalStatus1 = 'File Retrieval Queue';
     public static String fileRetrievalStatus2 = 'Case assigned to Contractor';
@@ -17,11 +16,13 @@ public with sharing class ewrtsCaseGenerator {
     public static String casePriority2 = 'Medium';
     public static String casePriority3 = 'High';
 
-
+    public static String caseStatus1 = 'New';
+    public static String caseStatus2 = 'File_Retrieval';    
+    public static String caseStatus3 = 'File_Processing';
+    public static String caseStatus4 = 'Closed';         
+    
     public static String fileProcessingStatus1 = 'File Processing Queue';
     public static String fileProcessingStatus2 = 'File Pulled for Processing';
-
-
 
     public static String NRCQueueFileProcessing = 'eWRTS File Processing Queue';
     public static String NRCQueueTriage = 'eWRTS NRC Triage Queue';   
@@ -96,13 +97,14 @@ public with sharing class ewrtsCaseGenerator {
             Account thisAccount;
             Contact thisContact;
 
-            DateTime caseDateOpened = ewrtsCaseGenerator.randomDate(ewrtsCaseGenerator.beginningOfCases, Date.Today());
-            DateTime caseDateInFileRetrieval = caseDateOpened.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 60));
-            DateTime caseDateAssignedtoContractor =  caseDateInFileRetrieval.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 60));
-            DateTime caseDateFilePulledfromShelf = caseDateAssignedtoContractor.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 60));
-            DateTime caseDateFileDelivered = caseDateFilePulledfromShelf.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 60));
-            DateTime caseDateFilePulledforProcessing = caseDateFileDelivered.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 60));
-            DateTime caseDateFileProcessed = caseDateFilePulledforProcessing.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 60));
+            DateTime caseDateOpened = Date.Today().addDays((ewrtsCaseGenerator.randomNumberInbetween(1, 90))*-1);
+            DateTime caseDateInFileRetrieval = caseDateOpened.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 25));
+            DateTime caseDateAssignedtoContractor =  caseDateInFileRetrieval.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 120));
+            DateTime caseDateFilePulledfromShelf = caseDateAssignedtoContractor.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 90));
+            DateTime caseDateFileDelivered = caseDateFilePulledfromShelf.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 120));
+            DateTime caseDateFilePulledforProcessing = caseDateFileDelivered.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 30));
+            DateTime caseDateFileProcessed = caseDateFilePulledforProcessing.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 120));
+
             
 
             String aNumber = String.ValueOf(ewrtsCaseGenerator.randomNumberInbetween(ewrtsCaseGenerator.minANumber, ewrtsCaseGenerator.maxANumber));
@@ -127,7 +129,7 @@ public with sharing class ewrtsCaseGenerator {
             }else if(randomAccountName == ewrtsCaseGenerator.USCISAccountName){
                 thisContact = USCISContacts[ewrtsCaseGenerator.randomNumber(USCISContacts.size())];
             }else{
-                thisContact = StatelocalContacts[ewrtsCaseGenerator.randomNumber(CBPContacts.size())];
+                thisContact = StatelocalContacts[ewrtsCaseGenerator.randomNumber(statelocalContacts.size())];
             } 
             //TODO: If case is more than 10 days old, make it closed.....
 
@@ -145,6 +147,12 @@ public with sharing class ewrtsCaseGenerator {
             newCase.Subject = randomAccountName + ' - ' + newCase.Reason + ' - ' + newCase.A_Number__c;
     
             newCase.Status = ewrtsCaseGenerator.randomCaseStatus();
+
+            //If Date opened is more than the last 3 days...Automatically make it closed.
+            if(caseDateOpened.addDays(3) < Datetime.now()) {
+                newCase.Status = ewrtsCaseGenerator.caseStatus4;
+            }
+
 
             //WHAT IS BEING REQUESTED
             newCase.REQ_Entire_File__c = ewrtsCaseGenerator.randomDocumentRequest();
@@ -192,7 +200,7 @@ public with sharing class ewrtsCaseGenerator {
             if(newCase.Status == 'New'){
                 //We Push phone to File_Retrieval
                 if(newCase.Origin == 'Phone'){
-                    newCase.Status = 'File_Retrieval';
+                    newCase.Status = ewrtsCaseGenerator.caseStatus2;
                     newCase.OwnerId = queueMap.get(newCase.Location_Site__c);
                     newCase.User_Contact_Info_Validated__c = true;
                     newCase.Case_in_File_Retrieval__c = true;
@@ -201,15 +209,20 @@ public with sharing class ewrtsCaseGenerator {
                 }else{
                     newCase.OwnerId = queueMap.get(ewrtsCaseGenerator.NRCQueueTriage);
                 }
-            }else if(newCase.Status == 'File_Retrieval'){
+            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus2){
+
                 String fileRetrievalStatus = ewrtsCaseGenerator.randomFileRetrievalStatus();
+
+                //we don't want NRC to have any Cases in Status 3 (Delivering);
+                if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus3 && newCase.Location_Site__c == 'NRC'){
+                    fileRetrievalStatus = ewrtsCaseGenerator.fileRetrievalStatus1;
+                }
+
                 newCase.User_Contact_Info_Validated__c = true;
                 newCase.Case_in_File_Retrieval__c = true;
                 newCase.Date_Case_in_File_Retrieval__c = caseDateInFileRetrieval;
 
-
                 if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus1){
-                    //Need to assign to Queue
                     newCase.OwnerId = queueMap.get(newCase.Location_Site__c);
                 }
                 
@@ -219,12 +232,14 @@ public with sharing class ewrtsCaseGenerator {
                     newCase.Case_assigned_to_Contractor__c = true;
                 }    
 
+
+
                 if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus3){
                     newCase.Date_File_Pulled_from_Shelf__c = caseDateFilePulledfromShelf;
                     newCase.File_Pulled_from_Shelf__c = true;
                 }
 
-            }else if(newCase.Status == 'File_Processing'){
+            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus3){
                 newCase.User_Contact_Info_Validated__c = true;
 
                 newCase.Date_Case_Assigned_to_Contractor__c = caseDateAssignedtoContractor;
@@ -242,7 +257,6 @@ public with sharing class ewrtsCaseGenerator {
                 String fileProcessingStatus = ewrtsCaseGenerator.randomFileProcessingStatus();
 
                 if(fileProcessingStatus == ewrtsCaseGenerator.fileProcessingStatus1){
-                    //Need to assign to Queue
                     newCase.OwnerId = queueMap.get(ewrtsCaseGenerator.NRCQueueFileProcessing);
                 }
 
@@ -307,13 +321,13 @@ public with sharing class ewrtsCaseGenerator {
     public static String randomCaseStatus(){
         Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
         if(randomNumber > 0 && randomNumber < 5){
-            return 'New';
+            return ewrtsCaseGenerator.caseStatus1;
         }else if(randomNumber > 5 && randomNumber < 13){
-            return 'File_Retrieval';
+            return ewrtsCaseGenerator.caseStatus2;
         }else if(randomNumber > 12 && randomNumber < 19){
-            return 'File_Processing';
+            return ewrtsCaseGenerator.caseStatus3;
         }else{
-            return 'Closed';
+            return ewrtsCaseGenerator.caseStatus4;
         }
     }
     
@@ -387,7 +401,7 @@ public with sharing class ewrtsCaseGenerator {
 
     public static String randomCaseReason(){
         Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
-        if(randomNumber > 0 && randomNumber < 79){
+        if(randomNumber > 0 && randomNumber < 69){
             return 'Normal File Request';
         }else{
             return 'Subject in Custody';

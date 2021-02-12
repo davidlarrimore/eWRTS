@@ -46,10 +46,14 @@ System (EWRTS)</description>
     <tabs>standard-Case</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Supervisor_Operations_Dashboard</tabs>
     <tabs>eWRTS_Executive_Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>eWRTS_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Supervisor_Operations_Dashboard</tab>
+        </mappings>
         <mappings>
             <tab>eWRTS_Executive_Dashboard</tab>
         </mappings>

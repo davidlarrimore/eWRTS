@@ -1,9 +1,0 @@
-Id,$$DeveloperName$NamespacePrefix$SobjectType
-0124x000000MHV2AAO,eWRTS_Customer_Account;Account
-0124x000000MHV3AAO,eWRTS_Case;Case
-0124x000000MHV4AAO,eWRTS_Custom_Contact;Contact
-0124x000001SRV3AAO,Company;Account
-0124x000001SRV4AAO,PersonAccount;Account
-0124x000001SRV5AAO,General_Inquiry;Case
-0124x000001SRVEAA4,Billing_Inquiry;Case
-0124x000001SRVFAA4,Technical_Issue;Case
