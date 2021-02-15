@@ -41,6 +41,13 @@
             <operator>equals</operator>
             <value>Closed</value>
         </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.eWRTS_Case</value>
+        </criteriaItems>
     </filter>
     <format>Summary</format>
     <groupingsDown>
