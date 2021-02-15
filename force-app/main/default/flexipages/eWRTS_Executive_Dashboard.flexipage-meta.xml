@@ -5,7 +5,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>height</name>
-                    <value>2500</value>
+                    <value>850</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showTabs</name>

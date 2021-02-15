@@ -2,7 +2,6 @@
   "orgName": "eWRTS",
   "edition": "Enterprise",
   "features": [
-    "PlatformConnect",
     "Communities",
     "Sites",
     "ServiceCloud",

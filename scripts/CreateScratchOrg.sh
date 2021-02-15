@@ -17,7 +17,7 @@ sfdx force:user:create --setalias eWRTSScratch_Contractor email=davidlarrimoresa
 
 echo "*** Assigning permission set to your users ..."
 sfdx force:user:permset:assign -n eWRTS_Demo_Admin -u eWRTSScratch
-sfdx force:user:permset:assign -n eWRTS_Contractor -u eWRTSScratch_Contractor
+sfdx force:user:permset:assign -n eWRTS_Contractor -u eWRTSScratch -o eWRTSScratch_Contractor
 
 echo "*** Generating password for your users ..."
 sfdx force:user:password:generate --targetusername eWRTSScratch
@@ -37,7 +37,7 @@ echo "*** Setting up debug mode..."
 sfdx force:apex:execute -f scripts/apex/setDebugMode.apex
 
 echo "*** Setting up Remote Site Settings..."
-sfdx force:apex:execute -f scripts/apex/createRemoteSiteSettings.apex
+#sfdx force:apex:execute -f scripts/apex/createRemoteSiteSettings.apex
 
 echo "*** Opening Org"
 #sfdx force:org:open

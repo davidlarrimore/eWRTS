@@ -133,7 +133,7 @@ public with sharing class ewrtsCaseGenerator {
             } 
             //TODO: If case is more than 10 days old, make it closed.....
 
-
+            newCase.eWRTS_Case_Number__c = String.valueOf(ewrtsCaseGenerator.randomNumber(9999999));
             newCase.Handcrafted_for_eWRTS_Demo_Scenario__c = true;
             newCase.AccountId = thisAccount.Id;
             newCase.ContactId = thisContact.Id;
