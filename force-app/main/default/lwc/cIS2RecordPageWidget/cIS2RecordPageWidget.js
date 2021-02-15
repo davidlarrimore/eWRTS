@@ -14,8 +14,10 @@ const fields = [
 export default class CIS2RecordPageWidget extends LightningElement {
     @api recordId;
     @track apiRecord;
+    @track editFormFlag = false;
     @track apiCallCompletedFlag = false;
     @track apiResultsFlag = false; 
+    nameInputFields = ['firstName', 'lastName'];
 
     connectedCallback() {
         this.getRecord();
@@ -48,6 +50,16 @@ export default class CIS2RecordPageWidget extends LightningElement {
             this.error = error;
             console.log(`CIS2RecordPageWidget.getCIS2RecordByCase Failed: ${error}`);
         });
+    }
+
+
+
+    handleFormEditClick() {
+        this.editFormFlag = true;
+    }
+
+    handleFormCancelClick() {
+        this.editFormFlag = false;
     }
 
 
