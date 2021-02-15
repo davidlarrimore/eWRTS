@@ -1,2 +1,2 @@
 Id,Name,BarQR__Allow_Save_to_formats__c,BarQR__Barcode_Type__c,BarQR__Field_API_Name__c,BarQR__Font_Rendering__c,BarQR__Image_Rotation__c,BarQR__Object_API_Name__c,BarQR__Scale_X__c,BarQR__Scale_Y__c,BarQR__Show_Text_Also__c
-a000R000003cDnKQAU,Case,,code128,A_Number__c,A,N,Case,3,0.5,true
+a001k000002llgzAAA,Case,,code128,A_Number__c,A,N,Case,3,0.5,true

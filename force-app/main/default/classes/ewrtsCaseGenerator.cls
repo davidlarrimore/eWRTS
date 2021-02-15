@@ -32,8 +32,13 @@ public with sharing class ewrtsCaseGenerator {
     public static String NRCQueueES3Contractor = 'eWRTS North KC Contractor Queue';
     public static String NRCQueueES4Contractor = 'eWRTS Iron Mountain Contractor Queue';
 
-
+    //If no dateRange is provided, it defaults to 2 years
     public static void createRandomeWRTSCases(Integer numbertoCreate){
+
+        ewrtsCaseGenerator.createRandomeWRTSCases(730, numbertoCreate);
+    }
+
+    public static void createRandomeWRTSCases(Integer numbertoCreate, Integer dateRange){
         Account CBPAccount;
         Account ICEAccount;
         Account USCISAccount;
@@ -43,11 +48,18 @@ public with sharing class ewrtsCaseGenerator {
 
         Map<String,Id> queueMap = new Map<String, Id>();
 
-        List<User> adminUsers = [SELECT Id, FirstName, LastName, Email, Username, Profile.name FROM User WHERE IsActive = true AND Profile.Name = 'System Administrator'];
-        List<User> contractorUsers = [SELECT Id, FirstName, LastName, Email, Username, Profile.name FROM User WHERE IsActive = true AND Profile.Name IN ('eWRTS Contractor', 'Standard User')];
+        List<PermissionSetAssignment> eWRTSdemoAdminUsers =  [SELECT AssigneeId FROM PermissionSetAssignment WHERE PermissionSet.Name = 'eWRTS_Demo_Admin'];
+        List<Id> eWRTSdemoAdminIds = new List<Id>();
+
+        for(PermissionSetAssignment permAssignment: eWRTSdemoAdminUsers){
+            eWRTSdemoAdminIds.add(permAssignment.AssigneeId);
+        }
+
+        List<User> analystUsers = [SELECT Id, FirstName, LastName, Email, Username, Profile.name FROM User WHERE IsActive = true AND Id IN :eWRTSdemoAdminIds];
 
         List<Account> accounts = [SELECT Id, Name FROM Account WHERE Handcrafted_for_eWRTS_Demo_Scenario__c = true AND RecordType.DeveloperName = 'eWRTS_Customer_Account'];
        
+
         //Getting ID's of accounts
         for(Account account: accounts){
             if(account.name == ewrtsCaseGenerator.CBPAccountName){
@@ -97,7 +109,7 @@ public with sharing class ewrtsCaseGenerator {
             Account thisAccount;
             Contact thisContact;
 
-            DateTime caseDateOpened = Date.Today().addDays((ewrtsCaseGenerator.randomNumberInbetween(1, 90))*-1);
+            DateTime caseDateOpened = Date.Today().addDays((ewrtsCaseGenerator.randomNumberInbetween(1, dateRange))*-1);
             DateTime caseDateInFileRetrieval = caseDateOpened.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 25));
             DateTime caseDateAssignedtoContractor =  caseDateInFileRetrieval.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 120));
             DateTime caseDateFilePulledfromShelf = caseDateAssignedtoContractor.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 90));
@@ -106,7 +118,6 @@ public with sharing class ewrtsCaseGenerator {
             DateTime caseDateFileProcessed = caseDateFilePulledforProcessing.addMinutes(ewrtsCaseGenerator.randomNumberInbetween(10, 120));
 
             
-
             String aNumber = String.ValueOf(ewrtsCaseGenerator.randomNumberInbetween(ewrtsCaseGenerator.minANumber, ewrtsCaseGenerator.maxANumber));
             String randomAccountName = ewrtsCaseGenerator.randomAccount();
 
@@ -133,8 +144,9 @@ public with sharing class ewrtsCaseGenerator {
             } 
             //TODO: If case is more than 10 days old, make it closed.....
 
-            newCase.eWRTS_Case_Number__c = String.valueOf(ewrtsCaseGenerator.randomNumber(9999999));
-            newCase.Handcrafted_for_eWRTS_Demo_Scenario__c = true;
+            newCase.eWRTS_Case_Number__c = String.valueOf(ewrtsCaseGenerator.randomNumber(2147483547));
+            newCase.eWRTS_Randomly_Generated_Case__c = true;
+            newCase.Handcrafted_for_eWRTS_Demo_Scenario__c = false;
             newCase.AccountId = thisAccount.Id;
             newCase.ContactId = thisContact.Id;
             newCase.RecordTypeId = recordTypeId;
@@ -197,7 +209,7 @@ public with sharing class ewrtsCaseGenerator {
             }
 
 
-            if(newCase.Status == 'New'){
+            if(newCase.Status == ewrtsCaseGenerator.caseStatus1){ //NEW
                 //We Push phone to File_Retrieval
                 if(newCase.Origin == 'Phone'){
                     newCase.Status = ewrtsCaseGenerator.caseStatus2;
@@ -209,14 +221,9 @@ public with sharing class ewrtsCaseGenerator {
                 }else{
                     newCase.OwnerId = queueMap.get(ewrtsCaseGenerator.NRCQueueTriage);
                 }
-            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus2){
+            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus2){  //FILE RETRIEVAL
 
-                String fileRetrievalStatus = ewrtsCaseGenerator.randomFileRetrievalStatus();
-
-                //we don't want NRC to have any Cases in Status 3 (Delivering);
-                if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus3 && newCase.Location_Site__c == 'NRC'){
-                    fileRetrievalStatus = ewrtsCaseGenerator.fileRetrievalStatus1;
-                }
+                String fileRetrievalStatus = ewrtsCaseGenerator.fileRetrievalStatus1; //Defaulted to 1 and placed in queue
 
                 newCase.User_Contact_Info_Validated__c = true;
                 newCase.Case_in_File_Retrieval__c = true;
@@ -225,21 +232,8 @@ public with sharing class ewrtsCaseGenerator {
                 if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus1){
                     newCase.OwnerId = queueMap.get(newCase.Location_Site__c);
                 }
-                
-                if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus2 || fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus3){
-                    newCase.OwnerId = contractorUsers[ewrtsCaseGenerator.randomNumber(contractorUsers.size())].Id;
-                    newCase.Date_Case_Assigned_to_Contractor__c = caseDateAssignedtoContractor;
-                    newCase.Case_assigned_to_Contractor__c = true;
-                }    
 
-
-
-                if(fileRetrievalStatus == ewrtsCaseGenerator.fileRetrievalStatus3){
-                    newCase.Date_File_Pulled_from_Shelf__c = caseDateFilePulledfromShelf;
-                    newCase.File_Pulled_from_Shelf__c = true;
-                }
-
-            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus3){
+            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus3){ //FILE PROCESSING
                 newCase.User_Contact_Info_Validated__c = true;
 
                 newCase.Date_Case_Assigned_to_Contractor__c = caseDateAssignedtoContractor;
@@ -262,15 +256,16 @@ public with sharing class ewrtsCaseGenerator {
 
 
                 if(fileProcessingStatus == ewrtsCaseGenerator.fileProcessingStatus2){
-                    newCase.OwnerId = adminUsers[ewrtsCaseGenerator.randomNumber(adminUsers.size())].Id;
+                    newCase.OwnerId = analystUsers[ewrtsCaseGenerator.randomNumber(analystUsers.size())].Id;
 
                     newCase.Date_File_Pulled_for_Processing__c = caseDateFilePulledforProcessing;
                     newCase.File_Pulled_for_Processing__c = true;
                 }
 
-            }else if(newCase.Status == 'Closed'){
+            
+            }else if(newCase.Status == ewrtsCaseGenerator.caseStatus4){ //CASE CLOSED
 
-                newCase.OwnerId = adminUsers[ewrtsCaseGenerator.randomNumber(adminUsers.size())].Id;
+                newCase.OwnerId = analystUsers[ewrtsCaseGenerator.randomNumber(analystUsers.size())].Id;
 
                 newCase.User_Contact_Info_Validated__c = true;
                 newCase.Date_Case_Assigned_to_Contractor__c = caseDateAssignedtoContractor;
@@ -309,9 +304,9 @@ public with sharing class ewrtsCaseGenerator {
         Integer randomNumber = ewrtsCaseGenerator.randomD100Roll();
         if(randomNumber > 0 && randomNumber < 31){
             return ewrtsCaseGenerator.CBPAccountName;
-        }else if(randomNumber > 30 && randomNumber < 61){
+        }else if(randomNumber > 30 && randomNumber < 79){
             return ewrtsCaseGenerator.ICEAccountName;
-        }else if(randomNumber > 60 && randomNumber < 91){
+        }else if(randomNumber > 80 && randomNumber < 91){
             return ewrtsCaseGenerator.USCISAccountName;
         }else{
             return ewrtsCaseGenerator.StatelocalAccountName;

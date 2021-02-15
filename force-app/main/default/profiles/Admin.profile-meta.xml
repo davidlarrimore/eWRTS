@@ -694,6 +694,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.eWRTS_Randomly_Generated_Case__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Handcrafted_for_eWRTS_Demo_Scenario__c</field>
         <readable>true</readable>

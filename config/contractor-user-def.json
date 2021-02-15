@@ -1,8 +1,5 @@
 {
-    "FirstName": "Chris",
-    "LastName": "Contractor",
     "Email": "davidlarrimoresalesforce@gmail.com",
-    "Alias": "CContr",
-    "profileName": "Standard Platform User",
+    "profileName": "eWRTS Contractor",
     "permsets": ["eWRTS_Contractor"]
 }
