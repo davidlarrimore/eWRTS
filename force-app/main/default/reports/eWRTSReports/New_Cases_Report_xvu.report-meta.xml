@@ -47,6 +47,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Case.Date_Opened__c</dateColumn>
-        <interval>INTERVAL_NEXT7</interval>
+        <interval>INTERVAL_LAST7</interval>
     </timeFrameFilter>
 </Report>

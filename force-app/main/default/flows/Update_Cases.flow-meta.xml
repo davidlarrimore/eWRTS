@@ -875,7 +875,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_12_myRule_10_A1_4789177717</name>
+        <name>formula_12_myRule_10_A1_5549787951</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -886,7 +886,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_16_myRule_14_A1_2741407428</name>
+        <name>formula_16_myRule_14_A1_8431552395</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -897,7 +897,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_20_myRule_18_A3_6555344397</name>
+        <name>formula_20_myRule_18_A3_3534797116</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -908,7 +908,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_21_myRule_18_A1_3698944695</name>
+        <name>formula_21_myRule_18_A1_7034061367</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -919,7 +919,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A1_4051282963</name>
+        <name>formula_3_myRule_1_A1_2193299119</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -930,7 +930,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_4_myRule_1_A1_0077025320</name>
+        <name>formula_4_myRule_1_A1_8693963327</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -941,11 +941,11 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_8_myRule_6_A1_7214152715</name>
+        <name>formula_8_myRule_6_A1_5521970979</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
-    <interviewLabel>Update_Cases-6_InterviewLabel</interviewLabel>
+    <interviewLabel>Update_Cases-7_InterviewLabel</interviewLabel>
     <label>eWRTS - Update Cases</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -1662,7 +1662,7 @@
             <field>Date_Opened__c</field>
             <value>
                 <elementReference
-        >formula_20_myRule_18_A3_6555344397</elementReference>
+        >formula_20_myRule_18_A3_3534797116</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1779,36 +1779,6 @@
             <field>Description</field>
             <value>
                 <stringValue>Completed!</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>ID</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Assigned To ID</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Reference</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>OwnerId</field>
-            <value>
-                <elementReference>myVariable_current.OwnerId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2232,7 +2202,7 @@
             <field>Date_File_Delivered__c</field>
             <value>
                 <elementReference
-        >formula_12_myRule_10_A1_4789177717</elementReference>
+        >formula_12_myRule_10_A1_5549787951</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2353,7 +2323,7 @@
             <field>Date_File_Pulled_for_Processing__c</field>
             <value>
                 <elementReference
-        >formula_16_myRule_14_A1_2741407428</elementReference>
+        >formula_16_myRule_14_A1_8431552395</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -2438,7 +2408,7 @@
             <field>Date_File_Processed__c</field>
             <value>
                 <elementReference
-        >formula_21_myRule_18_A1_3698944695</elementReference>
+        >formula_21_myRule_18_A1_7034061367</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2631,7 +2601,7 @@
             <field>Date_Case_Assigned_to_Contractor__c</field>
             <value>
                 <elementReference
-        >formula_3_myRule_1_A1_4051282963</elementReference>
+        >formula_3_myRule_1_A1_2193299119</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2668,7 +2638,7 @@
             <field>Date_Case_in_File_Retrieval__c</field>
             <value>
                 <elementReference
-        >formula_4_myRule_1_A1_0077025320</elementReference>
+        >formula_4_myRule_1_A1_8693963327</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -2753,7 +2723,7 @@
             <field>Date_File_Pulled_from_Shelf__c</field>
             <value>
                 <elementReference
-        >formula_8_myRule_6_A1_7214152715</elementReference>
+        >formula_8_myRule_6_A1_5521970979</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
