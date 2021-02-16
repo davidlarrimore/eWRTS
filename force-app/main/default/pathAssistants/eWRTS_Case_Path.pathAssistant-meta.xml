@@ -1,8 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
     <active>true</active>
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>eWRTS Case Path</masterLabel>
+    <pathAssistantSteps>
+        <info
+    >&lt;ul&gt;&lt;li&gt;Validate CIS2 Data&lt;/li&gt;&lt;li&gt;Upload Required Documents&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>File_Processing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Case_assigned_to_Contractor__c</fieldNames>
+        <fieldNames>File_Pulled_from_Shelf__c</fieldNames>
+        <fieldNames>File_Delivered__c</fieldNames>
+        <info
+    >&lt;p&gt;During the File Retrieval Stage, the ILMS Contract Staff will be assigned the case for retrieval. Once the file has been delivered to the appropriate station, the file retrieval phase is considered completed.&lt;/p&gt;</info>
+        <picklistValueName>File_Retrieval</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>User_Contact_Info_Validated__c</fieldNames>
+        <info
+    >&lt;p&gt;Have you validated the customer information?&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>eWRTS_Case</recordTypeName>
 </PathAssistant>

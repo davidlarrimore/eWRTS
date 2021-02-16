@@ -8,6 +8,11 @@ echo "*** Installing Unofficial SF Flow Horizontal Rule  ..."
 sfdx force:package:install --package 04tB00000006grz -w 1000 -u eWRTSScratch
 echo "*** Barcode and QR Reader: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FvIsgUAF..."
 sfdx force:package:install --package 04t1U000007Y4i4QAC -w 1000 -u eWRTSScratch
+echo "*** Activity Scorecard Component: https://appexchangejp.salesforce.com/appxListingDetail?listingId=a0N3u00000MBd62EAD&channel=recommended..."
+sfdx force:package:install --package 04t4N000000omg3QAA -w 1000 -u eWRTSScratch
+echo "*** Customisable Flow Header & Footer with Progress Indicator: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EczujUAB..."
+sfdx force:package:install --package 04t1t0000034vZjAAI -w 1000 -u eWRTSScratch
+
 
 echo "*** Pushing metadata to scratch org ..."
 sfdx force:source:push

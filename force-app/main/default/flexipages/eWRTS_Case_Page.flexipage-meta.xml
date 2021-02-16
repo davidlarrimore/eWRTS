@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
@@ -36,7 +36,8 @@
                     <name>variant</name>
                     <value>linear</value>
                 </componentInstanceProperties>
-                <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
+                <componentName
+        >runtime_sales_pathassistant:pathAssistant</componentName>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -85,11 +86,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>runtime_sales_activities:activityPanel</componentName>
-            </componentInstance>
-        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -231,6 +227,12 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentName>PSTimeline</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName
+        >runtime_sales_activities:activityPanel</componentName>
             </componentInstance>
         </itemInstances>
         <name>Facet-28d81713-e6d8-4c1e-bcb5-16f3092c1673</name>

@@ -390,6 +390,12 @@ export default class ContractorMobileApp extends LightningElement {
     //console.log(`Found the following apiRecords ${JSON.stringify(recordsToProcess)}`);
 
     //Getting Rooms
+    console.log(`Defaulting RPC to IL0300`);
+    //Default RPC to IL0300
+    for (let i = 0; i < recordsToProcess.length; i++) {
+      recordsToProcess[i].railsRecord.rpc = "IL0300";
+    }
+
     console.log(`RPC Loop`);
     for (let i = 0; i < recordsToProcess.length; i++) {
       let thisApiRecord = recordsToProcess[i];
@@ -406,7 +412,6 @@ export default class ContractorMobileApp extends LightningElement {
             noExistingRoom = false;
           }
         }
-
         if (noExistingRoom) {
           let newItem = {};
           newItem.label = `Table: ${thisApiRecord.railsRecord.rpc}`;

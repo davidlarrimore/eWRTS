@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>eWRTS_Audit__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>eWRTS Audit Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Name_Updated__c</fieldNames>
+        <fieldNames>Alias_Updated__c</fieldNames>
+        <fieldNames>Country_of_Origin__c</fieldNames>
+        <fieldNames>Gender_Updated__c</fieldNames>
+        <picklistValueName>CIS2 Audit</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>RPC_Updated__c</fieldNames>
+        <picklistValueName>RAILS Audit</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Case_Filled_Out__c</fieldNames>
+        <fieldNames>Correct_RPC_Used__c</fieldNames>
+        <fieldNames>Email_to_Requestor__c</fieldNames>
+        <fieldNames>Files_Attached__c</fieldNames>
+        <fieldNames>Was_CC_Added_to_Email__c</fieldNames>
+        <picklistValueName>eWRTS Audit</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

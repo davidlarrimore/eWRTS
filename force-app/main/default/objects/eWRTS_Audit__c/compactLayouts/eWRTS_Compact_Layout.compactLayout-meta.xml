@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eWRTS_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Case__c</fields>
+    <fields>Supervisor__c</fields>
+    <fields>Status__c</fields>
+    <fields>Score_Icon__c</fields>
+    <fields>Date_Opened__c</fields>
+    <label>eWRTS Compact Layout</label>
+</CompactLayout>

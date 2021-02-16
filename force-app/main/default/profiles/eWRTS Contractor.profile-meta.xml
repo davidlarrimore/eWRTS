@@ -722,12 +722,45 @@
         <field>User.RAILS_RPC__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.A_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Case_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Date_Closed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Date_Opened__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Supervisor_Comment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>A_File__c-A File Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-eWRTS Case Layout</layout>
         <recordType>Case.eWRTS_Case</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>eWRTS_Audit__c-eWRTS Audit Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -768,6 +801,10 @@
     <tabVisibilities>
         <tab>Supervisor_Operations_Dashboard</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>eWRTS_Audit__c</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>eWRTS_Executive_Dashboard</tab>
