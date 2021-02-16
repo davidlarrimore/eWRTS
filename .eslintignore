@@ -1,8 +1,3 @@
-**/lwc/**/*.css
-**/lwc/**/*.html
-**/lwc/**/*.json
-**/lwc/**/*.svg
-**/lwc/**/*.xml
 **/aura/**/*.auradoc
 **/aura/**/*.cmp
 **/aura/**/*.css

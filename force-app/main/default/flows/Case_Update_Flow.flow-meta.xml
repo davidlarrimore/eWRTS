@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>51.0</apiVersion>
     <assignments>
@@ -17,10 +17,26 @@
             <targetReference>Update_Case</targetReference>
         </connector>
     </assignments>
+    <assignments>
+        <name>Assign_Processing_Case_Owner</name>
+        <label>Assign Processing Case Owner</label>
+        <locationX>314</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Queue.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Case</targetReference>
+        </connector>
+    </assignments>
     <decisions>
         <name>Status_Decision</name>
         <label>Status_Decision</label>
-        <locationX>182</locationX>
+        <locationX>314</locationX>
         <locationY>311</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -40,10 +56,46 @@
                     <stringValue>File_Retrieval</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>A File Record Request</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Get_Christ_Contractor</targetReference>
             </connector>
             <label>Now in File Retrieval</label>
+        </rules>
+        <rules>
+            <name>Now_in_File_Processing</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>File_Processing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>File_Processing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>A File Record Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Queue</targetReference>
+            </connector>
+            <label>Now in File Processing</label>
         </rules>
     </decisions>
     <interviewLabel>Case Update Flow {!$Flow.CurrentDateTime}</interviewLabel>
@@ -72,7 +124,8 @@
         <label>Get Christ Contractor</label>
         <locationX>50</locationX>
         <locationY>431</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <assignNullValuesIfNoRecordsFound
+    >false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Owner</targetReference>
         </connector>
@@ -95,15 +148,37 @@
         <object>User</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordLookups>
+        <name>Get_Queue</name>
+        <label>Get Queue</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound
+    >false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Processing_Case_Owner</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>eWRTS_File_Processing_Queue</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Case</name>
         <label>Update Case</label>
-        <locationX>50</locationX>
-        <locationY>671</locationY>
+        <locationX>314</locationX>
+        <locationY>767</locationY>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>56</locationX>
+        <locationX>188</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Status_Decision</targetReference>

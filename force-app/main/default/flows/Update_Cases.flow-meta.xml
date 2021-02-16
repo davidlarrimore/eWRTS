@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>50.0</apiVersion>
     <decisions>
@@ -7,7 +7,8 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</targetReference>
+            <targetReference
+      >isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
@@ -21,25 +22,30 @@
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>myVariable_old.File_Delivered__c</leftValueReference>
+                <leftValueReference
+        >myVariable_old.File_Delivered__c</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <elementReference>myVariable_current.File_Delivered__c</elementReference>
+                    <elementReference
+          >myVariable_current.File_Delivered__c</elementReference>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</targetReference>
+                <targetReference
+        >isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</targetReference>
             </connector>
             <label>isChangedRule_11_myRule_10_File_Delivered_c</label>
         </rules>
     </decisions>
     <decisions>
         <name>isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</name>
-        <label>isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</label>
+        <label
+    >isChangedDecision15_myRule_14_File_Pulled_for_Processing_c</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision19_myRule_18_File_Processed_c</targetReference>
+            <targetReference
+      >isChangedDecision19_myRule_18_File_Processed_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
@@ -53,16 +59,20 @@
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>myVariable_old.File_Pulled_for_Processing__c</leftValueReference>
+                <leftValueReference
+        >myVariable_old.File_Pulled_for_Processing__c</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <elementReference>myVariable_current.File_Pulled_for_Processing__c</elementReference>
+                    <elementReference
+          >myVariable_current.File_Pulled_for_Processing__c</elementReference>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision19_myRule_18_File_Processed_c</targetReference>
+                <targetReference
+        >isChangedDecision19_myRule_18_File_Processed_c</targetReference>
             </connector>
-            <label>isChangedRule_15_myRule_14_File_Pulled_for_Processing_c</label>
+            <label
+      >isChangedRule_15_myRule_14_File_Pulled_for_Processing_c</label>
         </rules>
     </decisions>
     <decisions>
@@ -85,10 +95,12 @@
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>myVariable_old.File_Processed__c</leftValueReference>
+                <leftValueReference
+        >myVariable_old.File_Processed__c</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <elementReference>myVariable_current.File_Processed__c</elementReference>
+                    <elementReference
+          >myVariable_current.File_Processed__c</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -103,7 +115,8 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision7_myRule_6_File_Pulled_from_Shelf_c</targetReference>
+            <targetReference
+      >isChangedDecision7_myRule_6_File_Pulled_from_Shelf_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
@@ -120,11 +133,13 @@
                 <leftValueReference>myVariable_old.Status</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <elementReference>myVariable_current.Status</elementReference>
+                    <elementReference
+          >myVariable_current.Status</elementReference>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision7_myRule_6_File_Pulled_from_Shelf_c</targetReference>
+                <targetReference
+        >isChangedDecision7_myRule_6_File_Pulled_from_Shelf_c</targetReference>
             </connector>
             <label>isChangedRule_2_myRule_1_Status</label>
         </rules>
@@ -135,7 +150,8 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision11_myRule_10_File_Delivered_c</targetReference>
+            <targetReference
+      >isChangedDecision11_myRule_10_File_Delivered_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
@@ -149,14 +165,17 @@
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>myVariable_old.File_Pulled_from_Shelf__c</leftValueReference>
+                <leftValueReference
+        >myVariable_old.File_Pulled_from_Shelf__c</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <elementReference>myVariable_current.File_Pulled_from_Shelf__c</elementReference>
+                    <elementReference
+          >myVariable_current.File_Pulled_from_Shelf__c</elementReference>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision11_myRule_10_File_Delivered_c</targetReference>
+                <targetReference
+        >isChangedDecision11_myRule_10_File_Delivered_c</targetReference>
             </connector>
             <label>isChangedRule_7_myRule_6_File_Pulled_from_Shelf_c</label>
         </rules>
@@ -204,7 +223,8 @@
                         <stringValue>Picklist</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <leftValueReference
+        >myVariable_current.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>File_Retrieval</stringValue>
@@ -235,7 +255,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_2_myRule_1_Status</leftValueReference>
+                <leftValueReference
+        >isChangedRule_2_myRule_1_Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -321,7 +342,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.File_Pulled_for_Processing__c</leftValueReference>
+                <leftValueReference
+        >myVariable_current.File_Pulled_for_Processing__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -352,7 +374,8 @@
                         <stringValue>Picklist</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <leftValueReference
+        >myVariable_current.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>File_Processing</stringValue>
@@ -383,7 +406,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_15_myRule_14_File_Pulled_for_Processing_c</leftValueReference>
+                <leftValueReference
+        >isChangedRule_15_myRule_14_File_Pulled_for_Processing_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -466,7 +490,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.File_Processed__c</leftValueReference>
+                <leftValueReference
+        >myVariable_current.File_Processed__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -497,7 +522,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_19_myRule_18_File_Processed_c</leftValueReference>
+                <leftValueReference
+        >isChangedRule_19_myRule_18_File_Processed_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -528,7 +554,8 @@
                         <stringValue>Picklist</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <leftValueReference
+        >myVariable_current.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>File_Processing</stringValue>
@@ -614,7 +641,8 @@
                         <stringValue>Picklist</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <leftValueReference
+        >myVariable_current.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>File_Retrieval</stringValue>
@@ -645,7 +673,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.File_Pulled_from_Shelf__c</leftValueReference>
+                <leftValueReference
+        >myVariable_current.File_Pulled_from_Shelf__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -676,7 +705,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_7_myRule_6_File_Pulled_from_Shelf_c</leftValueReference>
+                <leftValueReference
+        >isChangedRule_7_myRule_6_File_Pulled_from_Shelf_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -762,7 +792,8 @@
                         <stringValue>Picklist</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <leftValueReference
+        >myVariable_current.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>File_Retrieval</stringValue>
@@ -793,7 +824,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>myVariable_current.File_Delivered__c</leftValueReference>
+                <leftValueReference
+        >myVariable_current.File_Delivered__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -824,7 +856,8 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_11_myRule_10_File_Delivered_c</leftValueReference>
+                <leftValueReference
+        >isChangedRule_11_myRule_10_File_Delivered_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -875,7 +908,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_12_myRule_10_A1_9083711312</name>
+        <name>formula_12_myRule_10_A1_9907873511</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -886,7 +919,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_16_myRule_14_A1_7136340031</name>
+        <name>formula_16_myRule_14_A1_7235279790</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -897,7 +930,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_20_myRule_18_A1_9579168764</name>
+        <name>formula_20_myRule_18_A1_9646596795</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -908,7 +941,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A1_3832934445</name>
+        <name>formula_3_myRule_1_A1_2028409025</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -919,7 +952,7 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_4_myRule_1_A1_0740029722</name>
+        <name>formula_4_myRule_1_A1_0125138807</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
@@ -930,11 +963,11 @@
                 <stringValue>NOW()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_8_myRule_6_A1_8447347176</name>
+        <name>formula_8_myRule_6_A1_6058595815</name>
         <dataType>DateTime</dataType>
         <expression>NOW()</expression>
     </formulas>
-    <interviewLabel>Update_Cases-10_InterviewLabel</interviewLabel>
+    <interviewLabel>Update_Cases-2_InterviewLabel</interviewLabel>
     <label>eWRTS - Update Cases</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -1026,7 +1059,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1037,49 +1070,8 @@
             </processMetadataValues>
             <field>Date_File_Delivered__c</field>
             <value>
-                <elementReference>formula_12_myRule_10_A1_9083711312</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>ID</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Owner ID</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue>Group;User</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideLabel</name>
-                <value>
-                    <stringValue>eWRTS_File_Processing_Queue</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Queue</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>OwnerId</field>
-            <value>
-                <stringValue>00G0R000004r9NuUAI</stringValue>
+                <elementReference
+        >formula_12_myRule_10_A1_9907873511</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1104,7 +1096,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1185,7 +1177,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1196,7 +1188,8 @@
             </processMetadataValues>
             <field>Date_File_Pulled_for_Processing__c</field>
             <value>
-                <elementReference>formula_16_myRule_14_A1_7136340031</elementReference>
+                <elementReference
+        >formula_16_myRule_14_A1_7235279790</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -1266,7 +1259,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1277,7 +1270,8 @@
             </processMetadataValues>
             <field>Date_File_Processed__c</field>
             <value>
-                <elementReference>formula_20_myRule_18_A1_9579168764</elementReference>
+                <elementReference
+        >formula_20_myRule_18_A1_9646596795</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -1347,7 +1341,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1383,7 +1377,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1419,7 +1413,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1430,7 +1424,8 @@
             </processMetadataValues>
             <field>Date_Case_Assigned_to_Contractor__c</field>
             <value>
-                <elementReference>formula_4_myRule_1_A1_0740029722</elementReference>
+                <elementReference
+        >formula_3_myRule_1_A1_2028409025</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1455,7 +1450,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1466,7 +1461,8 @@
             </processMetadataValues>
             <field>Date_Case_in_File_Retrieval__c</field>
             <value>
-                <elementReference>formula_3_myRule_1_A1_3832934445</elementReference>
+                <elementReference
+        >formula_4_myRule_1_A1_0125138807</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -1536,7 +1532,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue/>
+                    <stringValue />
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -1547,12 +1543,14 @@
             </processMetadataValues>
             <field>Date_File_Pulled_from_Shelf__c</field>
             <value>
-                <elementReference>formula_8_myRule_6_A1_8447347176</elementReference>
+                <elementReference
+        >formula_8_myRule_6_A1_6058595815</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
     </recordUpdates>
-    <startElementReference>isChangedDecision2_myRule_1_Status</startElementReference>
+    <startElementReference
+  >isChangedDecision2_myRule_1_Status</startElementReference>
     <status>Active</status>
     <variables>
         <name>myVariable_current</name>

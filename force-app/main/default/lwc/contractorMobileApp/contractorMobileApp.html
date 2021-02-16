@@ -1,48 +1,130 @@
 <template>
-    <div>Site: NRC</div>
-    <lightning-card class="pull-queue-card" title="My File Pull Queue" icon-name="standard:shift">
-        <template if:true={apiCallCompletedFlag}>
-            <div slot="actions">
-            <lightning-badge label={caseCountText} class="slds-theme_success"></lightning-badge>
+  <div class="slds-var-m-around_medium slds-align_absolute-center mode-buttons">
+    <lightning-button-group>
+      <lightning-button
+        class="file-pull-button slds-is-selected"
+        label="PULL"
+        title="Set Scan Mode to File Pull"
+        variant="brand"
+        onclick={clickEventFilePullButton}
+      ></lightning-button>
+      <lightning-button
+        class="file-deliver-button"
+        label="DELIVER"
+        title="Set Scan Mode to File Deliver"
+        variant="neutral"
+        onclick={clickEventFileDeliverButton}
+      ></lightning-button>
+      <lightning-button
+        class="file-return-button"
+        label="RETURN"
+        title="Set Scan Mode to File Return"
+        variant="neutral"
+        onclick={clickEventFileReturnButton}
+        disabled
+      ></lightning-button>
+    </lightning-button-group>
+  </div>
+  <template if:true={appModePullFlag}>
+    <lightning-card
+      class="pull-queue-card slds-card_boundary"
+      title="File Pull Queue"
+      icon-name="standard:shift"
+    >
+      <template if:true={apiCallCompletedFlag}>
+        <div slot="actions">
+          <lightning-badge
+            label={pullCaseCountText}
+            class="slds-theme_success"
+          ></lightning-badge>
         </div>
+      </template>
+      <template if:true={apiCallCompletedFlag}>
+        <template if:true={pullApiResultsFlag}>
+          <div
+            class="slds-var-m-top_small slds-var-m-bottom_small slds-border_top"
+          >
+            <lightning-tree items={pullCasesTree}></lightning-tree>
+          </div>
         </template>
-        <template if:true={apiCallCompletedFlag}>
-            <template if:true={apiResultsFlag}>
-                <div class="slds-var-m-around_medium">
-                    <lightning-tree items={treeItems}></lightning-tree>
-                </div>
-            </template>
-            <template if:false={apiResultsFlag}>
-                <div class="slds-illustration slds-illustration_small" aria-hidden="true">
-                    <img src="/img/chatter/Desert.svg" class="slds-illustration__svg" alt="" />
-                </div>
-            </template>
+        <template if:false={pullApiResultsFlag}>
+          <div
+            class="slds-illustration slds-illustration_small"
+            aria-hidden="true"
+          >
+            <img
+              src="/img/chatter/Desert.svg"
+              class="slds-illustration__svg"
+              alt=""
+            />
+          </div>
         </template>
-        <template if:false={apiCallCompletedFlag}>
-            <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
-        </template>        
+      </template>
+      <template if:false={pullApiResultsFlag}>
+        <lightning-spinner
+          alternative-text="Loading"
+          size="small"
+        ></lightning-spinner>
+      </template>
     </lightning-card>
-    <br/>
-    <br/>
-    <div class="slds-align_absolute-center slds-var-m-around_medium">
-            <lightning-button
-            variant="brand"
-            class="slds-var-m-left_x-small"
-            disabled={scanButtonDisabled}
-            icon-name="utility:cases"
-            label="Scan Barcode"
-            title="Open a camera view and look for a barcode to scan"
-            onclick={handleBeginScanClick}>
-        </lightning-button> 
-    </div>
-    <div class="slds-align_absolute-center slds-var-m-around_medium">
-        Scanning Mode:&nbsp;
-        <lightning-button-group>
-            <lightning-button class="file-pull-button slds-is-selected" label="Pull" title="Set Scan Mode to File Pull" variant="brand" onclick={clickEventFilePullButton}></lightning-button>
-            <lightning-button class="file-deliver-button" label="Deliver" title="Set Scan Mode to File Deliver" variant="neutral" onclick={clickEventFileDeliverButton}></lightning-button>
-            <lightning-button class="file-return-button" label="Return" title="Set Scan Mode to File Return" variant="neutral" onclick={clickEventFileReturnButton}></lightning-button>
-        </lightning-button-group>
-    </div>    
-    <br/><br/>
-    <div>App Version: {appVersion}</div>
   </template>
+  <template if:true={appModeDeliverFlag}>
+    <lightning-card
+      class="deliver-queue-card slds-card_boundary"
+      title="File Deliver Queue"
+      icon-name="standard:shift"
+    >
+      <template if:true={apiCallCompletedFlag}>
+        <div slot="actions">
+          <lightning-badge
+            label={deliverCaseCountText}
+            class="slds-theme_success"
+          ></lightning-badge>
+        </div>
+      </template>
+      <template if:true={deliverApiResultsFlag}>
+        <div
+          class="slds-var-m-top_small slds-var-m-bottom_small slds-border_top"
+        >
+          <lightning-tree items={deliverCasesTree}></lightning-tree>
+        </div>
+      </template>
+      <template if:false={deliverApiResultsFlag}>
+        <div
+          class="slds-illustration slds-illustration_small"
+          aria-hidden="true"
+        >
+          <img
+            src="/img/chatter/Desert.svg"
+            class="slds-illustration__svg"
+            alt=""
+          />
+        </div>
+      </template>
+      <template if:false={apiCallCompletedFlag}>
+        <lightning-spinner
+          alternative-text="Loading"
+          size="small"
+        ></lightning-spinner>
+      </template>
+    </lightning-card>
+  </template>
+
+  <br />
+  <div class="slds-align_absolute-center slds-var-m-around_medium">
+    <lightning-button
+      variant="brand"
+      class="slds-var-m-left_x-small"
+      disabled={scanButtonDisabled}
+      icon-name="utility:cases"
+      label="Scan Barcode"
+      title="Open a camera view and look for a barcode to scan"
+      onclick={handleBeginScanClick}
+    >
+    </lightning-button>
+  </div>
+  <br />
+  <br /><br />
+  <div>App Version: {appVersion}</div>
+  <div>Site: NRC</div>
+</template>
