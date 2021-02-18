@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <comment
+    >Action override created by Lightning App Builder during activation.</comment>
         <content>eWRTS_Case_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -11,7 +12,8 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <comment
+    >Action override created by Lightning App Builder during activation.</comment>
         <content>eWRTS_Case_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -28,17 +30,16 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>Lightning_App_Logo1</logo>
+        <logo>Lightning_App_Logo2</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>USCIS Electronic Workload Reporting and Tracking
-System (EWRTS)</description>
+    <description>Process Cases Fast</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>NRC eWRTS</label>
+    <label>IMLS Force</label>
     <navType>Console</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
@@ -48,11 +49,15 @@ System (EWRTS)</description>
     <tabs>standard-Dashboard</tabs>
     <tabs>Supervisor_Operations_Dashboard</tabs>
     <tabs>eWRTS_Executive_Dashboard</tabs>
+    <tabs>eWRTS_Audit__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>eWRTS_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Supervisor_Operations_Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>eWRTS_Audit__c</tab>
         </mappings>
         <mappings>
             <tab>eWRTS_Executive_Dashboard</tab>

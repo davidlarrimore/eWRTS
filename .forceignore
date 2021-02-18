@@ -15,3 +15,5 @@ package.xml
 force-app/main/default/appMenus
 
 force-app/main/default/profiles/Trial Customer Portal User.profile-meta.xml
+
+AppBrand.app

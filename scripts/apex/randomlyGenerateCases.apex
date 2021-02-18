@@ -1,1 +1,1 @@
-ewrtsCaseGenerator.createRandomeWRTSCases(1000);
+ewrtsCaseGenerator.createRandomeWRTSCases(1500);

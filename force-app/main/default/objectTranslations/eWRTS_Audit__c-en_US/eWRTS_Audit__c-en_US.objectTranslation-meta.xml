@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IMLS Audit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IMLS Audits</value>
+    </caseValues>
+    <layouts>
+        <layout>eWRTS Audit Layout</layout>
+        <sections>
+            <label><!-- CIS2 --></label>
+            <section>CIS2</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- RAILS Audit --></label>
+            <section>RAILS Audit</section>
+        </sections>
+        <sections>
+            <label><!-- Supervisor Comments --></label>
+            <section>Supervisor Comments</section>
+        </sections>
+        <sections>
+            <label><!-- eWRTS Audit --></label>
+            <section>eWRTS Audit</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>IMLS Audit Number</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

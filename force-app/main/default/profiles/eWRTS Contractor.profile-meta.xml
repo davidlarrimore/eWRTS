@@ -729,7 +729,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>eWRTS_Audit__c.Alias_Updated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Case_Filled_Out__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>eWRTS_Audit__c.Case_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Correct_RPC_Used__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Country_of_Origin__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -744,12 +764,62 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>eWRTS_Audit__c.Email_to_Requestor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Files_Attached__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Gender_Updated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Is_My_Audit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Name_Updated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.RPC_Updated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Score_Icon__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>eWRTS_Audit__c.Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>eWRTS_Audit__c.Supervisor_Comment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Supervisor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eWRTS_Audit__c.Was_CC_Added_to_Email__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -797,6 +867,10 @@
     <tabVisibilities>
         <tab>NRC_Move_Desktop</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Scan_to_Case</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Supervisor_Operations_Dashboard</tab>

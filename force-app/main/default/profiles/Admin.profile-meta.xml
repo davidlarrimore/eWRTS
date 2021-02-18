@@ -904,6 +904,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Scan_to_Case</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Supervisor_Operations_Dashboard</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
