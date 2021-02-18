@@ -3,7 +3,7 @@
     <active>true</active>
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
-    <masterLabel>eWRTS Case Path</masterLabel>
+    <masterLabel>IMLS Case Path</masterLabel>
     <pathAssistantSteps>
         <info
     >&lt;ul&gt;&lt;li&gt;Validate CIS2 Data&lt;/li&gt;&lt;li&gt;Upload Required Documents&lt;/li&gt;&lt;/ul&gt;</info>

@@ -3,7 +3,7 @@
     <animationFrequency>always</animationFrequency>
     <developerName>eWRTS_Case_Path</developerName>
     <isActive>true</isActive>
-    <masterLabel>eWRTS Case Path</masterLabel>
+    <masterLabel>IMLS Case Path</masterLabel>
     <recordTypeContext>Custom</recordTypeContext>
     <recordTypeName>eWRTS_Case</recordTypeName>
     <sobjectType>Case</sobjectType>

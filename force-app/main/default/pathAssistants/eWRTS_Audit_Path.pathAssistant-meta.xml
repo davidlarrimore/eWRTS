@@ -3,7 +3,7 @@
     <active>true</active>
     <entityName>eWRTS_Audit__c</entityName>
     <fieldName>Status__c</fieldName>
-    <masterLabel>eWRTS Audit Path</masterLabel>
+    <masterLabel>IMLS Case Audit Path</masterLabel>
     <pathAssistantSteps>
         <fieldNames>Name_Updated__c</fieldNames>
         <fieldNames>Alias_Updated__c</fieldNames>

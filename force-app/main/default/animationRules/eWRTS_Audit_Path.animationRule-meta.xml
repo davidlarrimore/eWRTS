@@ -3,7 +3,7 @@
     <animationFrequency>always</animationFrequency>
     <developerName>eWRTS_Audit_Path</developerName>
     <isActive>true</isActive>
-    <masterLabel>eWRTS Audit Path</masterLabel>
+    <masterLabel>IMLS Case Audit Path</masterLabel>
     <recordTypeContext>Master</recordTypeContext>
     <recordTypeName>__MASTER__</recordTypeName>
     <sobjectType>eWRTS_Audit__c</sobjectType>
