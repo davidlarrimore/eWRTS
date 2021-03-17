@@ -1,78 +1,121 @@
 <template>
-    <lightning-layout horizontal-align="space">
-        <lightning-layout-item size="12" small-device-size="12" medium-device-size="12" large-device-size="12">    
-            <lightning-card>
-                <h3 slot="title" class="slds-card__header-link slds-truncate">
-                    <lightning-icon icon-name="standard:entity" size="small"></lightning-icon>
-                    &nbsp;&nbsp;&nbsp;RAILS&nbsp;&nbsp;&nbsp;
-                    <lightning-badge label="api" icon-name="utility:connected_apps" icon-position="end"></lightning-badge>
-                </h3>
-                <lightning-button-group slot="actions">
-                    <template if:true={isAvailable}>
-                        <lightning-button label="Request"></lightning-button>
-                    </template>
-                    <lightning-button-icon icon-name="action:share"  alternative-text="Go to RAILS" title="Go to RAILS"></lightning-button-icon>
-                </lightning-button-group>    
-                <template if:true={apiCallCompletedFlag}>
-                    <template if:true={apiResultsFlag}> 
-                        <lightning-layout>
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="slds-text-heading_small" title="File Number">File Number</p>
-                                    <p>{apiRecord.railsRecord.file_number}</p>
-                                </div>
-                            </lightning-layout-item>
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="slds-text-heading_small" title="Location">Location</p>
-                                    <p>{apiRecord.railsRecord.location_site}, {apiRecord.railsRecord.location_room}, {apiRecord.railsRecord.location_shelf}</p>
-                                </div>
-                            </lightning-layout-item>
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="slds-text-heading_small" title="Status">Status</p>
-                                    <p><span class={apiRecord.railsRecord.badgeClass}>{apiRecord.railsRecord.status}</span></p>
-                                </div>
-                            </lightning-layout-item>
-                        </lightning-layout>
-                        <div class="slds-border_bottom slds-m-around_x-small" ></div>
-                        <lightning-layout>
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="" title="File Number">RPC:</p>
-                                    <p>{apiRecord.railsRecord.rpc}</p>
-                                </div>
-                            </lightning-layout-item>
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="" title="Location">Custodian:</p>
-                                    <p>{apiRecord.custodianName}</p>
-                                </div>
-                            </lightning-layout-item>                               
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="" title="Location">Date Received</p>
-                                    <p><lightning-formatted-date-time value={apiRecord.railsRecord.date_received_in_rpc} time-zone="UTC"></lightning-formatted-date-time></p>
-                                </div>
-                            </lightning-layout-item>
-                            <lightning-layout-item padding="around-small" flexibility="auto">
-                                <div class="header-column">
-                                    <p class="" title="Location">Age w\Custodian:</p>
-                                    <p>{apiRecord.railsRecord.age_with_custodian}</p>
-                                </div>
-                            </lightning-layout-item>                         
-                        </lightning-layout>      
-                    </template>
-                    <template if:false={apiResultsFlag}>
-                        <div class="slds-illustration slds-illustration_small" aria-hidden="true">
-                            <img src="/img/chatter/Desert.svg" class="slds-illustration__svg" alt="" />
-                        </div>
-                    </template>
-                </template>
-                <template if:false={apiCallCompletedFlag}>
-                    <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
-                </template>
-            </lightning-card>
-        </lightning-layout-item>
-    </lightning-layout>
+  <lightning-layout horizontal-align="space">
+    <lightning-layout-item
+      size="12"
+      small-device-size="12"
+      medium-device-size="12"
+      large-device-size="12"
+    >
+      <lightning-card>
+        <h3 slot="title" class="slds-card__header-link slds-truncate">
+          <lightning-icon
+            icon-name="standard:entity"
+            size="small"
+          ></lightning-icon>
+          &nbsp;&nbsp;&nbsp;RAILS&nbsp;&nbsp;&nbsp;
+          <lightning-badge
+            label="api"
+            icon-name="utility:connected_apps"
+            icon-position="end"
+          ></lightning-badge>
+        </h3>
+        <lightning-button-group slot="actions">
+          <template if:true={isAvailable}>
+            <lightning-button label="Request"></lightning-button>
+          </template>
+          <lightning-button-icon
+            icon-name="action:share"
+            alternative-text="Go to RAILS"
+            title="Go to RAILS"
+          ></lightning-button-icon>
+        </lightning-button-group>
+        <template if:true={apiCallCompletedFlag}>
+          <template if:true={apiResultsFlag}>
+            <lightning-layout>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="slds-text-heading_small" title="File Number">
+                    File Number
+                  </p>
+                  <p>{apiRecord.railsRecord.file_number}</p>
+                </div>
+              </lightning-layout-item>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="slds-text-heading_small" title="Location">
+                    Location
+                  </p>
+                  <p>
+                    {apiRecord.railsRecord.location_site},
+                    {apiRecord.railsRecord.location_room},
+                    {apiRecord.railsRecord.location_shelf}
+                  </p>
+                </div>
+              </lightning-layout-item>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="slds-text-heading_small" title="Status">Status</p>
+                  <p>
+                    <span class={apiRecord.railsRecord.badgeClass}
+                      >{apiRecord.railsRecord.status}</span
+                    >
+                  </p>
+                </div>
+              </lightning-layout-item>
+            </lightning-layout>
+            <div class="slds-border_bottom slds-var-m-around_x-small"></div>
+            <lightning-layout>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="" title="File Number">RPC:</p>
+                  <p>{apiRecord.railsRecord.rpc}</p>
+                </div>
+              </lightning-layout-item>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="" title="Location">Custodian:</p>
+                  <p>{apiRecord.custodianName}</p>
+                </div>
+              </lightning-layout-item>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="" title="Location">Date Received</p>
+                  <p>
+                    <lightning-formatted-date-time
+                      value={apiRecord.railsRecord.date_received_in_rpc}
+                      time-zone="UTC"
+                    ></lightning-formatted-date-time>
+                  </p>
+                </div>
+              </lightning-layout-item>
+              <lightning-layout-item padding="around-small" flexibility="auto">
+                <div class="header-column">
+                  <p class="" title="Location">Age w\Custodian:</p>
+                  <p>{apiRecord.railsRecord.age_with_custodian}</p>
+                </div>
+              </lightning-layout-item>
+            </lightning-layout>
+          </template>
+          <template if:false={apiResultsFlag}>
+            <div
+              class="slds-illustration slds-illustration_small"
+              aria-hidden="true"
+            >
+              <img
+                src="/img/chatter/Desert.svg"
+                class="slds-illustration__svg"
+                alt=""
+              />
+            </div>
+          </template>
+        </template>
+        <template if:false={apiCallCompletedFlag}>
+          <lightning-spinner
+            alternative-text="Loading"
+            size="small"
+          ></lightning-spinner>
+        </template>
+      </lightning-card>
+    </lightning-layout-item>
+  </lightning-layout>
 </template>
