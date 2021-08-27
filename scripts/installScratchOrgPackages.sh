@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Install URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=
+
 echo "*** Installing required packages ..."
 echo "*** Installing Tableau LWC ..."
 sfdx force:package:install --package 04t5w000005diA4AAI -w 1000 -u eWRTSScratch
